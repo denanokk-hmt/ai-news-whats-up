@@ -1,0 +1,9 @@
+[project]
+name = "ai-news-aggregator"
+version = "0.2.0"
+requires-python = ">=3.12"
+dependencies = [
+    "google-genai",
+    "pyyaml",
+    "python-dotenv",
+]

@@ -1,0 +1,19 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# シークレット
+*.token
+token.json
+credentials.json
+
+# 出力物（サイズ大）
+output/
+data/state.db
+logs/
+
+# OS
+.DS_Store
