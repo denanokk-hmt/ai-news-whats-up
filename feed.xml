@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Mon, 04 May 2026 13:37:24 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 04 May 2026 13:51:09 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -24,19 +24,11 @@
     </itunes:owner>
     <itunes:summary>毎朝7時、男女2人がお届けする国内外AIニュース。LLM、規制、研究、製品、資金調達など幅広いトピックを5〜10分の対話形式でコンパクトにまとめます。</itunes:summary>
     <item>
-      <title>2026-05-03 AIニュース</title>
-      <description>2026-05-03 の国内外AIニュースをお届けします</description>
-      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-03.mp3</guid>
-      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-03.mp3" length="122156" type="audio/mpeg"/>
-      <pubDate>Sun, 03 May 2026 07:00:00 +0900</pubDate>
-    </item>
-    <item>
       <title>2026-05-04 AIニュース</title>
       <description>2026-05-04 の国内外AIニュースをお届けします</description>
       <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-04-v2.mp3</guid>
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-04-v2.mp3" length="3628797" type="audio/mpeg"/>
       <pubDate>Mon, 04 May 2026 07:00:00 +0900</pubDate>
-      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-05-04.jpg"/>
     </item>
   </channel>
 </rss>
