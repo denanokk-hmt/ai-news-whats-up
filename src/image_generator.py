@@ -9,6 +9,7 @@ from google.genai import types
 from PIL import Image
 
 from src.config import PROJECT_ROOT, output_dir, today_jst
+from src.retry import with_retry
 
 logger = logging.getLogger(__name__)
 
@@ -70,7 +71,8 @@ def generate_episode_image(
     client = _client()
 
     logger.info("Generating episode image (%s) for topic: %s", model, topic[:60])
-    response = client.models.generate_content(
+    response = with_retry(
+        client.models.generate_content,
         model=model,
         contents=[instruction, src_image],
         config=types.GenerateContentConfig(response_modalities=["IMAGE"]),

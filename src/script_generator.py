@@ -9,6 +9,7 @@ from google import genai
 from google.genai import types
 
 from src.config import output_dir, today_jst
+from src.retry import with_retry
 
 logger = logging.getLogger(__name__)
 
@@ -159,7 +160,8 @@ def generate_script(articles: list[dict], model: str) -> str:
     )
 
     logger.info("Generating script with %s for %d articles...", model, len(articles))
-    response = client.models.generate_content(
+    response = with_retry(
+        client.models.generate_content,
         model=model,
         contents=prompt,
         config=types.GenerateContentConfig(temperature=0.7),

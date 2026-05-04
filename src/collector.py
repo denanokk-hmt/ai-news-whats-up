@@ -11,6 +11,7 @@ from google import genai
 from google.genai import types
 
 from src.config import JST, output_dir, today_jst
+from src.retry import with_retry
 
 logger = logging.getLogger(__name__)
 
@@ -136,7 +137,8 @@ def collect_news(model: str) -> list[dict]:
     prompt = _build_prompt()
 
     logger.info("Calling Gemini (%s) with Google Search grounding...", model)
-    response = client.models.generate_content(
+    response = with_retry(
+        client.models.generate_content,
         model=model,
         contents=prompt,
         config=types.GenerateContentConfig(
