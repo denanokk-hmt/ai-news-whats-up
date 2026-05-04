@@ -4,6 +4,7 @@ import logging
 import shutil
 import subprocess
 import tempfile
+import re
 from datetime import datetime
 from pathlib import Path
 
@@ -69,7 +70,11 @@ def _build_feed(
     )
 
     for mp3 in mp3_files:
-        date_str = mp3.stem
+        # 先頭のYYYY-MM-DDだけ抽出（バージョン付き 2026-05-04-v2.mp3 等にも対応）
+        m = re.match(r"^(\d{4}-\d{2}-\d{2})", mp3.stem)
+        if not m:
+            continue
+        date_str = m.group(1)
         try:
             pub_date = datetime.strptime(date_str, "%Y-%m-%d")
             pub_date = pub_date.replace(hour=7, minute=0, tzinfo=today_jst().tzinfo)
