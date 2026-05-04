@@ -3,7 +3,7 @@
   <channel>
     <title>AI What's Up News</title>
     <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
-    <description>毎朝7時、男女2人がお届けする国内外AIニュース。LLM、規制、研究、製品、資金調達など幅広いトピックを5〜10分の対話形式でコンパクトにまとめます。</description>
+    <description>毎朝、男女2人がお届けする国内外AIニュース。LLM、規制、研究、製品、資金調達など幅広いトピックを5〜10分の対話形式でコンパクトにまとめます。</description>
     <atom:link href="https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Mon, 04 May 2026 14:29:34 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 04 May 2026 22:42:47 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -22,7 +22,7 @@
       <itunes:name>hmt</itunes:name>
       <itunes:email>ai.whats.up.news@gmail.com</itunes:email>
     </itunes:owner>
-    <itunes:summary>毎朝7時、男女2人がお届けする国内外AIニュース。LLM、規制、研究、製品、資金調達など幅広いトピックを5〜10分の対話形式でコンパクトにまとめます。</itunes:summary>
+    <itunes:summary>毎朝、男女2人がお届けする国内外AIニュース。LLM、規制、研究、製品、資金調達など幅広いトピックを5〜10分の対話形式でコンパクトにまとめます。</itunes:summary>
     <item>
       <title>2026-05-04 AIニュース</title>
       <description>本日のトピック:
@@ -35,6 +35,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-04-v2.mp3" length="3628797" type="audio/mpeg"/>
       <pubDate>Mon, 04 May 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-05-04.jpg"/>
+    </item>
+    <item>
+      <title>2026-05-05 AIニュース</title>
+      <description>本日のトピック:
+1. ソフトバンク、OpenAIへの投資資金として最大400億ドルの融資を模索
+2. ソフトバンク、データセンター建設を自動化するロボティクス新会社「Roze AI」のスピンオフを計画
+3. OpenAIの強力なパートナーであるAIチップメーカーCerebras、大型IPOに向けて順調に推移
+4. 米ホワイトハウス、AIモデルの公開前審査を義務付ける大統領令を検討
+5. Anthropic、ウォール街の金融機関と15億ドル規模のAI合弁会社設立へ</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-05.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-05.mp3" length="4785309" type="audio/mpeg"/>
+      <pubDate>Tue, 05 May 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-05-05.jpg"/>
     </item>
   </channel>
 </rss>
