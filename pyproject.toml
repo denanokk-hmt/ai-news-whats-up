@@ -11,4 +11,6 @@ dependencies = [
     "python-dotenv",
     "sqlite-utils",
     "feedgen",
+    "Pillow",
+    "httpx",
 ]
