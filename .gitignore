@@ -7,13 +7,15 @@ __pycache__/
 
 # シークレット
 *.token
-token.json
+*token*.json
 credentials.json
 
 # 出力物（サイズ大）
 output/
 data/state.db
 logs/
+tools/samples/
+tools/voice_samples/
 
 # OS
 .DS_Store

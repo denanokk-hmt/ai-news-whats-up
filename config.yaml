@@ -1,14 +1,62 @@
+podcast:
+  title: "AI What's Up News"
+  description: "毎朝7時、男女2人がお届けする国内外AIニュース。LLM、規制、研究、製品、資金調達など幅広いトピックを5〜10分の対話形式でコンパクトにまとめます。"
+  language: "ja-jp"
+  author: "hmt"
+
 schedule:
-  times: ["07:00", "19:00"]
+  run_time: "07:00"
   timezone: "Asia/Tokyo"
+  collection_window_hours: 24
 
 gemini:
-  model: "gemini-3.1-pro-preview"
+  collection_model: "gemini-3.1-pro-preview"
+  script_model: "gemini-3.1-pro-preview"
+  audio_model: "gemini-3.1-flash-tts-preview"
+  cover_image_model: "gemini-3-pro-image-preview"
+  episode_image_model: "gemini-3.1-flash-image-preview"
 
-output:
-  local_dir: "output"
+speakers:
+  - name: "TAKU"
+    role: "男性ホスト"
+    voice: "Sadachbia"
+  - name: "MIO"
+    role: "女性ホスト"
+    voice: "Laomedeia"
+
+audio:
+  tempo: 1.10
+  pitch_shift: 0.90
+
+episode:
+  target_minutes: [5, 10]
+  target_chars: [2000, 3500]
+
+image:
+  cover_path: "assets/cover.jpg"
+  episode:
+    edit_instruction_template: |
+      Keep this image's overall composition, color palette, and style.
+      CHANGE: Replace the central element with a clear 3D glossy icon representing today's main topic: "{topic}".
+      Show easy-to-understand imagery (relevant icons, symbols) that visualize the topic at a glance.
+      Background: clean smooth gradient (no circuit patterns, no wiring), slightly bright cool blue-purple ambient, with depth-of-field haze.
+      Add small clean text "EP {date}" in bottom-right corner with a subtle warm amber glow.
+      Maintain brand consistency: cyan, purple, soft amber neon accents.
+      Square 1:1, no human figures.
+
+storage:
+  gdrive:
+    root_folder: "AI Daily What's up"
+  github:
+    repo: "denanokk-hmt/ai-news-whats-up"
+    branch: "gh-pages"
+    pages_url: "https://denanokk-hmt.github.io/ai-news-whats-up"
 
 notifications:
   slack:
     enabled: false
     webhook_url: "${SLACK_WEBHOOK_URL}"
+
+dedup:
+  retention_days: 30
+  db_path: "data/state.db"

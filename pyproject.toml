@@ -1,9 +1,14 @@
 [project]
-name = "ai-news-aggregator"
-version = "0.2.0"
+name = "ai-news-whats-up"
+version = "0.3.0"
 requires-python = ">=3.12"
 dependencies = [
     "google-genai",
+    "google-api-python-client",
+    "google-auth-oauthlib",
+    "google-auth-httplib2",
     "pyyaml",
     "python-dotenv",
+    "sqlite-utils",
+    "feedgen",
 ]
