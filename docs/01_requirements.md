@@ -1,4 +1,4 @@
-# 要件定義書: AI Daily What's up
+# 要件定義書: AI What's Up News
 
 最終更新: 2026-04-28
 
@@ -47,7 +47,7 @@
 
 | 項目 | 確定内容 |
 |---|---|
-| 番組名 | AI Daily What's up |
+| 番組名 | AI What's Up News |
 | 配信頻度 | 1日1本（朝07:00 JST） |
 | ニュース取得 | Gemini 3.1 Pro + Google Search grounding |
 | 自動翻訳 | 海外記事を日本語化 |
