@@ -110,6 +110,7 @@ def run():
             branch=config["storage"]["github"]["branch"],
             pages_url=config["storage"]["github"]["pages_url"],
             owner_email=owner_email,
+            articles=new_articles,
         )
     except Exception as e:
         logger.error("GitHub Pages publish failed: %s", e)

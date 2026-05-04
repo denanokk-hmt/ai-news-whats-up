@@ -41,6 +41,7 @@ def _build_feed(
     cover_url: str,
     owner_email: str | None,
     episode_titles: dict[str, str] | None = None,
+    episode_descriptions: dict[str, str] | None = None,
 ) -> str:
     fg = FeedGenerator()
     fg.load_extension("podcast")
@@ -63,6 +64,8 @@ def _build_feed(
         fg.podcast.itunes_owner(name=podcast_meta["author"], email=owner_email)
 
     episode_titles = episode_titles or {}
+    episode_descriptions = episode_descriptions or {}
+    # episode_descriptions は本日分のみ渡される想定。過去分は description.txt から読む
     mp3_files = sorted(
         episodes_dir.glob("*.mp3"),
         key=lambda p: p.stem,
@@ -85,7 +88,20 @@ def _build_feed(
         fe.id(f"{pages_url}/episodes/{mp3.name}")
         title = episode_titles.get(date_str, f"{date_str} AIニュース")
         fe.title(title)
-        fe.description(f"{date_str} の国内外AIニュースをお届けします")
+        # 説明文の優先順位:
+        #  1. 引数で渡された当日分
+        #  2. episode_images/{date}.txt または {stem}.txt があればそれ
+        #  3. デフォルト
+        desc = episode_descriptions.get(date_str)
+        if not desc:
+            for stem in [mp3.stem, date_str]:
+                desc_path = images_dir / f"{stem}.txt"
+                if desc_path.exists():
+                    desc = desc_path.read_text(encoding="utf-8").strip()
+                    break
+        if not desc:
+            desc = f"{date_str} の国内外AIニュースをお届けします"
+        fe.description(desc)
         fe.pubDate(pub_date)
         fe.enclosure(
             f"{pages_url}/episodes/{mp3.name}",
@@ -136,6 +152,21 @@ def _cleanup_old_versions(directory: Path, date: str, ext: str, keep: str) -> in
     return removed
 
 
+def _build_description_from_articles(articles: list[dict], top_n: int = 5) -> str:
+    """ニュース記事から description を組み立て。"""
+    if not articles:
+        return ""
+    sorted_articles = sorted(
+        articles, key=lambda a: a.get("importance", 0), reverse=True
+    )[:top_n]
+    lines = ["本日のトピック:"]
+    for i, a in enumerate(sorted_articles, 1):
+        title = a.get("japanese_title") or a.get("original_title", "")
+        if title:
+            lines.append(f"{i}. {title}")
+    return "\n".join(lines)
+
+
 def publish_episode(
     mp3_source: Path,
     cover_source: Path,
@@ -145,6 +176,7 @@ def publish_episode(
     branch: str,
     pages_url: str,
     owner_email: str | None,
+    articles: list[dict] | None = None,
 ) -> str:
     today = today_jst().strftime("%Y-%m-%d")
 
@@ -192,6 +224,21 @@ def publish_episode(
                     old.unlink()
             logger.info("Copied episode image: %s", ep_dst.name)
 
+        # 当日の説明文をテキストファイルに保存（過去エピソード分も保持される仕組み）
+        episode_descriptions = {}
+        if articles:
+            today_desc = _build_description_from_articles(articles)
+            if today_desc:
+                ep_stem = Path(target_filename).stem
+                desc_path = images_dir / f"{ep_stem}.txt"
+                desc_path.write_text(today_desc, encoding="utf-8")
+                # 同日の旧.txt 削除
+                for old in images_dir.glob(f"{today}*.txt"):
+                    if old.name != desc_path.name:
+                        old.unlink()
+                episode_descriptions[today] = today_desc
+                logger.info("Saved episode description: %s", desc_path.name)
+
         cover_url = f"{pages_url}/cover{cover_ext}"
         feed_xml = _build_feed(
             podcast_meta=podcast_meta,
@@ -200,6 +247,7 @@ def publish_episode(
             images_dir=images_dir,
             cover_url=cover_url,
             owner_email=owner_email,
+            episode_descriptions=episode_descriptions,
         )
         feed_path = clone_dir / "feed.xml"
         feed_path.write_text(feed_xml, encoding="utf-8")
