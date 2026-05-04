@@ -93,12 +93,18 @@ def _build_feed(
             "audio/mpeg",
         )
 
-        # エピソード画像を探す（mp3と同名のstem）
+        # エピソード画像を探す（優先1: mp3と同名 → 優先2: 日付部分のみ）
         mp3_stem = mp3.stem  # 例: "2026-05-04-r2"
-        for ext in [".jpg", ".png"]:
-            ep_image = images_dir / f"{mp3_stem}{ext}"
-            if ep_image.exists():
-                fe.podcast.itunes_image(f"{pages_url}/episode_images/{mp3_stem}{ext}")
+        candidates = [mp3_stem, date_str]  # 完全一致 → 日付fallback
+        found = False
+        for stem in candidates:
+            for ext in [".jpg", ".png"]:
+                ep_image = images_dir / f"{stem}{ext}"
+                if ep_image.exists():
+                    fe.podcast.itunes_image(f"{pages_url}/episode_images/{stem}{ext}")
+                    found = True
+                    break
+            if found:
                 break
 
     return fg.rss_str(pretty=True).decode("utf-8")
