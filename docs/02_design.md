@@ -1,4 +1,4 @@
-# 設計書: AI Daily What's up
+# 設計書: AI What's Up News
 
 最終更新: 2026-04-28
 
@@ -154,11 +154,11 @@ CREATE TABLE seen_articles (
 **プロンプト概要**:
 ```
 以下のニュースを元に、男性ホストTAKUと女性ホストMIOによる
-ポッドキャスト「AI Daily What's up」の台本を5-10分（約2000-3500字）で作成。
+ポッドキャスト「AI What's Up News」の台本を5-10分（約2000-3500字）で作成。
 
 要件:
 - 自然な対話、適度な相槌、専門用語は短く解説
-- オープニング: "おはようございます、AI Daily What's upです"
+- オープニング: "おはようございます、AI What's Up Newsです"
 - クロージング: "それではまた明日、よい一日を"
 - 形式: TAKU: ...\nMIO: ...
 ```
@@ -184,7 +184,7 @@ CREATE TABLE seen_articles (
 
 **フォーマット**:
 ```markdown
-# AI Daily What's up - 2026-04-28
+# AI What's Up News - 2026-04-28
 
 ## 🎙️ 本日のエピソード
 [Spotifyリンク] | [GDrive mp3]
@@ -205,7 +205,7 @@ CREATE TABLE seen_articles (
 ### 3.6 storage/gdrive.py
 
 **処理**:
-- フォルダ構成: `AI Daily What's up / YYYY / MM / YYYY-MM-DD/`
+- フォルダ構成: `AI What's Up News / YYYY / MM / YYYY-MM-DD/`
 - `episode.mp3` と `digest.md` をアップロード
 - 共有リンクを取得
 
@@ -222,7 +222,7 @@ CREATE TABLE seen_articles (
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
-    <title>AI Daily What's up</title>
+    <title>AI What's Up News</title>
     <link>https://USERNAME.github.io/ai-news-whats-up/</link>
     <description>毎朝7時、男女2人がお届けする国内外AIニュース</description>
     <language>ja-jp</language>
@@ -245,7 +245,7 @@ CREATE TABLE seen_articles (
 **処理**:
 - Slack Incoming Webhook
 - Block Kit形式で投稿
-  - ヘッダー: 「🎙️ AI Daily What's up - 2026-04-28」
+  - ヘッダー: 「🎙️ AI What's Up News - 2026-04-28」
   - 本日のトピック（5件のヘッドライン）
   - ボタン: [🎧 聴く（Spotify）] [📄 詳細を読む（GDrive）]
 
@@ -283,7 +283,7 @@ articles.json ──┬─→ dedup → 新規記事
 
 ```yaml
 podcast:
-  title: "AI Daily What's up"
+  title: "AI What's Up News"
   description: "毎朝7時、男女2人がお届けする国内外AIニュース"
   language: "ja-jp"
   author: "takahiro"
@@ -312,7 +312,7 @@ episode:
 
 storage:
   gdrive:
-    root_folder: "AI Daily What's up"
+    root_folder: "AI What's Up News"
   github:
     repo: "USERNAME/ai-news-whats-up"
     branch: "gh-pages"

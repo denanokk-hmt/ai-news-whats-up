@@ -1,4 +1,4 @@
-# 構築タスク手順: AI Daily What's up
+# 構築タスク手順: AI What's Up News
 
 最終更新: 2026-04-28
 
@@ -158,7 +158,7 @@ echo 'GITHUB_TOKEN=...' >> .env
 **実装内容**:
 - `google-api-python-client` + `google-auth-oauthlib`
 - 初回はブラウザOAuth認証 → `token.json` 保存
-- フォルダ構成: `AI Daily What's up / YYYY / MM / YYYY-MM-DD/`
+- フォルダ構成: `AI What's Up News / YYYY / MM / YYYY-MM-DD/`
 - `episode.mp3` と `digest.md` をアップロード
 - 共有リンク取得
 
