@@ -26,13 +26,27 @@ Google検索を使って、**{window_start_jst}（JST）から {window_end_jst}�
 
 要件:
 - 海外記事はタイトルと要約を日本語に翻訳
-- ジャンルを以下から自動判定: LLM / 規制 / 資金調達 / 研究 / 製品 / 国内 / その他
 - 重要度を1-5で採点（5が最重要）
-- 国内ソース（ITmedia / 日経XTECH / GIGAZINE / ASCII / Publickey / 日経クロステック / ZDNET Japan等）から最低5件
-- 海外ソース（VentureBeat / TechCrunch / The Verge / MIT Tech Review / Ars Technica等）から最低10件
 - 企業動向、研究発表、規制・政策、製品リリース、資金調達を幅広くカバー
 - URLは実在するものだけを記載
 - **published_at は ISO 8601 形式で、必ず実際の公開日時を記載**
+
+## ジャンル判定ルール（厳守）
+以下の優先順位で判定してください。複数該当する場合は上位を優先：
+
+1. **LLM**: ChatGPT / GPT-5 / Claude / Gemini / Llama / Mistral 等の **大規模言語モデル本体・派生モデル** に関するニュース。新モデル発表・性能向上・ベンチマーク・モデルアップデート・新機能（コンテキスト拡張、推論強化等）。**注意**: 「Claude が機能X追加」のような LLM のアップデートは「製品」ではなく **必ず LLM** に分類すること。
+2. **規制**: 政府・規制機関（米EU日本等）の AI に関する法律・規制・声明・調査・議会動向
+3. **資金調達**: AI企業の調達ラウンド、IPO、買収、評価額発表
+4. **研究**: 大学・研究機関の論文発表・新手法・学術的ブレイクスルー（モデル本体ではない）
+5. **製品**: AI機能を組み込んだエンドユーザー向け製品・SaaSサービス（LLM本体は含まない）
+6. **国内**: 上記に当てはまらない、日本企業・日本政府・日本のスタートアップによる発表
+7. **その他**: 上記に当てはまらないもの
+
+## 国内ニュースの最低件数（厳守）
+- **国内ソースから最低5件、可能なら8件以上**
+- 日本のソース例: ITmedia / 日経XTECH / 日経クロステック / GIGAZINE / ASCII / Publickey / ZDNET Japan / Impress Watch / TechCrunch Japan / CNET Japan / マイナビニュース / Ledge.ai / AIsmiley / AINOW
+- 国内ニュースが見つからない場合は、国内企業の海外向け発表を国内ソース扱いで含めても可
+- 海外ソース（VentureBeat / TechCrunch / The Verge / MIT Tech Review / Ars Technica等）から最低10件
 
 出力は以下のJSON配列のみ。前後の説明文・コードブロック記号（```）は不要：
 
