@@ -93,14 +93,41 @@ def _build_feed(
             "audio/mpeg",
         )
 
-        # エピソード画像を探す（jpg/pngどちらでも）
+        # エピソード画像を探す（mp3と同名のstem）
+        mp3_stem = mp3.stem  # 例: "2026-05-04-r2"
         for ext in [".jpg", ".png"]:
-            ep_image = images_dir / f"{date_str}{ext}"
+            ep_image = images_dir / f"{mp3_stem}{ext}"
             if ep_image.exists():
-                fe.podcast.itunes_image(f"{pages_url}/episode_images/{date_str}{ext}")
+                fe.podcast.itunes_image(f"{pages_url}/episode_images/{mp3_stem}{ext}")
                 break
 
     return fg.rss_str(pretty=True).decode("utf-8")
+
+
+def _next_versioned_filename(directory: Path, date: str, ext: str) -> str:
+    """同日に既存ファイルがあればバージョン付きの新ファイル名を返す。
+
+    例: 2026-05-04.mp3 が既存 → 2026-05-04-r2.mp3
+        2026-05-04-r2.mp3 も既存 → 2026-05-04-r3.mp3
+    """
+    base = directory / f"{date}{ext}"
+    if not base.exists():
+        return f"{date}{ext}"
+    # 既存ファイル一覧から世代番号を判定
+    n = 2
+    while (directory / f"{date}-r{n}{ext}").exists():
+        n += 1
+    return f"{date}-r{n}{ext}"
+
+
+def _cleanup_old_versions(directory: Path, date: str, ext: str, keep: str) -> int:
+    """指定日付の古いバージョンを削除（最新の keep ファイルだけ残す）。"""
+    removed = 0
+    for f in directory.glob(f"{date}*{ext}"):
+        if f.name != keep:
+            f.unlink()
+            removed += 1
+    return removed
 
 
 def publish_episode(
@@ -114,7 +141,6 @@ def publish_episode(
     owner_email: str | None,
 ) -> str:
     today = today_jst().strftime("%Y-%m-%d")
-    target_filename = f"{today}.mp3"
 
     with tempfile.TemporaryDirectory() as tmpdir:
         clone_dir = Path(tmpdir) / "gh-pages"
@@ -126,8 +152,14 @@ def publish_episode(
         images_dir = clone_dir / "episode_images"
         images_dir.mkdir(exist_ok=True)
 
+        # 同日再生成時は世代番号を付与（B: ファイル名ユニーク化）
+        target_filename = _next_versioned_filename(episodes_dir, today, ".mp3")
         target_mp3 = episodes_dir / target_filename
         shutil.copy2(mp3_source, target_mp3)
+        # 旧バージョン削除（重複表示防止）
+        removed = _cleanup_old_versions(episodes_dir, today, ".mp3", target_filename)
+        if removed > 0:
+            logger.info("Removed %d old version(s) of today's mp3", removed)
         logger.info("Copied mp3: %s", target_mp3.name)
 
         # カバー画像を配置（毎回上書き）
@@ -141,11 +173,17 @@ def publish_episode(
                 (clone_dir / old).unlink()
         logger.info("Copied cover image: %s", cover_dst.name)
 
-        # エピソード画像を配置（拡張子は元ファイルに合わせる）
+        # エピソード画像を配置（mp3と同じ世代番号を共有）
         if episode_image_source and episode_image_source.exists():
             ep_ext = episode_image_source.suffix.lower()
-            ep_dst = images_dir / f"{today}{ep_ext}"
+            # mp3 のステムから世代部分を継承（例: 2026-05-04-r2）
+            ep_stem = Path(target_filename).stem
+            ep_dst = images_dir / f"{ep_stem}{ep_ext}"
             shutil.copy2(episode_image_source, ep_dst)
+            # 同日の古い画像を削除
+            for old in images_dir.glob(f"{today}*"):
+                if old.name != ep_dst.name:
+                    old.unlink()
             logger.info("Copied episode image: %s", ep_dst.name)
 
         cover_url = f"{pages_url}/cover{cover_ext}"
