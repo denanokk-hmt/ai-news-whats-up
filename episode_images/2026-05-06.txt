@@ -1,0 +1,6 @@
+本日のトピック:
+1. OpenAIの「GPT-5.5 Instant」がハルシネーションを52.5%削減
+2. 米NIST、Google DeepMind・Microsoft・xAIとフロンティアAIの国家安全保障テストに関する協定を締結
+3. OpenAI、サイバーセキュリティ特化型モデル「GPT-5.5-Cyber」をリリース
+4. Apple、次期「iOS 27」でサードパーティ製AIモデルの選択を許可へ
+5. 米超党派上院議員、先端AIチップの輸出を規制する「AI OVERWATCH法案」を提出

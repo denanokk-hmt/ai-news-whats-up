@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Mon, 04 May 2026 22:42:47 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 05 May 2026 21:06:50 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -48,6 +48,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-05.mp3" length="4785309" type="audio/mpeg"/>
       <pubDate>Tue, 05 May 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-05-05.jpg"/>
+    </item>
+    <item>
+      <title>2026-05-06 AIニュース</title>
+      <description>本日のトピック:
+1. OpenAIの「GPT-5.5 Instant」がハルシネーションを52.5%削減
+2. 米NIST、Google DeepMind・Microsoft・xAIとフロンティアAIの国家安全保障テストに関する協定を締結
+3. OpenAI、サイバーセキュリティ特化型モデル「GPT-5.5-Cyber」をリリース
+4. Apple、次期「iOS 27」でサードパーティ製AIモデルの選択を許可へ
+5. 米超党派上院議員、先端AIチップの輸出を規制する「AI OVERWATCH法案」を提出</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-06.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-06.mp3" length="3975189" type="audio/mpeg"/>
+      <pubDate>Wed, 06 May 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-05-06.jpg"/>
     </item>
   </channel>
 </rss>
