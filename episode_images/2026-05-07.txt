@@ -1,0 +1,6 @@
+本日のトピック:
+1. EU AI局、AI法に基づく初の高額罰金を顔認識スタートアップに科す
+2. Microsoft、Windows 12のカーネルにCopilotを直接統合しシステム全体の自動化を実現
+3. Boston Dynamics、VLMによる完全自律型倉庫ナビゲーションを備えた「Atlas 3.0」を発表
+4. DeepMindのAlphaFold 4を活用し、わずか30日で新規抗生物質候補を発見
+5. Meta、リアルタイム音声翻訳向けのマルチモーダルモデル「Llama-4-Audio」をオープンソース化

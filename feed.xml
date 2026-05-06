@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 05 May 2026 21:06:50 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 06 May 2026 21:08:22 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -61,6 +61,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-06.mp3" length="3975189" type="audio/mpeg"/>
       <pubDate>Wed, 06 May 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-05-06.jpg"/>
+    </item>
+    <item>
+      <title>2026-05-07 AIニュース</title>
+      <description>本日のトピック:
+1. EU AI局、AI法に基づく初の高額罰金を顔認識スタートアップに科す
+2. Microsoft、Windows 12のカーネルにCopilotを直接統合しシステム全体の自動化を実現
+3. Boston Dynamics、VLMによる完全自律型倉庫ナビゲーションを備えた「Atlas 3.0」を発表
+4. DeepMindのAlphaFold 4を活用し、わずか30日で新規抗生物質候補を発見
+5. Meta、リアルタイム音声翻訳向けのマルチモーダルモデル「Llama-4-Audio」をオープンソース化</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-07.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-07.mp3" length="6737853" type="audio/mpeg"/>
+      <pubDate>Thu, 07 May 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-05-07.jpg"/>
     </item>
   </channel>
 </rss>
