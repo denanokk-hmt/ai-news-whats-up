@@ -1,0 +1,46 @@
+name: 番組フィードバック
+description: AI What's Up News の感想・要望・改善依頼
+title: "[Feedback] "
+labels: ["feedback"]
+body:
+  - type: input
+    id: episode_date
+    attributes:
+      label: 対象エピソード（YYYY-MM-DD）
+      placeholder: "2026-05-05"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: フィードバック種別
+      options:
+        - 音声品質（速度・声質・音量）
+        - 内容（取り上げる話題）
+        - 長さ
+        - 話し方（語尾・テンポ）
+        - その他
+    validations:
+      required: true
+
+  - type: dropdown
+    id: rating
+    attributes:
+      label: 評価
+      options:
+        - とても良い
+        - 良い
+        - 普通
+        - イマイチ
+        - 悪い
+    validations:
+      required: true
+
+  - type: textarea
+    id: comment
+    attributes:
+      label: 感想・要望
+      placeholder: "例: 後半の音声が小さい / 国内ニュースをもっと取り上げてほしい / 話す速度をもう少し遅く"
+    validations:
+      required: true

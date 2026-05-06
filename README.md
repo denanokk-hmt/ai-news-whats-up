@@ -20,6 +20,11 @@
 - 各エピソードに当日トピック反映の画像を自動生成
 - Google Drive に永続保管 + Slack通知
 
+## フィードバック
+
+番組への感想・要望は以下から：
+[GitHub Issue（フィードバック）](https://github.com/denanokk-hmt/ai-news-whats-up/issues/new?template=feedback.yml)
+
 ## ドキュメント
 
 | 文書 | 内容 |
