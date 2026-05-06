@@ -19,6 +19,12 @@ PROMPT_TEMPLATE = """あなたはAIニュースキュレーターです。
 Google検索を使って、**{window_start_jst}（JST）から {window_end_jst}（JST）までに公開された**
 国内外のAI・人工知能・LLM・機械学習関連のニュースを網羅的に収集してください。
 
+## 過去3日に取り上げた話題（重複回避のため避ける）
+以下のトピック・企業×テーマの組み合わせは **既に取り上げ済み** なので、
+**同じイベント・同じ発表の別ソース報道は除外**してください。新規進展がある場合のみ含めて可：
+
+{recent_topics}
+
 【絶対遵守】時間範囲：
 - **{window_start_jst} より前に公開された記事は絶対に含めないこと**
 - 「最近のトピック」「過去のまとめ」「総括」「年間レビュー」記事は除外
@@ -33,21 +39,32 @@ Google検索を使って、**{window_start_jst}（JST）から {window_end_jst}�
 - **published_at は ISO 8601 形式で、必ず実際の公開日時を記載**
 
 ## ジャンル判定ルール（厳守）
-以下の優先順位で判定してください。複数該当する場合は上位を優先：
+以下から最も該当するものを選択。複数該当の場合は上位優先：
 
-1. **LLM**: ChatGPT / GPT-5 / Claude / Gemini / Llama / Mistral 等の **大規模言語モデル本体・派生モデル** に関するニュース。新モデル発表・性能向上・ベンチマーク・モデルアップデート・新機能（コンテキスト拡張、推論強化等）。**注意**: 「Claude が機能X追加」のような LLM のアップデートは「製品」ではなく **必ず LLM** に分類すること。
-2. **規制**: 政府・規制機関（米EU日本等）の AI に関する法律・規制・声明・調査・議会動向
-3. **資金調達**: AI企業の調達ラウンド、IPO、買収、評価額発表
-4. **研究**: 大学・研究機関の論文発表・新手法・学術的ブレイクスルー（モデル本体ではない）
-5. **製品**: AI機能を組み込んだエンドユーザー向け製品・SaaSサービス（LLM本体は含まない）
-6. **国内**: 上記に当てはまらない、日本企業・日本政府・日本のスタートアップによる発表
-7. **その他**: 上記に当てはまらないもの
+1. **LLM**: ChatGPT/Claude/Gemini等の言語モデル本体の発表・更新
+2. **規制**: 政府・規制機関のAI法規制・調査・声明
+3. **資金調達**: AI企業の調達・IPO・買収・評価額
+4. **研究**: 大学・研究機関の論文・新手法
+5. **製品**: AIを組込んだエンドユーザー向け製品・SaaS
+6. **ハードウェア**: AIチップ・GPU・データセンター・専用ハードウェア
+7. **ロボティクス**: 物理ロボット・自律機械・ヒューマノイド
+8. **自動運転**: 自動運転・モビリティAI
+9. **医療**: 医療画像診断・創薬・ヘルスケアAI
+10. **教育**: 教育・学習支援AI
+11. **メディア**: コンテンツ生成・画像/音声/動画AI・エンタメ
+12. **OSS**: オープンソースAI・モデル公開
+13. **カンファレンス**: AI関連の発表会・イベント・受賞
+14. **雇用影響**: AIによる職業・労働市場への影響
+15. **量子**: 量子コンピューティング × AI
+16. **国内**: 上記に該当しない日本企業・日本政府独自の発表
+17. **その他**: それ以外
 
-## 国内ニュースの最低件数（厳守）
-- **国内ソースから最低5件、可能なら8件以上**
-- 日本のソース例: ITmedia / 日経XTECH / 日経クロステック / GIGAZINE / ASCII / Publickey / ZDNET Japan / Impress Watch / TechCrunch Japan / CNET Japan / マイナビニュース / Ledge.ai / AIsmiley / AINOW
-- 国内ニュースが見つからない場合は、国内企業の海外向け発表を国内ソース扱いで含めても可
-- 海外ソース（VentureBeat / TechCrunch / The Verge / MIT Tech Review / Ars Technica等）から最低10件
+**ジャンルの偏りを避け、毎日5ジャンル以上をカバー**すること。
+
+## 件数ターゲット
+- **総数 25〜30件**（重複回避を優先しつつ）
+- 国内ソース（ITmedia / 日経XTECH / 日経クロステック / GIGAZINE / ASCII / Publickey / ZDNET Japan / Impress Watch / TechCrunch Japan / CNET Japan / マイナビニュース / Ledge.ai / AIsmiley / AINOW）から **最低7件**
+- 海外ソース（VentureBeat / TechCrunch / The Verge / MIT Tech Review / Ars Technica / Wired / Bloomberg / Reuters / FT等）から **最低15件**
 
 出力は以下のJSON配列のみ。前後の説明文・コードブロック記号（```）は不要：
 
@@ -77,12 +94,39 @@ def _get_window() -> tuple[datetime, datetime]:
     return window_start, window_end
 
 
+def _load_recent_topics(days: int = 3) -> str:
+    """過去N日分の articles.json からタイトル一覧を取得（重複回避用）。"""
+    from src.config import PROJECT_ROOT
+    output_root = PROJECT_ROOT / "output"
+    if not output_root.exists():
+        return "（履歴なし）"
+    today = today_jst()
+    lines = []
+    for i in range(1, days + 1):
+        d = (today - timedelta(days=i)).strftime("%Y-%m-%d")
+        articles_path = output_root / d / "articles.json"
+        if not articles_path.exists():
+            continue
+        try:
+            data = json.loads(articles_path.read_text(encoding="utf-8"))
+            titles = [a.get("japanese_title", "") for a in data.get("articles", [])]
+            if titles:
+                lines.append(f"【{d}】")
+                for t in titles[:30]:
+                    if t:
+                        lines.append(f"  - {t}")
+        except Exception:
+            continue
+    return "\n".join(lines) if lines else "（履歴なし）"
+
+
 def _build_prompt() -> str:
     window_start, window_end = _get_window()
     return PROMPT_TEMPLATE.format(
         window_start_jst=window_start.strftime("%Y-%m-%d %H:%M"),
         window_end_jst=window_end.strftime("%Y-%m-%d %H:%M"),
         search_after=window_start.strftime("%Y-%m-%d"),
+        recent_topics=_load_recent_topics(days=3),
     )
 
 

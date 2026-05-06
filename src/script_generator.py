@@ -63,7 +63,7 @@ PROMPT_TEMPLATE = """あなたはポッドキャスト「AI What's Up News」の
 出力前に必ず全行を再読し、上記の禁止語尾・フィラーが一つでも含まれていれば書き直すこと。
 
 ## 文体・分量
-- 全体で 2000〜3500字（音声化すると約 5〜10分）
+- 全体で 3500〜5500字（音声化すると約 8〜13分）
 - TAKUとMIOが交互に発言、発言量は均等に
 
 ## 出力形式
@@ -130,10 +130,10 @@ def _validate_script(script: str) -> tuple[bool, str]:
         return False, f"Only {len(valid_lines)}/{len(lines)} lines have TAKU:/MIO: prefix"
 
     char_count = sum(len(l.split(":", 1)[1].strip()) for l in valid_lines)
-    if char_count < 1500:
-        return False, f"Too short: {char_count} chars (min 1500)"
-    if char_count > 5000:
-        return False, f"Too long: {char_count} chars (max 5000)"
+    if char_count < 2500:
+        return False, f"Too short: {char_count} chars (min 2500)"
+    if char_count > 7000:
+        return False, f"Too long: {char_count} chars (max 7000)"
 
     taku_count = sum(1 for l in valid_lines if l.startswith("TAKU:"))
     mio_count = sum(1 for l in valid_lines if l.startswith("MIO:"))
