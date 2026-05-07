@@ -5,7 +5,7 @@ podcast:
   author: "hmt"
 
 schedule:
-  run_time: "07:00"
+  run_time: "05:30"
   timezone: "Asia/Tokyo"
   collection_window_hours: 24
 
@@ -28,6 +28,12 @@ audio:
   tempo: 1.05
   pitch_shift: 0.90
   chunk_lines: 6
+  bgm:
+    enabled: true
+    path: "assets/bgm.mp3"
+    volume: 0.15
+    fade_in: 2.0
+    fade_out: 2.0
 
 episode:
   target_minutes: [5, 10]

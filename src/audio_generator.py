@@ -9,7 +9,7 @@ from pathlib import Path
 from google import genai
 from google.genai import types
 
-from src.config import output_dir
+from src.config import PROJECT_ROOT, output_dir
 from src.retry import with_retry
 
 logger = logging.getLogger(__name__)
@@ -130,6 +130,48 @@ def _generate_chunk_wav(
     _save_wav(out_path, audio_data)
 
 
+def _probe_duration(path: Path) -> float:
+    result = subprocess.run(
+        ["ffprobe", "-v", "error", "-show_entries", "format=duration",
+         "-of", "default=noprint_wrappers=1:nokey=1", str(path)],
+        capture_output=True, text=True,
+    )
+    if result.returncode != 0:
+        raise RuntimeError(f"ffprobe failed: {result.stderr[-500:]}")
+    return float(result.stdout.strip())
+
+
+def _mix_bgm(
+    voice_path: Path,
+    bgm_path: Path,
+    out_path: Path,
+    volume: float = 0.15,
+    fade_in: float = 2.0,
+    fade_out: float = 2.0,
+) -> None:
+    duration = _probe_duration(voice_path)
+    fade_out_start = max(0.0, duration - fade_out)
+    bgm_chain = (
+        f"[1:a]volume={volume},"
+        f"afade=t=in:st=0:d={fade_in},"
+        f"afade=t=out:st={fade_out_start}:d={fade_out}[bgm]"
+    )
+    mix = "[0:a][bgm]amix=inputs=2:duration=first:dropout_transition=0[out]"
+    cmd = [
+        "ffmpeg", "-y",
+        "-i", str(voice_path),
+        "-stream_loop", "-1", "-i", str(bgm_path),
+        "-filter_complex", f"{bgm_chain};{mix}",
+        "-map", "[out]",
+        "-codec:a", "libmp3lame",
+        "-qscale:a", "2",
+        str(out_path),
+    ]
+    result = subprocess.run(cmd, capture_output=True, text=True)
+    if result.returncode != 0:
+        raise RuntimeError(f"ffmpeg bgm mix failed: {result.stderr[-500:]}")
+
+
 def _concat_wavs(wav_paths: list[Path], out_path: Path) -> None:
     """複数WAVを連結（無音区切りを少し挟む）。"""
     list_file = out_path.parent / "concat_list.txt"
@@ -153,6 +195,7 @@ def generate_audio(
     tempo: float = 1.0,
     pitch_shift: float = 1.0,
     chunk_lines: int = 10,
+    bgm: dict | None = None,
 ) -> Path:
     if len(speakers) != 2:
         raise ValueError(f"Expected 2 speakers, got {len(speakers)}")
@@ -181,9 +224,24 @@ def generate_audio(
                 len(wav_paths), merged_wav, merged_wav.stat().st_size / 1024)
 
     mp3_path = out / "episode.mp3"
-    _wav_to_mp3(merged_wav, mp3_path, tempo=tempo, pitch_shift=pitch_shift)
-    logger.info("Saved MP3: %s (%.1f KB, tempo=%.2fx, pitch=%.2fx)",
-                mp3_path, mp3_path.stat().st_size / 1024, tempo, pitch_shift)
+    voice_only_path = out / "voice_only.mp3" if (bgm and bgm.get("enabled")) else mp3_path
+    _wav_to_mp3(merged_wav, voice_only_path, tempo=tempo, pitch_shift=pitch_shift)
+    logger.info("Saved voice MP3: %s (%.1f KB, tempo=%.2fx, pitch=%.2fx)",
+                voice_only_path, voice_only_path.stat().st_size / 1024, tempo, pitch_shift)
+
+    if bgm and bgm.get("enabled"):
+        bgm_path = PROJECT_ROOT / bgm["path"]
+        if not bgm_path.exists():
+            raise RuntimeError(f"BGM file not found: {bgm_path}")
+        _mix_bgm(
+            voice_only_path, bgm_path, mp3_path,
+            volume=bgm.get("volume", 0.15),
+            fade_in=bgm.get("fade_in", 2.0),
+            fade_out=bgm.get("fade_out", 2.0),
+        )
+        logger.info("Mixed BGM: %s (%.1f KB, vol=%.2f)",
+                    mp3_path, mp3_path.stat().st_size / 1024, bgm.get("volume", 0.15))
+        voice_only_path.unlink(missing_ok=True)
 
     # 中間ファイルクリーンアップ
     for p in wav_paths:

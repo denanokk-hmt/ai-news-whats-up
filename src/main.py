@@ -64,6 +64,7 @@ def run():
         tempo=config.get("audio", {}).get("tempo", 1.0),
         pitch_shift=config.get("audio", {}).get("pitch_shift", 1.0),
         chunk_lines=config.get("audio", {}).get("chunk_lines", 10),
+        bgm=config.get("audio", {}).get("bgm"),
     )
 
     # Phase 5: エピソード画像生成
