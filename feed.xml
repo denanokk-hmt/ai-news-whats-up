@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Thu, 07 May 2026 20:40:21 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 07 May 2026 22:10:14 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -78,15 +78,15 @@
     <item>
       <title>2026-05-08 AIニュース</title>
       <description>本日のトピック:
-1. Google、1000万トークンのコンテキストウィンドウを備えた「Gemini 2.5 Pro」を発表
-2. TSMC、次世代アクセラレータ向け1.6nm AIチップの量産を開始
-3. スタンフォード大の研究チーム、Chain-of-ThoughtなしでのLLM推論におけるブレークスルーを達成
-4. Figure AI、24時間稼働可能なヒューマノイドロボット「Figure 02」を発表
-5. Anthropic、数学的推論能力を強化した「Claude 4.5 Sonnet」をリリース</description>
-      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-08.mp3</guid>
-      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-08.mp3" length="7849581" type="audio/mpeg"/>
+1. xAIはSpaceXのAI部門「SpaceXAI」に イーロン・マスク氏がXで明らかに
+2. OpenAI o1が人間の医師や従来のAIモデルよりもはるかに正確な医療診断を下せることが研究で判明
+3. 「野生では誰もやったことがない」：AIが自己複製する様子を研究で観察
+4. ロボット向けアプリストアが到来：Hugging Faceが200以上のアプリを揃えたオープンソースの「Reachy Mini App Store」を開設
+5. 自然言語オートエンコーダ：Claudeの思考をテキストに変換する</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-08-r2.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-08-r2.mp3" length="8592020" type="audio/mpeg"/>
       <pubDate>Fri, 08 May 2026 07:00:00 +0900</pubDate>
-      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-05-08.jpg"/>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-05-08-r2.jpg"/>
     </item>
   </channel>
 </rss>
