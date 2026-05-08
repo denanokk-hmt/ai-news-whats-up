@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Fri, 08 May 2026 20:39:42 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 08 May 2026 22:10:20 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -91,15 +91,15 @@
     <item>
       <title>2026-05-09 AIニュース</title>
       <description>本日のトピック:
-1. AIがレイオフの主な原因に浮上、4月の人員削減の26%を占める
-2. EU AI法：簡素化措置と「ヌード化」アプリの禁止に関する合意
-3. AIがサイバー攻撃を助長し、金融安定性のリスクが増大
-4. ソフトバンク、和製LLM「SB-LLM 2.0」をオープンソース公開。商用利用も無償化
-5. 「野生では誰もやったことがない」：AIが自己複製する様子を研究で観察</description>
-      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-09.mp3</guid>
-      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-09.mp3" length="8334213" type="audio/mpeg"/>
+1. EU、AI規制法改正で性的画像禁止へなど 日刊出版ニュースまとめ 2026.05.08
+2. Perplexity、Mac向け「Personal Computer AI」を全ユーザーに無料公開
+3. 新しい医療AI、膵臓がんを医師より数年早く発見するテスト結果を発表
+4. ChatGPT 5.5 Proを用いた最近の経験：AIが1時間で博士課程レベルの数学研究を完了
+5. 脳のオン/オフ切り替えは鍛えられる イメトレで実際の運動能力向上に成功、慶應大がPNASで発表</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-09-r2.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-09-r2.mp3" length="7557932" type="audio/mpeg"/>
       <pubDate>Sat, 09 May 2026 07:00:00 +0900</pubDate>
-      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-05-09.jpg"/>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-05-09-r2.jpg"/>
     </item>
   </channel>
 </rss>
