@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Fri, 08 May 2026 22:10:20 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 09 May 2026 20:39:40 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -100,6 +100,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-09-r2.mp3" length="7557932" type="audio/mpeg"/>
       <pubDate>Sat, 09 May 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-05-09-r2.jpg"/>
+    </item>
+    <item>
+      <title>2026-05-10 AIニュース</title>
+      <description>本日のトピック:
+1. OpenAI、ChatGPTのデフォルトモデルを「GPT-5.5 Instant」にアップデート。より高速で正確な推論を実現
+2. Anthropic、SpaceXのスパコン「Colossus 1」とAkamaiのエッジ網を活用する大規模な算力提携を発表
+3. 中国DeepSeek、AI企業として過去最大となる約1兆円（500億元）の資金調達を計画。評価額は450億ドルに
+4. サムスン、Galaxy Watchの生体データとAIを用いて血管迷走神経性失神を5分前に予測する臨床研究結果を発表
+5. Googleがオープンモデル「Gemma 4」を発表、予測的トークン生成により推論速度が従来の3倍に向上</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-10.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-10.mp3" length="7620189" type="audio/mpeg"/>
+      <pubDate>Sun, 10 May 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-05-10.jpg"/>
     </item>
   </channel>
 </rss>
