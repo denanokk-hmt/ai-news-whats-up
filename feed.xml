@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Sat, 09 May 2026 22:08:11 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 10 May 2026 20:40:11 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -113,6 +113,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-10-r2.mp3" length="7010204" type="audio/mpeg"/>
       <pubDate>Sun, 10 May 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-05-10-r2.jpg"/>
+    </item>
+    <item>
+      <title>2026-05-11 AIニュース</title>
+      <description>本日のトピック:
+1. LINEヤフー、自社開発の日本語特化LLMを統合した次世代「Yahoo!検索」のベータ版を公開
+2. 理化学研究所、少ない消費電力で大規模言語モデルを学習できる新たなアルゴリズムを開発
+3. 米ホワイトハウス、AIモデルの公開前セキュリティ審査の導入を検討
+4. Cloudflareが1,100人をレイオフ、AIと自動化による業務効率化を理由に
+5. バイトダンス、AIインフラへの支出を25%増の2,000億元（約4兆円）に拡大へ</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-11.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-11.mp3" length="8307405" type="audio/mpeg"/>
+      <pubDate>Mon, 11 May 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-05-11.jpg"/>
     </item>
   </channel>
 </rss>
