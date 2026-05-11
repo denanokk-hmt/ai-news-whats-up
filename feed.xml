@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Sun, 10 May 2026 20:40:11 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 20:39:17 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -126,6 +126,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-11.mp3" length="8307405" type="audio/mpeg"/>
       <pubDate>Mon, 11 May 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-05-11.jpg"/>
+    </item>
+    <item>
+      <title>2026-05-12 AIニュース</title>
+      <description>本日のトピック:
+1. AMD、AIワークロード向けの3D V-Cache搭載アクセラレータ「MI450」を発表
+2. Mistral、エッジデバイスでGPT-4oを凌駕する高効率MoEモデル「Mistral-Neige」をリリース
+3. Boston Dynamics、家庭用ヒューマノイドロボットのプロトタイプ「Atlas-Assist」を公開
+4. MITの研究チーム、連続的なデータストリームに適応する新しいニューラルアーキテクチャ「Liquid-Transformer」を開発
+5. IBM Quantumとクリーブランド・クリニック、タンパク質構造予測のための初の量子AIハイブリッドアルゴリズムを実証</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-12.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-12.mp3" length="7478517" type="audio/mpeg"/>
+      <pubDate>Tue, 12 May 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-05-12.jpg"/>
     </item>
   </channel>
 </rss>

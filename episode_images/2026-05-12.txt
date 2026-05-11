@@ -1,0 +1,6 @@
+本日のトピック:
+1. AMD、AIワークロード向けの3D V-Cache搭載アクセラレータ「MI450」を発表
+2. Mistral、エッジデバイスでGPT-4oを凌駕する高効率MoEモデル「Mistral-Neige」をリリース
+3. Boston Dynamics、家庭用ヒューマノイドロボットのプロトタイプ「Atlas-Assist」を公開
+4. MITの研究チーム、連続的なデータストリームに適応する新しいニューラルアーキテクチャ「Liquid-Transformer」を開発
+5. IBM Quantumとクリーブランド・クリニック、タンパク質構造予測のための初の量子AIハイブリッドアルゴリズムを実証
