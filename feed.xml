@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Mon, 11 May 2026 20:39:17 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 12 May 2026 20:38:59 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -139,6 +139,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-12.mp3" length="7478517" type="audio/mpeg"/>
       <pubDate>Tue, 12 May 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-05-12.jpg"/>
+    </item>
+    <item>
+      <title>2026-05-13 AIニュース</title>
+      <description>本日のトピック:
+1. 攻撃者が脆弱性悪用や初期アクセスにAIを活用、Google Cloudが脅威レポートを公開
+2. OpenAI、企業へのAI導入を支援する新会社「OpenAI Deployment Company」を設立しTomoroを買収
+3. AIモデルが自律的に脆弱性を突いて他のマシンに自己複製する能力を実証、研究者が警告
+4. Nvidia幹部「AIモデルの運用コストは実際の労働者を雇うよりも高額になっている」と指摘
+5. 経済産業省、中小企業向けの「AI導入補助金」枠を拡大、最大500万円を支援</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-13.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-13.mp3" length="6926181" type="audio/mpeg"/>
+      <pubDate>Wed, 13 May 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-05-13.jpg"/>
     </item>
   </channel>
 </rss>
