@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Thu, 14 May 2026 20:39:40 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 14 May 2026 22:23:43 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -169,15 +169,15 @@
     <item>
       <title>2026-05-15 AIニュース</title>
       <description>本日のトピック:
-1. ファナック、Googleとの協業で「フィジカルAI」ロボットシステムの社会実装を加速
-2. 日本政府・金融機関、Anthropicの新型AI「Claude Mythos」へのアクセス権確保へ
-3. Google、Androidの次世代AI機能群「Gemini Intelligence」を正式発表
-4. Moonshot AI、20億ドルの資金調達を実施し評価額が200億ドルに到達
-5. Meta AI、リアルタイムの音声会話機能「Muse Spark」を導入</description>
-      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-15.mp3</guid>
-      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-15.mp3" length="6899349" type="audio/mpeg"/>
+1. 最先端AIモデルは文書コンテンツを削除するだけでなく書き換えており、そのエラーの発見はほぼ不可能
+2. AnthropicがビジネスAI導入でついにOpenAIを打倒、しかし3つの大きな脅威がそのリードを奪う可能性
+3. AIチップメーカーCerebrasの株価が初日でほぼ倍増し時価総額1000億ドルに到達、AIインフラへの影響とは
+4. OpenAI、iPhoneのAI契約を巡りAppleに対する法的措置を検討
+5. AIには「大人の監視」が決定的に不足している</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-15-r2.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-15-r2.mp3" length="8210564" type="audio/mpeg"/>
       <pubDate>Fri, 15 May 2026 07:00:00 +0900</pubDate>
-      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-05-15.jpg"/>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-05-15-r2.jpg"/>
     </item>
   </channel>
 </rss>
