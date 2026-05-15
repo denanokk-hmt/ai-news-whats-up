@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Fri, 15 May 2026 20:40:13 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 15 May 2026 22:08:54 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -182,15 +182,15 @@
     <item>
       <title>2026-05-16 AIニュース</title>
       <description>本日のトピック:
-1. トヨタとPreferred Networks、商用トラック向け自動運転AIモデル開発の新合弁会社を設立
-2. 文部科学省、2027年度からの小学校における「AIチューター」導入ガイドライン案を公表
-3. 理研、次世代スパコン「富岳NEXT」のアーキテクチャ概要を発表 AI学習専用パーティションを搭載へ
-4. OpenAI、メイヨー・クリニックと提携し医療診断特化型LLMを展開へ
-5. EU、AI法に基づき感情認識技術の違反でハイテク企業に初の罰金を科す</description>
-      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-16.mp3</guid>
-      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-16.mp3" length="9211893" type="audio/mpeg"/>
+1. ファナックがGoogleと協業、AIエージェントでロボットを操作へ：製造現場向けAI技術
+2. 生成AIの開発力強化に向けたプロジェクト「GENIAC」において、新たに製造業データ等のAI-Ready化に関する研究開発テーマ計9件及びロボット基盤モデルに関する研究開発テーマ計2件を採択しました
+3. 「AIボニーとクライド」によるデジタル放火事件、自律型技術への懸念を高める
+4. AIのハルシネーションが現実のセキュリティリスクを生み出す仕組み
+5. インドのAI戦闘ドローンが世界展開、NATO加盟国ポルトガルで製造へ</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-16-r2.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-16-r2.mp3" length="7131116" type="audio/mpeg"/>
       <pubDate>Sat, 16 May 2026 07:00:00 +0900</pubDate>
-      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-05-16.jpg"/>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-05-16-r2.jpg"/>
     </item>
   </channel>
 </rss>
