@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Fri, 15 May 2026 22:08:54 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 16 May 2026 20:40:27 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -191,6 +191,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-16-r2.mp3" length="7131116" type="audio/mpeg"/>
       <pubDate>Sat, 16 May 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-05-16-r2.jpg"/>
+    </item>
+    <item>
+      <title>2026-05-17 AIニュース</title>
+      <description>本日のトピック:
+1. OpenAI取締役会会長が設立したAIスタートアップSierra、9億5000万ドルの資金調達を完了し評価額158億ドルに
+2. ソフトバンクG 純利益5兆円超で日本史上最高益 AI関連企業への投資がけん引
+3. 未査読論文リポジトリのarXivが「論文にLLMによる間違いや架空の引用が含まれていたら1年間投稿禁止」の方針を示す
+4. Recursive Superintelligence、6億5000万ドルの資金調達でステルスモードを解除
+5. Fractile、強力なAIチップ開発に向けて2億2000万ドルを調達</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-17.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-17.mp3" length="8082333" type="audio/mpeg"/>
+      <pubDate>Sun, 17 May 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-05-17.jpg"/>
     </item>
   </channel>
 </rss>
