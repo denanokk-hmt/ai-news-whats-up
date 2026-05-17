@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Sat, 16 May 2026 20:40:27 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 17 May 2026 20:40:31 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -204,6 +204,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-17.mp3" length="8082333" type="audio/mpeg"/>
       <pubDate>Sun, 17 May 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-05-17.jpg"/>
+    </item>
+    <item>
+      <title>2026-05-18 AIニュース</title>
+      <description>本日のトピック:
+1. AI半導体新興の米Cerebrasがナスダック上場、NVIDIAの牙城に挑む
+2. AlphaFoldでは薬は作れない——AI創薬エンジン「IsoDDE」が統合した4つの能力
+3. アルファベット、AIインフラ資金調達のため記録的な円建て社債を発行
+4. OpenAIとマルタ政府が提携、全市民にChatGPT Plusを無償提供へ
+5. RecursiveMASがマルチエージェント推論を2.4倍高速化し、トークン使用量を75%削減する方法</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-18.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-18.mp3" length="8165781" type="audio/mpeg"/>
+      <pubDate>Mon, 18 May 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-05-18.jpg"/>
     </item>
   </channel>
 </rss>
