@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Mon, 18 May 2026 22:09:44 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 19 May 2026 20:40:35 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -230,6 +230,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-19-r2.mp3" length="8591948" type="audio/mpeg"/>
       <pubDate>Tue, 19 May 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-05-19-r2.jpg"/>
+    </item>
+    <item>
+      <title>2026-05-20 AIニュース</title>
+      <description>本日のトピック:
+1. OpenAIのAI危険対策チームトップが「限界に達し」退社 「安全確保が後回しになっている」
+2. 「模倣ではない」：OpenAI、スカーレット・ヨハンソンに似ていると指摘されたChatGPTの音声を一時停止
+3. OpenAI、より高速で安価なAIモデル「GPT-4o」を発表
+4. Appleが生成AI競争に参入、iOS 18でのOpenAIやGoogleとの提携に注目集まる
+5. ソニーミュージック、AI学習目的の「無許可のコンテンツ使用」を700以上の企業に警告</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-20.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-20.mp3" length="7931661" type="audio/mpeg"/>
+      <pubDate>Wed, 20 May 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-05-20.jpg"/>
     </item>
   </channel>
 </rss>
