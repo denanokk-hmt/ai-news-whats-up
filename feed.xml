@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 19 May 2026 20:40:35 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 20 May 2026 20:42:27 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -243,6 +243,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-20.mp3" length="7931661" type="audio/mpeg"/>
       <pubDate>Wed, 20 May 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-05-20.jpg"/>
+    </item>
+    <item>
+      <title>2026-05-21 AIニュース</title>
+      <description>本日のトピック:
+1. Google、パーソナルAIエージェント「Gemini Spark」発表――デバイスを閉じても自律で働く
+2. 高リスクAIシステムの分類に関する欧州委員会ガイドライン草案
+3. オープンAI、近くIPO申請へ 準備加速
+4. SpaceXがxAIとの合併を経て過去最大規模のIPOへ準備
+5. Google、AIグラス発売へ オーディオグラスは26年秋、ディスプレイ内蔵タイプも投入予定</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-21.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-21.mp3" length="7422957" type="audio/mpeg"/>
+      <pubDate>Thu, 21 May 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-05-21.jpg"/>
     </item>
   </channel>
 </rss>
