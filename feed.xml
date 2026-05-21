@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Wed, 20 May 2026 20:42:27 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 21 May 2026 20:41:06 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -256,6 +256,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-21.mp3" length="7422957" type="audio/mpeg"/>
       <pubDate>Thu, 21 May 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-05-21.jpg"/>
+    </item>
+    <item>
+      <title>2026-05-22 AIニュース</title>
+      <description>本日のトピック:
+1. OpenAI、日本政府と一部企業にセキュリティ特化AI「GPT-5.5-Cyber」提供へ
+2. OpenAI、iOS統合の遅れを巡りAppleへの提訴を準備か
+3. Meta、エージェント型ワークフローに注力した「Llama 4」のアーキテクチャ詳細を発表
+4. EU AI局、AI法に基づく初の罰金を科す 生体認証の分類違反で
+5. DeepMindの「AlphaFold 4」、タンパク質とリガンドの相互作用をかつてない精度で予測</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-22.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-22.mp3" length="6744693" type="audio/mpeg"/>
+      <pubDate>Fri, 22 May 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-05-22.jpg"/>
     </item>
   </channel>
 </rss>
