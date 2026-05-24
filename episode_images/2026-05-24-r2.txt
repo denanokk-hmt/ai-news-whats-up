@@ -1,0 +1,6 @@
+本日のトピック:
+1. Googleが個人向け自律型AIエージェント「Gemini Spark」発表
+2. SpaceX、OpenAI、AnthropicのIPOがAIブームの限界を試す
+3. Googleの「Gemini Omni」：あらゆるモダリティを変換するAI
+4. トランプ大統領、「AI版FDA」の設立案を撤回
+5. AI主体のコード生成、3年後に約3倍へ IDC調査が示す開発現場の構造転換

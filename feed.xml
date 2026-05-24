@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Sat, 23 May 2026 20:40:21 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 24 May 2026 00:55:18 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -286,15 +286,15 @@
     <item>
       <title>2026-05-24 AIニュース</title>
       <description>本日のトピック:
-1. 経産省、国内企業向け「生成AIガバナンスガイドライン」改訂版を公開
-2. Anthropicが「Claude 4 Opus」を発表、複雑な推論において新たな最高性能を主張
-3. OpenAIの動画生成AI「Sora」APIが全開発者向けに公開、ただし厳格なコンテンツフィルター付き
-4. Nvidiaの次世代GPU「Rubin Ultra」、パッケージングのボトルネックにより生産遅延に直面
-5. EU、Windows 12へのCopilot統合を巡りMicrosoftに対する正式調査を開始</description>
-      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-24.mp3</guid>
-      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-24.mp3" length="8516493" type="audio/mpeg"/>
+1. Googleが個人向け自律型AIエージェント「Gemini Spark」発表
+2. SpaceX、OpenAI、AnthropicのIPOがAIブームの限界を試す
+3. Googleの「Gemini Omni」：あらゆるモダリティを変換するAI
+4. トランプ大統領、「AI版FDA」の設立案を撤回
+5. AI主体のコード生成、3年後に約3倍へ IDC調査が示す開発現場の構造転換</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-24-r2.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-24-r2.mp3" length="8625524" type="audio/mpeg"/>
       <pubDate>Sun, 24 May 2026 07:00:00 +0900</pubDate>
-      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-05-24.jpg"/>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-05-24-r2.jpg"/>
     </item>
   </channel>
 </rss>
