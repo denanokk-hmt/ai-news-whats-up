@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Sun, 24 May 2026 00:55:18 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 24 May 2026 20:40:39 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -295,6 +295,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-24-r2.mp3" length="8625524" type="audio/mpeg"/>
       <pubDate>Sun, 24 May 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-05-24-r2.jpg"/>
+    </item>
+    <item>
+      <title>2026-05-25 AIニュース</title>
+      <description>本日のトピック:
+1. Anthropicが300億ドルの資金調達へ、評価額でOpenAIを上回る見通し
+2. OpenAIがIPOに向けS-1を機密提出、評価額1兆ドル超を目指す
+3. OpenAIのモデルが80年来の数学の難問「エルデシュの単位距離問題」を自律的に反証
+4. トランプ大統領がAI規制の大統領令署名を延期、米国の競争力低下を懸念
+5. カリフォルニア州ニューサム知事、AIによる労働市場の混乱に備える初の大統領令（州知事令）に署名</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-25.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-25.mp3" length="7976253" type="audio/mpeg"/>
+      <pubDate>Mon, 25 May 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-05-25.jpg"/>
     </item>
   </channel>
 </rss>
