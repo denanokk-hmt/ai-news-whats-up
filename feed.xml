@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Sun, 24 May 2026 20:40:39 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 25 May 2026 20:41:27 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -308,6 +308,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-25.mp3" length="7976253" type="audio/mpeg"/>
       <pubDate>Mon, 25 May 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-05-25.jpg"/>
+    </item>
+    <item>
+      <title>2026-05-26 AIニュース</title>
+      <description>本日のトピック:
+1. AIチップのコストの63％がメモリに、GPUよりメモリの方が高い時代へ
+2. AIエージェントが企業が追跡していないカオスエンジニアリングの障害を静かに引き起こしている
+3. Training-Free Looped Transformers（学習不要のループ型Transformer）
+4. EU AIオフィス、著作権の透明性を巡り主要LLMプロバイダーに初の正式警告を発出
+5. AMDがMetaと大規模なAIチップ契約を締結、Nvidiaの優位性に挑戦</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-26.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-26.mp3" length="9972021" type="audio/mpeg"/>
+      <pubDate>Tue, 26 May 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-05-26.jpg"/>
     </item>
   </channel>
 </rss>
