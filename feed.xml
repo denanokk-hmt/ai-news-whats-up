@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Mon, 25 May 2026 20:41:27 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 26 May 2026 20:44:05 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -321,6 +321,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-26.mp3" length="9972021" type="audio/mpeg"/>
       <pubDate>Tue, 26 May 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-05-26.jpg"/>
+    </item>
+    <item>
+      <title>2026-05-27 AIニュース</title>
+      <description>本日のトピック:
+1. Google DeepMindが「Gemini-Med 2.0」を発表、米国医師免許試験で95%の正答率を達成
+2. OpenAIとFigure AI、GPT-5Vを搭載した家庭用ロボット「Figure 02-Home」を公開
+3. Meta FAIR、一定のメモリで無限のコンテキストを処理できる「Infinite-Context Llama」の論文を発表
+4. Google Quantum AI、古典モデルを凌駕するハイブリッド量子・古典ニューラルネットワークを実証
+5. TSMC、AI向けGPUのデータ転送速度を倍増させるシリコンフォトニクス・パッケージングのブレイクスルーを発表</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-27.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-27.mp3" length="7548237" type="audio/mpeg"/>
+      <pubDate>Wed, 27 May 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-05-27.jpg"/>
     </item>
   </channel>
 </rss>
