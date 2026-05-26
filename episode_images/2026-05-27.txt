@@ -1,6 +1,0 @@
-本日のトピック:
-1. Google DeepMindが「Gemini-Med 2.0」を発表、米国医師免許試験で95%の正答率を達成
-2. OpenAIとFigure AI、GPT-5Vを搭載した家庭用ロボット「Figure 02-Home」を公開
-3. Meta FAIR、一定のメモリで無限のコンテキストを処理できる「Infinite-Context Llama」の論文を発表
-4. Google Quantum AI、古典モデルを凌駕するハイブリッド量子・古典ニューラルネットワークを実証
-5. TSMC、AI向けGPUのデータ転送速度を倍増させるシリコンフォトニクス・パッケージングのブレイクスルーを発表

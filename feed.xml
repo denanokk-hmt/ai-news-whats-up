@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 26 May 2026 20:44:05 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 26 May 2026 22:13:08 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -325,15 +325,15 @@
     <item>
       <title>2026-05-27 AIニュース</title>
       <description>本日のトピック:
-1. Google DeepMindが「Gemini-Med 2.0」を発表、米国医師免許試験で95%の正答率を達成
-2. OpenAIとFigure AI、GPT-5Vを搭載した家庭用ロボット「Figure 02-Home」を公開
-3. Meta FAIR、一定のメモリで無限のコンテキストを処理できる「Infinite-Context Llama」の論文を発表
-4. Google Quantum AI、古典モデルを凌駕するハイブリッド量子・古典ニューラルネットワークを実証
-5. TSMC、AI向けGPUのデータ転送速度を倍増させるシリコンフォトニクス・パッケージングのブレイクスルーを発表</description>
-      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-27.mp3</guid>
-      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-27.mp3" length="7548237" type="audio/mpeg"/>
+1. 高性能な中国AI「DeepSeek-V4-Pro」のAPI料金が恒久的に75％オフに、DeepSeek特化のコーディングエージェント「Reasonix」も注目を集める
+2. ローマ教皇レオ14世がAIに関する回勅「Magnifica Humanitas」を発表、AI規制や児童保護を訴えAI時代の「新たな奴隷制」を非難
+3. オープンソースパッケージの深刻な脆弱性により、数百万のAIエージェントが危険に晒される
+4. Anthropic、悪用防止策が確立され次第「Mythos」の一般公開版を提供へ
+5. スタンフォード大の研究、OpenAIやGoogleのモデルが30%の確率で誤ったソースを引用していると指摘</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-27-r2.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-27-r2.mp3" length="6555404" type="audio/mpeg"/>
       <pubDate>Wed, 27 May 2026 07:00:00 +0900</pubDate>
-      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-05-27.jpg"/>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-05-27-r2.jpg"/>
     </item>
   </channel>
 </rss>
