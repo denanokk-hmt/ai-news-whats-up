@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 26 May 2026 22:13:08 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 27 May 2026 23:58:02 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -334,6 +334,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-27-r2.mp3" length="6555404" type="audio/mpeg"/>
       <pubDate>Wed, 27 May 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-05-27-r2.jpg"/>
+    </item>
+    <item>
+      <title>2026-05-28 AIニュース</title>
+      <description>本日のトピック:
+1. Anthropicの9000億ドル評価での300億ドル資金調達ラウンドが正式に完了、世界で最も価値のある未公開AIスタートアップに
+2. 2026年の選挙情報とセーフガードに関する取り組み
+3. EU AI法オムニバス合意 — 高リスクAIの適用期限延期とその他の主要な変更点
+4. 富士通、業務の変化に合わせて進化するAIエージェント技術を開発：AIニュースピックアップ
+5. 失敗データこそ資産だ――3Dモデルや解析結果をAIで統合、一目で探せるナレッジに</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-28.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-28.mp3" length="7782788" type="audio/mpeg"/>
+      <pubDate>Thu, 28 May 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-05-28.jpg"/>
     </item>
   </channel>
 </rss>
