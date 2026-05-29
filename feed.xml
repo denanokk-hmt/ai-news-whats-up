@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Wed, 27 May 2026 23:58:02 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 29 May 2026 00:54:37 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -347,6 +347,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-28.mp3" length="7782788" type="audio/mpeg"/>
       <pubDate>Thu, 28 May 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-05-28.jpg"/>
+    </item>
+    <item>
+      <title>2026-05-29 AIニュース</title>
+      <description>本日のトピック:
+1. 日本語ベンチマークで最高スコアを叩き出した純国産オープンソースLLM「Fugaku-LLM-v3」が公開される
+2. 経産省、生成AIによるメディアコンテンツの著作権保護に関する新ガイドラインを発表
+3. OpenAI、リアルタイムの動画理解機能をネイティブ搭載した「GPT-5.5 Turbo」を発表
+4. Mistral AI、Gemini 2.5 Proに対抗するマルチモーダルなオープンソースモデル「Mistral-Omni」をリリース
+5. 欧州連合、AI法を執行する「AI監視委員会」を設立し、初代委員長を指名</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-29.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-29.mp3" length="7165508" type="audio/mpeg"/>
+      <pubDate>Fri, 29 May 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-05-29.jpg"/>
     </item>
   </channel>
 </rss>
