@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Fri, 29 May 2026 00:54:37 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 29 May 2026 23:34:26 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -360,6 +360,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-29.mp3" length="7165508" type="audio/mpeg"/>
       <pubDate>Fri, 29 May 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-05-29.jpg"/>
+    </item>
+    <item>
+      <title>2026-05-30 AIニュース</title>
+      <description>本日のトピック:
+1. ガバメントAI「源内」、全府省庁18万人に向けた実証実験開始
+2. OpenAI、日本政府とサイバーセキュリティで協力 最新AI「GPT-5.5-Cyber」を金融機関に提供
+3. Anthropic、Claude Opus 4.8を一般提供 誠実さが飛躍的に向上、Mythosに並ぶアライメント性能を実現
+4. 「国産人型ロボ」量産化へ 東大発スタートアップ 三菱自動車も出資
+5. スパコンの1万3000倍の速度で計算できるGoogleの量子チップ「Willow」への早期アクセス権をイギリスの大学が獲得</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-30.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-30.mp3" length="7443956" type="audio/mpeg"/>
+      <pubDate>Sat, 30 May 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-05-30.jpg"/>
     </item>
   </channel>
 </rss>
