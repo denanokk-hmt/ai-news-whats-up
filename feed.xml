@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Fri, 29 May 2026 23:34:26 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jun 2026 02:36:00 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -373,6 +373,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-05-30.mp3" length="7443956" type="audio/mpeg"/>
       <pubDate>Sat, 30 May 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-05-30.jpg"/>
+    </item>
+    <item>
+      <title>2026-06-02 AIニュース</title>
+      <description>本日のトピック:
+1. GitHub Copilot Workspaceが正式リリース、要件定義からテストコード実装までを自律的に実行
+2. Google DeepMind、高度な推論機能をエッジデバイスにもたらす「Gemini 3.0 Nano」を発表
+3. 米上院が「AI透明性法」を可決、商用生成AIコンテンツすべてに電子透かしを義務付け
+4. AMD、ハイパースケーラーをターゲットにした攻撃的な価格設定のAIアクセラレータ「MI400X」を発表
+5. テスラのFSD v14、テキサス州で完全無人運転の規制当局の承認を獲得</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-02.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-02.mp3" length="7013852" type="audio/mpeg"/>
+      <pubDate>Tue, 02 Jun 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-06-02.jpg"/>
     </item>
   </channel>
 </rss>
