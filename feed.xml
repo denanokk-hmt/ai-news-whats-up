@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Wed, 03 Jun 2026 20:25:29 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jun 2026 22:10:32 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -390,15 +390,15 @@
     <item>
       <title>2026-06-04 AIニュース</title>
       <description>本日のトピック:
-1. Microsoft、AIエージェント向けのOSレベルサンドボックス「MXC」を発表。OpenAIとNvidiaも参画
-2. OpenAIの最先端モデルとCodexがAWSで利用可能に
-3. NVIDIAが高性能画像生成モデル＆動画生成モデルを含むフィジカルAI基盤モデル群「Cosmos 3」を公開
-4. ドナルド・トランプ氏、MAGA陣営内の対立を経て骨抜きにされたAI審査令に署名
-5. エンタープライズAIエージェントがデータサイロを生み出し続ける問題に、Microsoftが「Microsoft IQ」と「Rayfin」で回答</description>
-      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-04.mp3</guid>
-      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-04.mp3" length="7233428" type="audio/mpeg"/>
+1. MicrosoftがClaude Sonnet 4.6と同等性能な「MAI-Thinking-1」や音声クローンモデル「MAI-Voice-2」を含む7種のAIモデルを発表
+2. Microsoft、AIエージェント向けのOSレベルサンドボックス「MXC」を発表、OpenAIとNvidiaも賛同
+3. OpenAIのCodexアップデート、Sitesや役割別プラグインを通じてエージェントが対話型ワークスペースを構築可能に
+4. Microsoft、クラウドコストなしで大規模AIモデルを実行できる「Surface RTX Spark Dev Box」を発表
+5. Google、AI投資を支えるため歴史的な株式資金調達を850億ドルに拡大</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-04-r2.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-04-r2.mp3" length="8148692" type="audio/mpeg"/>
       <pubDate>Thu, 04 Jun 2026 07:00:00 +0900</pubDate>
-      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-06-04.jpg"/>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-06-04-r2.jpg"/>
     </item>
   </channel>
 </rss>

@@ -1,0 +1,6 @@
+本日のトピック:
+1. MicrosoftがClaude Sonnet 4.6と同等性能な「MAI-Thinking-1」や音声クローンモデル「MAI-Voice-2」を含む7種のAIモデルを発表
+2. Microsoft、AIエージェント向けのOSレベルサンドボックス「MXC」を発表、OpenAIとNvidiaも賛同
+3. OpenAIのCodexアップデート、Sitesや役割別プラグインを通じてエージェントが対話型ワークスペースを構築可能に
+4. Microsoft、クラウドコストなしで大規模AIモデルを実行できる「Surface RTX Spark Dev Box」を発表
+5. Google、AI投資を支えるため歴史的な株式資金調達を850億ドルに拡大

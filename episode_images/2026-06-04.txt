@@ -1,6 +1,0 @@
-本日のトピック:
-1. Microsoft、AIエージェント向けのOSレベルサンドボックス「MXC」を発表。OpenAIとNvidiaも参画
-2. OpenAIの最先端モデルとCodexがAWSで利用可能に
-3. NVIDIAが高性能画像生成モデル＆動画生成モデルを含むフィジカルAI基盤モデル群「Cosmos 3」を公開
-4. ドナルド・トランプ氏、MAGA陣営内の対立を経て骨抜きにされたAI審査令に署名
-5. エンタープライズAIエージェントがデータサイロを生み出し続ける問題に、Microsoftが「Microsoft IQ」と「Rayfin」で回答
