@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 02 Jun 2026 02:36:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jun 2026 20:25:29 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -386,6 +386,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-02.mp3" length="7013852" type="audio/mpeg"/>
       <pubDate>Tue, 02 Jun 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-06-02.jpg"/>
+    </item>
+    <item>
+      <title>2026-06-04 AIニュース</title>
+      <description>本日のトピック:
+1. Microsoft、AIエージェント向けのOSレベルサンドボックス「MXC」を発表。OpenAIとNvidiaも参画
+2. OpenAIの最先端モデルとCodexがAWSで利用可能に
+3. NVIDIAが高性能画像生成モデル＆動画生成モデルを含むフィジカルAI基盤モデル群「Cosmos 3」を公開
+4. ドナルド・トランプ氏、MAGA陣営内の対立を経て骨抜きにされたAI審査令に署名
+5. エンタープライズAIエージェントがデータサイロを生み出し続ける問題に、Microsoftが「Microsoft IQ」と「Rayfin」で回答</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-04.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-04.mp3" length="7233428" type="audio/mpeg"/>
+      <pubDate>Thu, 04 Jun 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-06-04.jpg"/>
     </item>
   </channel>
 </rss>
