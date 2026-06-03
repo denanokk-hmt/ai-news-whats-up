@@ -18,7 +18,11 @@ def _client() -> genai.Client:
     api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
         raise RuntimeError("GEMINI_API_KEY is not set")
-    return genai.Client(api_key=api_key)
+    # timeout は HTTP レイヤの無限ハング防止。
+    return genai.Client(
+        api_key=api_key,
+        http_options=types.HttpOptions(timeout=600_000),  # 10 分
+    )
 
 
 def _extract_image(response) -> bytes:

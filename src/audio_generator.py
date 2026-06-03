@@ -204,7 +204,10 @@ def generate_audio(
     if not api_key:
         raise RuntimeError("GEMINI_API_KEY is not set")
 
-    client = genai.Client(api_key=api_key)
+    client = genai.Client(
+        api_key=api_key,
+        http_options=types.HttpOptions(timeout=600_000),  # 10 分（HTTP ハング防止）
+    )
 
     chunks = _split_script_into_chunks(script, max_lines_per_chunk=chunk_lines)
     logger.info("Generating audio in %d chunks (%d chars total)...",

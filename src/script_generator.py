@@ -151,7 +151,10 @@ def generate_script(articles: list[dict], model: str) -> str:
     if not api_key:
         raise RuntimeError("GEMINI_API_KEY is not set")
 
-    client = genai.Client(api_key=api_key)
+    client = genai.Client(
+        api_key=api_key,
+        http_options=types.HttpOptions(timeout=600_000),  # 10 分（HTTP ハング防止）
+    )
 
     today = today_jst().strftime("%Y年%m月%d日")
     prompt = PROMPT_TEMPLATE.format(

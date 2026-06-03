@@ -177,7 +177,11 @@ def collect_news(model: str) -> list[dict]:
     if not api_key:
         raise RuntimeError("GEMINI_API_KEY is not set in environment")
 
-    client = genai.Client(api_key=api_key)
+    # timeout は HTTP レイヤの無限ハング防止。超過時は ReadTimeout を with_retry が拾う。
+    client = genai.Client(
+        api_key=api_key,
+        http_options=types.HttpOptions(timeout=600_000),  # 10 分
+    )
     prompt = _build_prompt()
 
     logger.info("Calling Gemini (%s) with Google Search grounding...", model)
