@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Wed, 03 Jun 2026 22:10:32 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jun 2026 22:08:00 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -399,6 +399,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-04-r2.mp3" length="8148692" type="audio/mpeg"/>
       <pubDate>Thu, 04 Jun 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-06-04-r2.jpg"/>
+    </item>
+    <item>
+      <title>2026-06-05 AIニュース</title>
+      <description>本日のトピック:
+1. Googleが「Gemma 4 12B」をリリース。ノートPCで動いて26B級の性能、またお化けローカルLLM
+2. OpenAIが「最先端AIは規制が必要」と提言、高性能AIを規制するための政策案を自ら公開
+3. MicrosoftがAIエージェントを用いて開発した次世代トポロジカル量子チップ「Majorana 2」を発表
+4. 評価額9650億ドルのAnthropicがIPO申請、AI基盤が「上場企業」になる日
+5. 米国での人員削減の理由として、AIが3ヶ月連続でトップに</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-05.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-05.mp3" length="6066212" type="audio/mpeg"/>
+      <pubDate>Fri, 05 Jun 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-06-05.jpg"/>
     </item>
   </channel>
 </rss>
