@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Thu, 04 Jun 2026 22:08:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 22:10:39 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -412,6 +412,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-05.mp3" length="6066212" type="audio/mpeg"/>
       <pubDate>Fri, 05 Jun 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-06-05.jpg"/>
+    </item>
+    <item>
+      <title>2026-06-06 AIニュース</title>
+      <description>本日のトピック:
+1. Wayve、Uberと提携しロンドンでE2E自動運転ロボタクシーを展開へ
+2. 米下院議員、州のAI開発規制を禁じる法案を公表
+3. GitHub Copilot、従量課金（AIクレジット制）へ移行
+4. 欧州委員会、ハイリスクAIシステムの分類ルールに関するAI法のガイドライン案を公表
+5. SUBARU・デンソーら3社、自動運転AIを共同研究</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-06.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-06.mp3" length="8798828" type="audio/mpeg"/>
+      <pubDate>Sat, 06 Jun 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-06-06.jpg"/>
     </item>
   </channel>
 </rss>
