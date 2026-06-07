@@ -169,7 +169,14 @@ def _extract_json(text: str) -> list[dict]:
     if not match:
         raise ValueError("No JSON array found in response")
 
-    return json.loads(match.group())
+    raw = match.group()
+    # strict=False で文字列値内の生改行・タブ等の制御文字を許容する
+    try:
+        return json.loads(raw, strict=False)
+    except json.JSONDecodeError:
+        # それでも壊れている場合は文字列を破壊しない範囲で制御文字を除去して再試行
+        cleaned = re.sub(r"[\x00-\x08\x0b\x0c\x0e-\x1f]", "", raw)
+        return json.loads(cleaned, strict=False)
 
 
 def collect_news(model: str) -> list[dict]:
