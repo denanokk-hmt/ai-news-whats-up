@@ -112,6 +112,9 @@ def _generate_chunk_wav(
         )
     )
 
+    # TTS は同一入力でも間欠的に 400 INVALID_ARGUMENT を返すことがある（サーバ側都合）。
+    # 通常の決定的 400 と区別できないが、リトライで回復するケースが大半のため、
+    # 音声チャンク生成に限り 400 もリトライ対象に含める。
     response = with_retry(
         client.models.generate_content,
         model=model,
@@ -120,6 +123,7 @@ def _generate_chunk_wav(
             response_modalities=["AUDIO"],
             speech_config=speech_config,
         ),
+        retryable_codes=(400, 429, 500, 502, 503, 504),
     )
 
     if not response.candidates:
