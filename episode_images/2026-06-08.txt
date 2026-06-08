@@ -1,0 +1,6 @@
+本日のトピック:
+1. ソフトバンク、和製LLM「Tsukuyomi 2」を発表 パラメータ数1000億で日本語特化の推論性能が世界トップクラス
+2. EU AI局、AI法に基づく初の罰金を顔認識スタートアップ3社に科す
+3. MITの研究チーム、LLMのメモリ使用量を90%削減する「Sparse-Linear Attention」を開発
+4. AMD、NVIDIA H200の1.5倍の性能を謳うAIアクセラレータ「Instinct MI450X」を発表
+5. Boston Dynamics、家事支援向けのヒューマノイドロボット「Atlas Home」を2万5000ドルで発表

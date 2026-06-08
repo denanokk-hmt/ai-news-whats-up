@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Sun, 07 Jun 2026 07:08:57 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Jun 2026 20:44:44 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -438,6 +438,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-07.mp3" length="8590652" type="audio/mpeg"/>
       <pubDate>Sun, 07 Jun 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-06-07.jpg"/>
+    </item>
+    <item>
+      <title>2026-06-08 AIニュース</title>
+      <description>本日のトピック:
+1. ソフトバンク、和製LLM「Tsukuyomi 2」を発表 パラメータ数1000億で日本語特化の推論性能が世界トップクラス
+2. EU AI局、AI法に基づく初の罰金を顔認識スタートアップ3社に科す
+3. MITの研究チーム、LLMのメモリ使用量を90%削減する「Sparse-Linear Attention」を開発
+4. AMD、NVIDIA H200の1.5倍の性能を謳うAIアクセラレータ「Instinct MI450X」を発表
+5. Boston Dynamics、家事支援向けのヒューマノイドロボット「Atlas Home」を2万5000ドルで発表</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-08.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-08.mp3" length="6861524" type="audio/mpeg"/>
+      <pubDate>Mon, 08 Jun 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-06-08.jpg"/>
     </item>
   </channel>
 </rss>
