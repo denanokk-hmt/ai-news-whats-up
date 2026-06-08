@@ -53,8 +53,14 @@ class Deduplicator:
             }, pk="url_hash")
 
     def filter_new(self, articles: list[dict]) -> list[dict]:
+        """既読でない記事のみ返す（DB は変更しない・重複URLは1件に正規化）。
+
+        既読登録は配信成功後に commit_seen() で行う（遅延コミット）。
+        後段（台本・音声・公開）で失敗しても記事が「消費」されず、
+        単純再実行でリカバリ可能にするため、ここでは副作用を持たない。
+        """
         new_articles: list[dict] = []
-        now_iso = today_jst().isoformat()
+        seen_in_batch: set[str] = set()
 
         for article in articles:
             url = article.get("url", "")
@@ -62,8 +68,33 @@ class Deduplicator:
                 continue
 
             h = _url_hash(url)
+            if h in seen_in_batch:
+                continue
+
             existing = self.db["seen_articles"].count_where("url_hash = ?", [h])
             if existing > 0:
+                continue
+
+            seen_in_batch.add(h)
+            new_articles.append(article)
+
+        logger.info("Dedup: %d -> %d articles (%d duplicates removed)",
+                    len(articles), len(new_articles),
+                    len(articles) - len(new_articles))
+        return new_articles
+
+    def commit_seen(self, articles: list[dict]) -> int:
+        """記事を既読として確定登録する（配信成功後に呼ぶ）。"""
+        now_iso = today_jst().isoformat()
+        committed = 0
+
+        for article in articles:
+            url = article.get("url", "")
+            if not url:
+                continue
+
+            h = _url_hash(url)
+            if self.db["seen_articles"].count_where("url_hash = ?", [h]) > 0:
                 continue
 
             self.db["seen_articles"].insert({
@@ -73,12 +104,10 @@ class Deduplicator:
                 "source": article.get("source", ""),
                 "first_seen_at": now_iso,
             })
-            new_articles.append(article)
+            committed += 1
 
-        logger.info("Dedup: %d -> %d articles (%d duplicates removed)",
-                    len(articles), len(new_articles),
-                    len(articles) - len(new_articles))
-        return new_articles
+        logger.info("Dedup commit: %d articles marked seen", committed)
+        return committed
 
     def purge_old(self, retention_days: int = 30):
         cutoff = (today_jst() - timedelta(days=retention_days)).isoformat()

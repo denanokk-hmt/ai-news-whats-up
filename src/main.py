@@ -13,6 +13,7 @@ from src.image_generator import (
     generate_episode_image,
 )
 from src.markdown_generator import generate_markdown, save_markdown
+from src.netcheck import wait_for_network
 from src.notifiers.slack import notify, notify_failure
 from src.script_generator import generate_script, save_script
 from src.secure_logging import (
@@ -35,6 +36,10 @@ def run():
     logger.info("=" * 60)
     logger.info("AI What's Up News - %s", label)
     logger.info("=" * 60)
+
+    # Phase 0: ネットワーク疎通待ち（起床直後の WiFi/DNS 復帰前対策）
+    logger.info("[0/8] Waiting for network...")
+    wait_for_network()
 
     # Phase 1: 収集
     logger.info("[1/8] Collecting news...")
@@ -116,6 +121,13 @@ def run():
         )
     except Exception as e:
         logger.error("GitHub Pages publish failed: %s", e)
+
+    # 配信成功後に既読を確定（遅延コミット）。
+    # 公開できた場合のみ記録し、途中失敗時は再実行で同じ記事を拾い直せるようにする。
+    if podcast_url:
+        dedup.commit_seen(new_articles)
+    else:
+        logger.warning("Publish failed; skipping dedup commit so articles can be retried")
 
     # Slack通知
     logger.info("Sending Slack notification...")
