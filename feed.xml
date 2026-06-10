@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Mon, 08 Jun 2026 22:23:11 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jun 2026 20:03:09 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -464,6 +464,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-09.mp3" length="5771204" type="audio/mpeg"/>
       <pubDate>Tue, 09 Jun 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-06-09.jpg"/>
+    </item>
+    <item>
+      <title>2026-06-11 AIニュース</title>
+      <description>本日のトピック:
+1. AIが自らを構築する時：再帰的自己改善への進展
+2. Apple、次世代の「Apple Intelligence」と「Siri AI」を正式発表
+3. Anthropic、これまでで最も強力な一般向けモデル「Claude Fable 5」をリリース
+4. Anthropic CEO、強力なAIモデルに対する「FAA（連邦航空局）スタイル」の規制を提唱
+5. 1兆パラメータモデルを毎秒1000トークン以上で推論可能な「MiMo-V2.5-Pro-UltraSpeed」が登場、基盤モデルはOSSで公開</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-11.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-11.mp3" length="7288100" type="audio/mpeg"/>
+      <pubDate>Thu, 11 Jun 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-06-11.jpg"/>
     </item>
   </channel>
 </rss>
