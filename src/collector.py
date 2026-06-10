@@ -184,10 +184,11 @@ def collect_news(model: str) -> list[dict]:
     if not api_key:
         raise RuntimeError("GEMINI_API_KEY is not set in environment")
 
-    # timeout は HTTP レイヤの無限ハング防止。超過時は ReadTimeout を with_retry が拾う。
+    # timeout は HTTP の「無通信」タイムアウト。長すぎると応答が細々と続く限り
+    # 数時間ハングし得るため 3 分に短縮し、総時間は overall_deadline で縛る。
     client = genai.Client(
         api_key=api_key,
-        http_options=types.HttpOptions(timeout=600_000),  # 10 分
+        http_options=types.HttpOptions(timeout=180_000),  # 3 分（無通信タイムアウト）
     )
     prompt = _build_prompt()
 
@@ -200,6 +201,7 @@ def collect_news(model: str) -> list[dict]:
             tools=[types.Tool(google_search=types.GoogleSearch())],
             temperature=0.3,
         ),
+        overall_deadline=600,  # 全リトライ合計で最大 10 分。超過したら即失敗通知へ
     )
 
     if not response.text:

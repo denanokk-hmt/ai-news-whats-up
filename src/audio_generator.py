@@ -124,6 +124,7 @@ def _generate_chunk_wav(
             speech_config=speech_config,
         ),
         retryable_codes=(400, 429, 500, 502, 503, 504),
+        overall_deadline=600,  # 1チャンクあたり全リトライ合計で最大 10 分
     )
 
     if not response.candidates:
@@ -210,7 +211,7 @@ def generate_audio(
 
     client = genai.Client(
         api_key=api_key,
-        http_options=types.HttpOptions(timeout=600_000),  # 10 分（HTTP ハング防止）
+        http_options=types.HttpOptions(timeout=180_000),  # 3 分（無通信タイムアウト）
     )
 
     chunks = _split_script_into_chunks(script, max_lines_per_chunk=chunk_lines)
