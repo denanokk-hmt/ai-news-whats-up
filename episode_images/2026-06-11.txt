@@ -1,6 +1,0 @@
-本日のトピック:
-1. AIが自らを構築する時：再帰的自己改善への進展
-2. Apple、次世代の「Apple Intelligence」と「Siri AI」を正式発表
-3. Anthropic、これまでで最も強力な一般向けモデル「Claude Fable 5」をリリース
-4. Anthropic CEO、強力なAIモデルに対する「FAA（連邦航空局）スタイル」の規制を提唱
-5. 1兆パラメータモデルを毎秒1000トークン以上で推論可能な「MiMo-V2.5-Pro-UltraSpeed」が登場、基盤モデルはOSSで公開
