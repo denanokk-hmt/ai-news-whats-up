@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Mon, 15 Jun 2026 20:21:34 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jun 2026 21:17:43 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -464,6 +464,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-09.mp3" length="5771204" type="audio/mpeg"/>
       <pubDate>Tue, 09 Jun 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-06-09.jpg"/>
+    </item>
+    <item>
+      <title>2026-06-10 AIニュース</title>
+      <description>本日のトピック:
+1. AIに正確なニュースを依存する代償：MITメディアラボの研究が「AI依存のパラドックス」を明らかに
+2. 米国の新規AIデータセンターの大部分が干ばつ地域に建設予定、深刻な水消費の懸念が高まる
+3. 中国の新たなエンボディドAIのブレイクスルーが国際ベンチマークで首位に、シリコンバレーに懸念広がる
+4. セコイア・キャピタル、初期段階のエージェンティックAIスタートアップ向けに15億ドルの専用ファンドを設立
+5. スタンフォード大学の研究チーム、アルツハイマー病の発症を7年前に92%の精度で予測できるマルチモーダルAIを開発</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-10.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-10.mp3" length="6545564" type="audio/mpeg"/>
+      <pubDate>Wed, 10 Jun 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-06-10.jpg"/>
     </item>
     <item>
       <title>2026-06-11 AIニュース</title>
