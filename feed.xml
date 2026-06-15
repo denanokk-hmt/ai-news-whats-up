@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Wed, 10 Jun 2026 22:11:16 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jun 2026 20:21:34 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -477,6 +477,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-11-r2.mp3" length="9641132" type="audio/mpeg"/>
       <pubDate>Thu, 11 Jun 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-06-11-r2.jpg"/>
+    </item>
+    <item>
+      <title>2026-06-16 AIニュース</title>
+      <description>本日のトピック:
+1. 米国で「AI理由の人員削減」が加速、1～5月で8.7万人
+2. Anthropic、米国政府による高度AIモデルへの制限撤回を求める
+3. ジェフ・ベゾス氏支援の産業用AIスタートアップPrometheus、120億ドルを調達
+4. 米国企業におけるAnthropicの導入率が初めてOpenAIを上回る
+5. 日本語医療特化のLLMを開発、専門医試験で正答率90％超</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-16.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-16.mp3" length="8606036" type="audio/mpeg"/>
+      <pubDate>Tue, 16 Jun 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-06-16.jpg"/>
     </item>
   </channel>
 </rss>
