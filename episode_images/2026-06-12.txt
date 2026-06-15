@@ -1,0 +1,6 @@
+本日のトピック:
+1. デジタル庁、「行政の進化と革新のための生成AIの調達·利活用に係るガイドライン（第2.0版）」を策定
+2. Neura Robotics、フィジカルAI開発に向けて14億ドルのシリーズC資金調達を実施
+3. Google、70以上の言語でリアルタイム音声翻訳を実現する「Gemini 3.5 Live Translate」を発表
+4. Google DeepMind、テキスト生成を4倍高速化する新アプローチ「Diffusion Gemma」を発表
+5. NVIDIA、フィジカルAIのための最先端基盤モデル「Cosmos 3」を発表

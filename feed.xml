@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Mon, 15 Jun 2026 21:17:43 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jun 2026 21:27:21 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -490,6 +490,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-11-r2.mp3" length="9641132" type="audio/mpeg"/>
       <pubDate>Thu, 11 Jun 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-06-11-r2.jpg"/>
+    </item>
+    <item>
+      <title>2026-06-12 AIニュース</title>
+      <description>本日のトピック:
+1. デジタル庁、「行政の進化と革新のための生成AIの調達·利活用に係るガイドライン（第2.0版）」を策定
+2. Neura Robotics、フィジカルAI開発に向けて14億ドルのシリーズC資金調達を実施
+3. Google、70以上の言語でリアルタイム音声翻訳を実現する「Gemini 3.5 Live Translate」を発表
+4. Google DeepMind、テキスト生成を4倍高速化する新アプローチ「Diffusion Gemma」を発表
+5. NVIDIA、フィジカルAIのための最先端基盤モデル「Cosmos 3」を発表</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-12.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-12.mp3" length="7103012" type="audio/mpeg"/>
+      <pubDate>Fri, 12 Jun 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-06-12.jpg"/>
     </item>
     <item>
       <title>2026-06-16 AIニュース</title>
