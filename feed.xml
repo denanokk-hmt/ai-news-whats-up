@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Mon, 15 Jun 2026 21:38:01 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jun 2026 21:46:51 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -516,6 +516,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-14.mp3" length="8369276" type="audio/mpeg"/>
       <pubDate>Sun, 14 Jun 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-06-14.jpg"/>
+    </item>
+    <item>
+      <title>2026-06-15 AIニュース</title>
+      <description>本日のトピック:
+1. 経産省、液浸冷却と再エネ活用を条件とした「省電力AIデータセンター」新補助金制度を創設
+2. 国立がん研究センターとPFN、標準血液検査からがん再発を95%の精度で予測するマルチモーダルAIを開発
+3. トヨタ、物理基盤モデルによるシミュレーションのみで学習した工場用ヒューマノイド「T-1」を公開
+4. 富士通、現行GPUの3倍の電力効率を誇る2nmプロセス製造のAIアクセラレータ「Fugaku-AI」の開発に成功
+5. OpenAI、ネイティブな継続学習機能を備えた「GPT-5.5 Turbo」を発表</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-15.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-15.mp3" length="6736148" type="audio/mpeg"/>
+      <pubDate>Mon, 15 Jun 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-06-15.jpg"/>
     </item>
     <item>
       <title>2026-06-16 AIニュース</title>
