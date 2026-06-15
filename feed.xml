@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Mon, 15 Jun 2026 21:46:51 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jun 2026 22:08:52 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -533,15 +533,15 @@
     <item>
       <title>2026-06-16 AIニュース</title>
       <description>本日のトピック:
-1. 米国で「AI理由の人員削減」が加速、1～5月で8.7万人
-2. Anthropic、米国政府による高度AIモデルへの制限撤回を求める
-3. ジェフ・ベゾス氏支援の産業用AIスタートアップPrometheus、120億ドルを調達
-4. 米国企業におけるAnthropicの導入率が初めてOpenAIを上回る
-5. 日本語医療特化のLLMを開発、専門医試験で正答率90％超</description>
-      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-16.mp3</guid>
-      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-16.mp3" length="8606036" type="audio/mpeg"/>
+1. トヨタとホンダ、自動運転AIの基盤モデル開発でデータ共有協定を締結
+2. デジタル庁、行政手続きの完全自動化に向けた「AIエージェント特区」を福岡市に指定
+3. Google、AI動画の先駆者Runwayを20億ドルで買収 YouTubeの生成AI機能を強化へ
+4. Microsoft、Windows 12に「Copilot Vision」を統合 OS全体での画面理解が可能に
+5. 新たな「液体ニューラルネットワーク」変種、100分の1のパラメータでGPT-4レベルの推論を達成</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-16-r2.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-16-r2.mp3" length="6141836" type="audio/mpeg"/>
       <pubDate>Tue, 16 Jun 2026 07:00:00 +0900</pubDate>
-      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-06-16.jpg"/>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-06-16-r2.jpg"/>
     </item>
   </channel>
 </rss>
