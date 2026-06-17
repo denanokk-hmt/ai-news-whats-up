@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Mon, 15 Jun 2026 22:08:52 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jun 2026 02:37:56 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -542,6 +542,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-16-r2.mp3" length="6141836" type="audio/mpeg"/>
       <pubDate>Tue, 16 Jun 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-06-16-r2.jpg"/>
+    </item>
+    <item>
+      <title>2026-06-17 AIニュース</title>
+      <description>本日のトピック:
+1. 情シスを惑わす「特化型AI」のわな 汎用LLMが医療専門AIを精度・信頼性で圧倒
+2. SpaceXがAIコーディング「Cursor」を約9兆6000億円で買収
+3. Z.aiのオープンウェイトモデル「GLM-5.2」、GPT-5.5を複数のコーディングベンチマークで打破しコストは1/6
+4. デプロイメントのシミュレーションによるリリース前のモデルの挙動予測
+5. Boston DynamicsとGoogle DeepMindが提携、Gemini Robotics-ER 1.6が四足歩行ロボット「Spot」を駆動</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-17.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-17.mp3" length="7370084" type="audio/mpeg"/>
+      <pubDate>Wed, 17 Jun 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-06-17.jpg"/>
     </item>
   </channel>
 </rss>
