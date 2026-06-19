@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Thu, 18 Jun 2026 20:35:42 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 19 Jun 2026 20:40:18 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -568,6 +568,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-19.mp3" length="7992741" type="audio/mpeg"/>
       <pubDate>Fri, 19 Jun 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-06-19.jpg"/>
+    </item>
+    <item>
+      <title>2026-06-20 AIニュース</title>
+      <description>本日のトピック:
+1. Adobe、Creative Cloud全体にエージェントAIワークフローを組み込み、メディア生成から制作のオーケストレーションへ移行
+2. 「我々はモンスターを生み出した」：コストが予算を圧迫し、企業がAI利用を制限
+3. AI医療ツールがアドバイスにおいて医師に匹敵、あるいは上回る
+4. 英国の刑事が書類作成にAIチャットボットを使用した疑惑を受け、レイプ有罪判決が見直しへ
+5. 画像生成AIの「Midjourney」がまさかの医療分野に進出、60秒で全身をスキャンできる「Midjourney Scanner」を開発中</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-20.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-20.mp3" length="7661349" type="audio/mpeg"/>
+      <pubDate>Sat, 20 Jun 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-06-20.jpg"/>
     </item>
   </channel>
 </rss>
