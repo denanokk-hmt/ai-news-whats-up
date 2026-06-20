@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Fri, 19 Jun 2026 20:40:18 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 20 Jun 2026 20:49:08 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -581,6 +581,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-20.mp3" length="7661349" type="audio/mpeg"/>
       <pubDate>Sat, 20 Jun 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-06-20.jpg"/>
+    </item>
+    <item>
+      <title>2026-06-21 AIニュース</title>
+      <description>本日のトピック:
+1. 人工知能基本計画（素案）に関する御意見の募集について
+2. SpaceXがAIコーディングツール「Cursor」開発元のAnysphereを600億ドルで買収へ
+3. エストニア政府、AIエージェントにデジタルIDを付与する構想を発表
+4. NVIDIA、これまでで最大かつ最もオープンなモデル「Nemotron 3 Ultra」を発表
+5. 7,000台のLangflowサーバーが攻撃の標的に、LangGraphやLangChainにも同様の脆弱性</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-21.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-21.mp3" length="6878301" type="audio/mpeg"/>
+      <pubDate>Sun, 21 Jun 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-06-21.jpg"/>
     </item>
   </channel>
 </rss>
