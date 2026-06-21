@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Sat, 20 Jun 2026 20:49:08 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 21 Jun 2026 20:40:43 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -594,6 +594,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-21.mp3" length="6878301" type="audio/mpeg"/>
       <pubDate>Sun, 21 Jun 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-06-21.jpg"/>
+    </item>
+    <item>
+      <title>2026-06-22 AIニュース</title>
+      <description>本日のトピック:
+1. Apple、オンデバイス特化型AIモデルを搭載した「Siri Pro」サブスクリプションを発表
+2. OpenAI、リアルタイム動画生成機能を備えた「Sora 2.0」APIを公開
+3. ソフトバンク、国内最大規模のAIスーパーコンピュータ稼働を開始
+4. EU AI法のハイリスクシステム向け規制が施行、フィンテック企業2社に初の罰金
+5. 経産省、日本文化に特化した国産LLM開発に500億円の補助金交付を決定</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-22.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-22.mp3" length="8202573" type="audio/mpeg"/>
+      <pubDate>Mon, 22 Jun 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-06-22.jpg"/>
     </item>
   </channel>
 </rss>
