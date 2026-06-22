@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Sun, 21 Jun 2026 20:40:43 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jun 2026 20:39:47 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -607,6 +607,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-22.mp3" length="8202573" type="audio/mpeg"/>
       <pubDate>Mon, 22 Jun 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-06-22.jpg"/>
+    </item>
+    <item>
+      <title>2026-06-23 AIニュース</title>
+      <description>本日のトピック:
+1. Anthropicが「Claude 4 Opus」をリリース、数学的推論におけるブレイクスルーを主張
+2. Mistral AI、独自の巨大モデルに匹敵するマルチモーダルモデル「Mistral-Vision-70B」をオープンソース化
+3. 米FTC、大手ハイテク企業によるAIとクラウドの抱き合わせ販売について反トラスト法調査を開始
+4. DeepMindの「AlphaFold 4」、前例のない精度でタンパク質とリガンドの相互作用を予測
+5. Meta、リアルタイムの音声対音声翻訳モデル「Llama-3-Audio」をリリース</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-23.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-23.mp3" length="8065005" type="audio/mpeg"/>
+      <pubDate>Tue, 23 Jun 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-06-23.jpg"/>
     </item>
   </channel>
 </rss>
