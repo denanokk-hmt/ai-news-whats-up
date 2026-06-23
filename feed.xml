@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Mon, 22 Jun 2026 20:39:47 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jun 2026 20:40:30 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -620,6 +620,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-23.mp3" length="8065005" type="audio/mpeg"/>
       <pubDate>Tue, 23 Jun 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-06-23.jpg"/>
+    </item>
+    <item>
+      <title>2026-06-24 AIニュース</title>
+      <description>本日のトピック:
+1. 国産フルスクラッチAI「PLaMo 3.0 Prime」提供開始、“高コスパ”うたう 無料のAPIプランも PFN
+2. OpenAI、オープンソースのセキュリティ強化に向けた「Patch the Planet」イニシアチブを立ち上げ
+3. Amazonが自社製AIチップの外販を検討：Nvidiaの牙城に挑む
+4. ファイブ・アイズ、AIモデルによるサイバー攻撃の高度化に警告
+5. Sakana AI、複数の最先端LLMを束ねてタスクを振り分けるオーケストレーションモデル「Sakana Fugu」を発表</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-24.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-24.mp3" length="8359461" type="audio/mpeg"/>
+      <pubDate>Wed, 24 Jun 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-06-24.jpg"/>
     </item>
   </channel>
 </rss>
