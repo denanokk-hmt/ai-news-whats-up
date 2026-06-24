@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 23 Jun 2026 20:40:30 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jun 2026 20:40:33 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -633,6 +633,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-24.mp3" length="8359461" type="audio/mpeg"/>
       <pubDate>Wed, 24 Jun 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-06-24.jpg"/>
+    </item>
+    <item>
+      <title>2026-06-25 AIニュース</title>
+      <description>本日のトピック:
+1. SpaceX、初のシニア無担保社債を発行しAI投資を加速、Reflection AIと提携
+2. G7サミットでAI規制の国際的コンセンサスが拡大、マクロン大統領が協調を強調
+3. Menlo Ventures、AIインフラとアプリに注力する30億ドルの新ファンドを設立
+4. Google DeepMind、AI同士が取引や交渉を行う「エージェント経済」の未来構想を発表
+5. 北京のエンボディドAIスーパー工場が稼働、2026年に人型ロボット年産1万台を目指す</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-25.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-25.mp3" length="7532517" type="audio/mpeg"/>
+      <pubDate>Thu, 25 Jun 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-06-25.jpg"/>
     </item>
   </channel>
 </rss>
