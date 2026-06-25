@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Wed, 24 Jun 2026 20:40:33 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jun 2026 20:41:09 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -646,6 +646,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-25.mp3" length="7532517" type="audio/mpeg"/>
       <pubDate>Thu, 25 Jun 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-06-25.jpg"/>
+    </item>
+    <item>
+      <title>2026-06-26 AIニュース</title>
+      <description>本日のトピック:
+1. Apple IntelligenceがVision Pro向けにグローバル展開、空間推論機能を追加
+2. Meta、エッジデバイス向けの高効率マルチモーダルモデル「Llama-3-Vision-Nano」をリリース
+3. EU AIオフィス、著作権の透明性に関して大手生成AIプロバイダー3社に初のコンプライアンス違反警告を発出
+4. Google Quantum AIとSandboxAQ、バッテリー材料探索のためのハイブリッド量子古典機械学習の実証に成功
+5. MIT CSAILの研究者、バックプロパゲーションなしで新しいデータに適応する新しい「リキッド・ニューラル・ネットワーク」アーキテクチャを開発</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-26.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-26.mp3" length="8343189" type="audio/mpeg"/>
+      <pubDate>Fri, 26 Jun 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-06-26.jpg"/>
     </item>
   </channel>
 </rss>
