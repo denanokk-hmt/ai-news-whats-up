@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Thu, 25 Jun 2026 20:41:09 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2026 20:40:14 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -659,6 +659,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-26.mp3" length="8343189" type="audio/mpeg"/>
       <pubDate>Fri, 26 Jun 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-06-26.jpg"/>
+    </item>
+    <item>
+      <title>2026-06-27 AIニュース</title>
+      <description>本日のトピック:
+1. xAI、エンタープライズ向けにリアルタイムのXデータ統合を備えた「Grok-3 API」をリリース
+2. 英国CMA、AmazonとAnthropicの提携に関する正式な独占禁止法調査を開始
+3. Boston Dynamics、LLMで会話しながらパルクールを行う新型Atlasのデモを公開
+4. DeepMindのAlphaFold 4、タンパク質-RNA複合体の構造予測でブレイクスルーを達成
+5. Meta、ネイティブな音声対音声の推論が可能なオープンソースのマルチモーダルモデル「Llama-3-Audio」をリリース</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-27.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-27.mp3" length="8252637" type="audio/mpeg"/>
+      <pubDate>Sat, 27 Jun 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-06-27.jpg"/>
     </item>
   </channel>
 </rss>
