@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Fri, 26 Jun 2026 20:40:14 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 27 Jun 2026 20:39:39 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -672,6 +672,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-27.mp3" length="8252637" type="audio/mpeg"/>
       <pubDate>Sat, 27 Jun 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-06-27.jpg"/>
+    </item>
+    <item>
+      <title>2026-06-28 AIニュース</title>
+      <description>本日のトピック:
+1. OpenAIがBroadcomと提携し初の自社製AIチップ「Jalapeño」を発表、AI競争はハードウェア層へシフト
+2. Anthropic、中国Alibabaによる自社モデルへの「2880万回の大規模な蒸留攻撃」を米議会に正式告発
+3. 次世代モデル「GPT-5.6 Sol」のプレビュー公開
+4. Anthropic、BroadcomのAI XPVプラットフォームの支援を受けギガワット級のコンピュートインフラを拡張
+5. Qualcomm、データセンター市場制覇に向けAIソフトウェアスタートアップのModularを39億ドルで買収</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-28.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-28.mp3" length="7394445" type="audio/mpeg"/>
+      <pubDate>Sun, 28 Jun 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-06-28.jpg"/>
     </item>
   </channel>
 </rss>
