@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Sat, 27 Jun 2026 20:39:39 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jun 2026 20:41:05 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -685,6 +685,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-28.mp3" length="7394445" type="audio/mpeg"/>
       <pubDate>Sun, 28 Jun 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-06-28.jpg"/>
+    </item>
+    <item>
+      <title>2026-06-29 AIニュース</title>
+      <description>本日のトピック:
+1. 富士通、Transformerと比べ475倍効率な新LLMアーキテクチャ「PHOTON」を発表
+2. SpaceX、AIコーディング支援のCursorを600億ドルで買収へ 全額株式交換
+3. 米国政府、Anthropicの最新AIモデル「Mythos 5」「Fable 5」への外国籍ユーザーのアクセスを制限
+4. EU AI法の分類ガイドラインが公表、汎用AIの「ハイリスク」境界を明確化
+5. Google DeepMindとNVIDIA、「DiffusionGemma」を公開 自己回帰型LLMの4倍の高速化を実現</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-29.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-29.mp3" length="9756861" type="audio/mpeg"/>
+      <pubDate>Mon, 29 Jun 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-06-29.jpg"/>
     </item>
   </channel>
 </rss>

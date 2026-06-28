@@ -1,0 +1,6 @@
+本日のトピック:
+1. 富士通、Transformerと比べ475倍効率な新LLMアーキテクチャ「PHOTON」を発表
+2. SpaceX、AIコーディング支援のCursorを600億ドルで買収へ 全額株式交換
+3. 米国政府、Anthropicの最新AIモデル「Mythos 5」「Fable 5」への外国籍ユーザーのアクセスを制限
+4. EU AI法の分類ガイドラインが公表、汎用AIの「ハイリスク」境界を明確化
+5. Google DeepMindとNVIDIA、「DiffusionGemma」を公開 自己回帰型LLMの4倍の高速化を実現
