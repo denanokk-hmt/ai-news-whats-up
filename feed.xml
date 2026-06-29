@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Sun, 28 Jun 2026 20:41:05 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jun 2026 20:41:22 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -698,6 +698,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-29.mp3" length="9756861" type="audio/mpeg"/>
       <pubDate>Mon, 29 Jun 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-06-29.jpg"/>
+    </item>
+    <item>
+      <title>2026-06-30 AIニュース</title>
+      <description>本日のトピック:
+1. Meta、リアルタイム3D動画セグメンテーションが可能な「Segment Anything 3」を公開
+2. OpenAI、物理法則の精密な制御が可能な企業向け動画生成「Sora Pro API」を発表
+3. Mistral AI、欧州の主権AIインフラ構築に向けてシリーズDで12億ユーロを調達
+4. AMD、H200より30%高い電力効率を謳うAIアクセラレータ「Instinct MI450X」を発表
+5. メイヨー・クリニックの研究、早期膵臓がんの発見においてAIが人間の放射線科医を45%上回る精度を実証</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-30.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-30.mp3" length="9667989" type="audio/mpeg"/>
+      <pubDate>Tue, 30 Jun 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-06-30.jpg"/>
     </item>
   </channel>
 </rss>
