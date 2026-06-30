@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Mon, 29 Jun 2026 20:41:22 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jun 2026 20:40:57 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -711,6 +711,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-06-30.mp3" length="9667989" type="audio/mpeg"/>
       <pubDate>Tue, 30 Jun 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-06-30.jpg"/>
+    </item>
+    <item>
+      <title>2026-07-01 AIニュース</title>
+      <description>本日のトピック:
+1. AI動画生成スタートアップのRunway、評価額30億ドルでシリーズDの2億ドルを調達
+2. スタンフォード大の研究チーム、動的ナレッジグラフを用いてAIのハルシネーションを80%削減する新手法を開発
+3. Boston Dynamics、自然言語コマンドに対応するマルチモーダルLLMを統合した「Atlas-AI」を公開
+4. Intel、前世代比2倍の性能を謳うAIアクセラレータ「Gaudi 4」を発表
+5. DeepMind、低分子創薬とタンパク質の相互作用を予測する「AlphaFold-Med」の論文を発表</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-01.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-01.mp3" length="9039621" type="audio/mpeg"/>
+      <pubDate>Wed, 01 Jul 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-07-01.jpg"/>
     </item>
   </channel>
 </rss>
