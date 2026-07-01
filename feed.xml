@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 30 Jun 2026 20:40:57 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 20:41:14 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -724,6 +724,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-01.mp3" length="9039621" type="audio/mpeg"/>
       <pubDate>Wed, 01 Jul 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-07-01.jpg"/>
+    </item>
+    <item>
+      <title>2026-07-02 AIニュース</title>
+      <description>本日のトピック:
+1. 国内大手が共同出資のAI開発企業「日本AI基盤モデル開発」、新名称「Noetra」で始動 産総研と国産マルチモーダルAI開発へ
+2. Together AI、評価額83億ドルで8億ドルの資金調達を実施
+3. 米国政府、Anthropicの最新AIモデル「Fable 5」「Mythos 5」の輸出規制を解除
+4. 経産省、改訂版「AIロボティクス戦略」を公表 2040年までにAI搭載ロボット1000万台導入へ
+5. 国産LLM「Sarashina3」登場 高品質データ、独自検証で日本語能力を強化 ソフトバンク傘下</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-02.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-02.mp3" length="8565669" type="audio/mpeg"/>
+      <pubDate>Thu, 02 Jul 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-07-02.jpg"/>
     </item>
   </channel>
 </rss>
