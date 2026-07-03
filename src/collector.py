@@ -15,6 +15,7 @@ from google.genai import types
 
 from src.config import JST, output_dir, today_jst
 from src.retry import with_retry
+from src import usage
 
 logger = logging.getLogger(__name__)
 
@@ -369,6 +370,7 @@ def collect_news(model: str) -> tuple[list[dict], list[dict]]:
             ),
             overall_deadline=600,  # 全リトライ合計で最大 10 分。超過したら失敗通知へ
         )
+        usage.record("collect_search", model, search_resp)
 
         attempt_sources: list[dict] = []
         if search_resp.candidates and search_resp.candidates[0].grounding_metadata:
@@ -426,6 +428,7 @@ def collect_news(model: str) -> tuple[list[dict], list[dict]]:
         config=types.GenerateContentConfig(temperature=0.2),
         overall_deadline=600,
     )
+    usage.record("collect_structure", model, struct_resp)
     if not struct_resp.text:
         raise RuntimeError("Empty response from Gemini (structuring step)")
 

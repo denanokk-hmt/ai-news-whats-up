@@ -11,6 +11,7 @@ from google.genai import types
 
 from src.config import PROJECT_ROOT, output_dir
 from src.retry import with_retry
+from src import usage
 
 logger = logging.getLogger(__name__)
 
@@ -126,6 +127,7 @@ def _generate_chunk_wav(
         retryable_codes=(400, 429, 500, 502, 503, 504),
         overall_deadline=600,  # 1チャンクあたり全リトライ合計で最大 10 分
     )
+    usage.record("audio_tts", model, response)
 
     if not response.candidates:
         raise RuntimeError("No audio in response")

@@ -10,6 +10,7 @@ from google.genai import types
 
 from src.config import output_dir, today_jst
 from src.retry import with_retry
+from src import usage
 
 logger = logging.getLogger(__name__)
 
@@ -169,6 +170,7 @@ def generate_script(articles: list[dict], model: str) -> str:
         contents=prompt,
         config=types.GenerateContentConfig(temperature=0.7),
     )
+    usage.record("script", model, response)
 
     if not response.text:
         raise RuntimeError("Empty response from Gemini")

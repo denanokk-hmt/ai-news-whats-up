@@ -23,6 +23,7 @@ from src.secure_logging import (
 )
 from src.storage.gdrive import get_authenticated_email, upload_episode
 from src.storage.github_pages import publish_episode
+from src import usage
 
 configure_logging(logging.INFO)
 install_sanitizing_root_handler()
@@ -152,6 +153,12 @@ def main():
         logger.exception("Fatal error: %s", sanitize(str(e)))
         notify_failure(sanitize(f"{type(e).__name__}: {e}\n\n{traceback.format_exc()}"))
         sys.exit(1)
+    finally:
+        # 途中失敗でも、それまでに使ったトークンは記録する
+        try:
+            usage.flush()
+        except Exception as e:  # noqa: BLE001
+            logger.warning("usage.flush failed: %s", e)
 
 
 if __name__ == "__main__":

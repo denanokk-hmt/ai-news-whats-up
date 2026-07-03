@@ -10,6 +10,7 @@ from PIL import Image
 
 from src.config import PROJECT_ROOT, output_dir, today_jst
 from src.retry import with_retry
+from src import usage
 
 logger = logging.getLogger(__name__)
 
@@ -81,6 +82,7 @@ def generate_episode_image(
         contents=[instruction, src_image],
         config=types.GenerateContentConfig(response_modalities=["IMAGE"]),
     )
+    usage.record("episode_image", model, response)
 
     image_data = _extract_image(response)
     # Apple Podcasts要件に最適化
