@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Thu, 02 Jul 2026 20:40:21 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jul 2026 20:40:43 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -750,6 +750,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-03.mp3" length="7467093" type="audio/mpeg"/>
       <pubDate>Fri, 03 Jul 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-07-03.jpg"/>
+    </item>
+    <item>
+      <title>2026-07-04 AIニュース</title>
+      <description>本日のトピック:
+1. 国連専門家グループがAI規制の必要性を提起、対策検討を呼びかけ
+2. AIは置き換えた人間よりもコストがかかる
+3. 政府支援のAI？OpenAIが米国政府への株式譲渡について協議中との報道
+4. CloudflareがAIボットを種類別に制御できるシステムを発表
+5. オープンソースのゲームエンジン「Godot」がAI生成コードの受け入れを停止</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-04.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-04.mp3" length="7824309" type="audio/mpeg"/>
+      <pubDate>Sat, 04 Jul 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-07-04.jpg"/>
     </item>
   </channel>
 </rss>
