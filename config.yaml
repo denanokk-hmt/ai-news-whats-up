@@ -16,6 +16,19 @@ gemini:
   cover_image_model: "gemini-3-pro-image-preview"
   episode_image_model: "gemini-3.1-flash-image-preview"
 
+# API 料金単価（USD / 1M tokens）。usage.json のトークン数から実額を計算する。
+# 出典: https://ai.google.dev/gemini-api/docs/pricing （2026-07 時点）
+# thinking/audio/image の出力トークンは output 単価で課金されるため、
+# コスト = prompt*input + (total-prompt)*output で概算する。
+# Google 検索グラウンディングは月5,000回まで無料（日1〜4回なので実質無料）→未計上。
+pricing:
+  usd_jpy: 160            # 為替（適宜更新）
+  models:
+    gemini-3.1-pro-preview:        { input: 2.00,  output: 12.00 }
+    gemini-3.1-flash-tts-preview:  { input: 1.00,  output: 20.00 }
+    gemini-3.1-flash-image-preview: { input: 0.50, output: 60.00 }
+    gemini-3-pro-image-preview:    { input: 2.00,  output: 120.00 }
+
 speakers:
   - name: "TAKU"
     role: "男性ホスト"
