@@ -4,10 +4,12 @@ import json
 import logging
 import os
 import re
+import time
 import urllib.parse
 from datetime import datetime, timedelta
 from pathlib import Path
 
+import httpx
 from google import genai
 from google.genai import types
 
@@ -34,9 +36,14 @@ STRUCTURE_TEMPLATE = """以下は Web 検索で収集した AI ニュースの�
 これを指定の JSON 配列へ**機械的に構造化**してください。
 
 【絶対厳守】
-- メモに書かれていない記事・URL・日付・要約を**新たに作り出さないこと**。
-- メモに実際に存在する記事だけを変換対象とする。
+- メモに書かれていない記事・日付・要約を**新たに作り出さないこと**。
+- **各記事の "url" は、下の「実ソースURL一覧」から本文に最も一致するものを1つ選び、
+  完全一致でコピーする**。一覧に対応が見当たらない記事は出力に含めない。
+  URLをドメインだけに短縮したり、創作・改変してはならない。
 - 公開日が「不明」のものは published_at を空文字 "" にする（推測で埋めない）。
+
+## 実ソースURL一覧（"url" は必ずこの中から選ぶ）
+{url_list}
 
 ## 調査メモ
 {findings}
@@ -110,9 +117,13 @@ def _build_prompt() -> str:
     )
 
 
-def _build_structuring_prompt(findings: str) -> str:
-    """Step B: 検索結果メモを JSON へ構造化するプロンプト（検索ツールは使わない）。"""
-    return STRUCTURE_TEMPLATE.format(findings=findings)
+def _build_structuring_prompt(findings: str, url_list: str) -> str:
+    """Step B: 検索結果メモを JSON へ構造化するプロンプト（検索ツールは使わない）。
+
+    url_list は解決済みの実ソースURL一覧。モデルの自己申告URL（ドメイン止まり・
+    創作）を排し、各記事に実在の深リンクを割り当てさせるために渡す。
+    """
+    return STRUCTURE_TEMPLATE.format(findings=findings, url_list=url_list)
 
 
 def _filter_by_date(articles: list[dict]) -> list[dict]:
@@ -228,6 +239,59 @@ def _grounding_uris(grounding_sources: list[dict]) -> set[str]:
     }
 
 
+def _resolve_redirect(client: httpx.Client, url: str) -> str | None:
+    """1 本のリダイレクトURLを最終的な実記事URLへ解決。失敗時 None。"""
+    try:
+        r = client.head(url, follow_redirects=True)
+        final = str(r.url)
+    except Exception:
+        # HEAD 非対応サーバ等は GET で再試行（本文は読まない）
+        try:
+            r = client.get(url, follow_redirects=True)
+            final = str(r.url)
+        except Exception:
+            return None
+    if not final:
+        return None
+    host = _host_from(final) or ""
+    # 解決しきれず Google 側に留まっているものは実ソースではないので捨てる
+    if "vertexaisearch" in host or host.endswith("google.com"):
+        return None
+    return final
+
+
+def _resolve_grounding_urls(
+    grounding_sources: list[dict], deadline_s: float = 90.0
+) -> dict[str, str]:
+    """grounding のリダイレクトURI → 実記事URL の対応表を作る。
+
+    ネットワークを叩くため、1 本ごとに短いタイムアウトを課し、全体も
+    deadline_s で打ち切る（過去の無限ハング事故対策）。解決できなかったものは
+    表に載せず、呼び出し側で元のURLのまま残す。
+    """
+    mapping: dict[str, str] = {}
+    start = time.monotonic()
+    timeout = httpx.Timeout(6.0, connect=5.0)
+    headers = {"User-Agent": "Mozilla/5.0 (compatible; ainews/1.0)"}
+    with httpx.Client(timeout=timeout, headers=headers) as client:
+        for s in grounding_sources:
+            if time.monotonic() - start > deadline_s:
+                logger.warning(
+                    "Redirect resolution deadline (%.0fs) hit; resolved %d so far",
+                    deadline_s, len(mapping),
+                )
+                break
+            uri = (s.get("url") or "").strip()
+            if not uri or uri in mapping:
+                continue
+            real = _resolve_redirect(client, uri)
+            if real:
+                mapping[uri] = real
+    logger.info("Resolved %d/%d grounding redirect URLs",
+                len(mapping), len(grounding_sources))
+    return mapping
+
+
 def _cross_check_grounding(
     articles: list[dict], grounding_sources: list[dict]
 ) -> list[dict]:
@@ -339,10 +403,26 @@ def collect_news(model: str) -> tuple[list[dict], list[dict]]:
     # === Step B: 構造化（検索ツール無し。検索メモを捏造せず JSON へ変換するだけ） ===
     logger.info("Step B: structuring %d chars of findings into JSON...",
                 len(findings))
+    # grounding のURLは Google のリダイレクトURL。先に実記事URL（深リンク）へ解決し、
+    # その一覧を Step B に渡して「urlは必ずこの一覧から選べ」と強制する。これにより
+    # モデルの自己申告URL（ドメイン止まり・創作）を排除する。
+    redirect_map = _resolve_grounding_urls(grounding_sources)
+    url_lines: list[str] = []
+    resolved_sources: list[dict] = []
+    for s in grounding_sources:
+        uri = (s.get("url") or "").strip()
+        if not uri:
+            continue
+        real = redirect_map.get(uri, uri)  # 未解決はリダイレクトURLのまま（機能はする）
+        title = (s.get("title") or "").strip()
+        url_lines.append(f"- {title} => {real}" if title else f"- {real}")
+        resolved_sources.append({"title": title, "url": real})
+    url_list = "\n".join(url_lines) if url_lines else "(なし)"
+
     struct_resp = with_retry(
         client.models.generate_content,
         model=model,
-        contents=_build_structuring_prompt(findings),
+        contents=_build_structuring_prompt(findings, url_list),
         config=types.GenerateContentConfig(temperature=0.2),
         overall_deadline=600,
     )
@@ -355,9 +435,10 @@ def collect_news(model: str) -> tuple[list[dict], list[dict]]:
     articles = _filter_by_date(articles)
     logger.info("After date filter: %d articles", len(articles))
 
-    # 実際に検索でヒットしたドメインに無い記事（自己申告URL）は捏造とみなし除外。
+    # url は実ソースURL一覧（解決済み実URL）由来のはず。念のため実URL集合と実ドメインで
+    # cross-check し、一覧に紐づかない記事（万一の創作）を除外する。
     before = len(articles)
-    articles = _cross_check_grounding(articles, grounding_sources)
+    articles = _cross_check_grounding(articles, resolved_sources)
     if before > 0 and not articles:
         raise RuntimeError(
             "All collected articles failed the grounding cross-check "
