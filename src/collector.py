@@ -4,6 +4,7 @@ import json
 import logging
 import os
 import re
+import urllib.parse
 from datetime import datetime, timedelta
 from pathlib import Path
 
@@ -15,58 +16,33 @@ from src.retry import with_retry
 
 logger = logging.getLogger(__name__)
 
-PROMPT_TEMPLATE = """あなたはAIニュースキュレーターです。
-Google検索を使って、**{window_start_jst}（JST）から {window_end_jst}（JST）までに公開された**
-国内外のAI・人工知能・LLM・機械学習関連のニュースを網羅的に収集してください。
+# grounding の発火は確率的なので、空振りしたら Step A を最大この回数まで再試行する。
+SEARCH_MAX_ATTEMPTS = 4
 
-## 過去3日に取り上げた話題（重複回避のため避ける）
-以下のトピック・企業×テーマの組み合わせは **既に取り上げ済み** なので、
-**同じイベント・同じ発表の別ソース報道は除外**してください。新規進展がある場合のみ含めて可：
+# 注意: このプロンプトは意図的に短く保つ。長大・規則過多にすると Gemini が
+# google_search ツールを呼ばず学習データから作文する（grounding が 0 になり
+# 古い/捏造ニュースを生む）。重複回避は downstream の dedup.filter_new が担う。
+PROMPT_TEMPLATE = """Google検索で、{window_start_jst}〜{window_end_jst}（JST）に公開された国内外のAI・LLM・機械学習ニュースを幅広く探してください。
+- 国内(ITmedia/GIGAZINE/日経/Publickey/CNET等)から7件以上、海外(TechCrunch/The Verge/Reuters/VentureBeat/Bloomberg等)から15件以上
+- ジャンル分散(LLM/規制/資金調達/研究/製品/ハードウェア/ロボ/自動運転/医療/OSS/国内 等)
+- {window_start_jst}より前や総括・まとめ記事は除外("after:{search_after}"活用)
+- 各記事を1行で列挙: 日本語見出し｜原文タイトル｜メディア｜公開日(YYYY-MM-DD HH:MM)｜URL｜日本語要約
+検索でヒットした実在記事のみ。合計25〜30件程度。公開日不明は「不明」と記載。JSONにしない。"""
 
-{recent_topics}
 
-【絶対遵守】時間範囲：
-- **{window_start_jst} より前に公開された記事は絶対に含めないこと**
-- 「最近のトピック」「過去のまとめ」「総括」「年間レビュー」記事は除外
-- 検索時は "after:{search_after}" を使うなど、明示的に新しい記事を検索すること
-- 上記範囲に該当する記事が見つからない場合、無理に古い記事で埋めず件数を減らすこと
+STRUCTURE_TEMPLATE = """以下は Web 検索で収集した AI ニュースの調査メモです。
+これを指定の JSON 配列へ**機械的に構造化**してください。
 
-要件:
-- 海外記事はタイトルと要約を日本語に翻訳
-- 重要度を1-5で採点（5が最重要）
-- 企業動向、研究発表、規制・政策、製品リリース、資金調達を幅広くカバー
-- URLは実在するものだけを記載
-- **published_at は ISO 8601 形式で、必ず実際の公開日時を記載**
+【絶対厳守】
+- メモに書かれていない記事・URL・日付・要約を**新たに作り出さないこと**。
+- メモに実際に存在する記事だけを変換対象とする。
+- 公開日が「不明」のものは published_at を空文字 "" にする（推測で埋めない）。
 
-## ジャンル判定ルール（厳守）
-以下から最も該当するものを選択。複数該当の場合は上位優先：
+## 調査メモ
+{findings}
 
-1. **LLM**: ChatGPT/Claude/Gemini等の言語モデル本体の発表・更新
-2. **規制**: 政府・規制機関のAI法規制・調査・声明
-3. **資金調達**: AI企業の調達・IPO・買収・評価額
-4. **研究**: 大学・研究機関の論文・新手法
-5. **製品**: AIを組込んだエンドユーザー向け製品・SaaS
-6. **ハードウェア**: AIチップ・GPU・データセンター・専用ハードウェア
-7. **ロボティクス**: 物理ロボット・自律機械・ヒューマノイド
-8. **自動運転**: 自動運転・モビリティAI
-9. **医療**: 医療画像診断・創薬・ヘルスケアAI
-10. **教育**: 教育・学習支援AI
-11. **メディア**: コンテンツ生成・画像/音声/動画AI・エンタメ
-12. **OSS**: オープンソースAI・モデル公開
-13. **カンファレンス**: AI関連の発表会・イベント・受賞
-14. **雇用影響**: AIによる職業・労働市場への影響
-15. **量子**: 量子コンピューティング × AI
-16. **国内**: 上記に該当しない日本企業・日本政府独自の発表
-17. **その他**: それ以外
-
-**ジャンルの偏りを避け、毎日5ジャンル以上をカバー**すること。
-
-## 件数ターゲット
-- **総数 25〜30件**（重複回避を優先しつつ）
-- 国内ソース（ITmedia / 日経XTECH / 日経クロステック / GIGAZINE / ASCII / Publickey / ZDNET Japan / Impress Watch / TechCrunch Japan / CNET Japan / マイナビニュース / Ledge.ai / AIsmiley / AINOW）から **最低7件**
-- 海外ソース（VentureBeat / TechCrunch / The Verge / MIT Tech Review / Ars Technica / Wired / Bloomberg / Reuters / FT等）から **最低15件**
-
-出力は以下のJSON配列のみ。前後の説明文・コードブロック記号（```）は不要：
+## 出力
+以下の JSON 配列のみ。前後の説明文・コードブロック記号（```）は不要：
 
 [
   {{
@@ -121,13 +97,22 @@ def _load_recent_topics(days: int = 3) -> str:
 
 
 def _build_prompt() -> str:
+    """Step A: 検索を確実に発火させる短い自然文プロンプト。
+
+    重複回避トピック等を注入して長大化すると google_search が呼ばれず作文される
+    ため、あえて短く保つ。重複除去は main の dedup.filter_new が担当する。
+    """
     window_start, window_end = _get_window()
     return PROMPT_TEMPLATE.format(
         window_start_jst=window_start.strftime("%Y-%m-%d %H:%M"),
         window_end_jst=window_end.strftime("%Y-%m-%d %H:%M"),
         search_after=window_start.strftime("%Y-%m-%d"),
-        recent_topics=_load_recent_topics(days=3),
     )
+
+
+def _build_structuring_prompt(findings: str) -> str:
+    """Step B: 検索結果メモを JSON へ構造化するプロンプト（検索ツールは使わない）。"""
+    return STRUCTURE_TEMPLATE.format(findings=findings)
 
 
 def _filter_by_date(articles: list[dict]) -> list[dict]:
@@ -179,7 +164,111 @@ def _extract_json(text: str) -> list[dict]:
         return json.loads(cleaned, strict=False)
 
 
-def collect_news(model: str) -> list[dict]:
+# 末尾2ラベルでは登録ドメインを取り違える複合TLD（co.jp 等）は3ラベルで扱う
+_MULTI_LABEL_TLDS = {
+    "co.jp", "or.jp", "ne.jp", "go.jp", "ac.jp",
+    "co.uk", "org.uk", "com.au", "co.kr", "com.br", "co.in",
+}
+
+
+def _registrable_domain(host: str) -> str:
+    """ホスト名を登録ドメイン相当（例: jp.reuters.com -> reuters.com）に正規化。"""
+    host = host.lower().strip().rstrip(".")
+    if host.startswith("www."):
+        host = host[4:]
+    labels = host.split(".")
+    if len(labels) >= 3 and ".".join(labels[-2:]) in _MULTI_LABEL_TLDS:
+        return ".".join(labels[-3:])
+    if len(labels) >= 2:
+        return ".".join(labels[-2:])
+    return host
+
+
+def _host_from(value: str) -> str | None:
+    """URL またはベアドメイン文字列からホスト名を取り出す。判別不能なら None。"""
+    if not value:
+        return None
+    v = value.strip()
+    if "://" in v:
+        try:
+            netloc = urllib.parse.urlparse(v).netloc
+        except ValueError:
+            return None
+        return netloc or None
+    # グラウンディングの title は素のドメイン（"reuters.com"）であることが多い。
+    # 空白を含む・ドットが無いものはページタイトル等とみなし採用しない。
+    if " " in v or "." not in v:
+        return None
+    return v
+
+
+def _grounding_domains(grounding_sources: list[dict]) -> set[str]:
+    """グラウンディング結果から実在ソースの登録ドメイン集合を作る。"""
+    domains: set[str] = set()
+    for s in grounding_sources:
+        for key in ("title", "url"):
+            host = _host_from(s.get(key, ""))
+            if not host:
+                continue
+            # Google 検索のリダイレクトホストは実ソースではないので除外
+            if "vertexaisearch" in host or host.endswith("google.com"):
+                continue
+            dom = _registrable_domain(host)
+            if dom:
+                domains.add(dom)
+    return domains
+
+
+def _grounding_uris(grounding_sources: list[dict]) -> set[str]:
+    """グラウンディングが返した生URI集合（多くは Google のリダイレクトURL）。"""
+    return {
+        (s.get("url") or "").strip()
+        for s in grounding_sources
+        if (s.get("url") or "").strip()
+    }
+
+
+def _cross_check_grounding(
+    articles: list[dict], grounding_sources: list[dict]
+) -> list[dict]:
+    """検索でヒットした実ソースに紐づかない記事（捏造の疑い）を除外。
+
+    grounding_chunks の URI は多くが vertexaisearch のリダイレクトURLで、実
+    publisher ドメインは持たない。そのため照合は次の OR で行う:
+      (1) 記事URLが grounding の返した URI そのもの（＝検索結果由来）
+      (2) 記事URLの登録ドメインが、title 等から導けた実 publisher ドメインに一致
+    どちらの手掛かりも作れない場合のみ、誤除去を避けて照合をスキップする。
+    """
+    domains = _grounding_domains(grounding_sources)
+    uris = _grounding_uris(grounding_sources)
+    if not domains and not uris:
+        logger.warning(
+            "No usable grounding evidence derived; skipping URL cross-check"
+        )
+        return articles
+
+    kept: list[dict] = []
+    dropped = 0
+    for a in articles:
+        url = (a.get("url") or "").strip()
+        host = _host_from(url)
+        dom = _registrable_domain(host) if host else None
+        if (url and url in uris) or (dom and dom in domains):
+            kept.append(a)
+        else:
+            dropped += 1
+            logger.info(
+                "Dropped (URL not grounded): %s | %s",
+                url, a.get("japanese_title", "")[:50],
+            )
+    logger.info(
+        "Grounding cross-check: %d -> %d (dropped %d ungrounded)",
+        len(articles), len(kept), dropped,
+    )
+    return kept
+
+
+def collect_news(model: str) -> tuple[list[dict], list[dict]]:
     api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
         raise RuntimeError("GEMINI_API_KEY is not set in environment")
@@ -190,39 +279,90 @@ def collect_news(model: str) -> list[dict]:
         api_key=api_key,
         http_options=types.HttpOptions(timeout=180_000),  # 3 分（無通信タイムアウト）
     )
-    prompt = _build_prompt()
+    # === Step A: 検索（自然文出力でツールを確実に発火させる） ===
+    # 「JSON配列のみ出力せよ」の指示があると google_search が呼ばれず、モデルが
+    # 学習データから作文する（2026-06 の古い/捏造ニュース配信の真因）。よって
+    # 検索は自然文で行い、構造化は後段（Step B）に分離する。
+    #
+    # さらに grounding の発火は確率的で、同じプロンプトでも検索されず 0 件になる
+    # ことがある（＝作文モードに落ちる）。grounding が返るまで数回リトライし、
+    # 全試行が空だったときだけ休載（abort）する。
+    search_prompt = _build_prompt()
+    findings = ""
+    grounding_sources: list[dict] = []
+    for attempt in range(1, SEARCH_MAX_ATTEMPTS + 1):
+        logger.info(
+            "Step A attempt %d/%d: searching with Gemini (%s) + Google Search...",
+            attempt, SEARCH_MAX_ATTEMPTS, model,
+        )
+        search_resp = with_retry(
+            client.models.generate_content,
+            model=model,
+            contents=search_prompt,
+            config=types.GenerateContentConfig(
+                tools=[types.Tool(google_search=types.GoogleSearch())],
+                temperature=0.3,
+            ),
+            overall_deadline=600,  # 全リトライ合計で最大 10 分。超過したら失敗通知へ
+        )
 
-    logger.info("Calling Gemini (%s) with Google Search grounding...", model)
-    response = with_retry(
+        attempt_sources: list[dict] = []
+        if search_resp.candidates and search_resp.candidates[0].grounding_metadata:
+            meta = search_resp.candidates[0].grounding_metadata
+            for chunk in meta.grounding_chunks or []:
+                if hasattr(chunk, "web") and chunk.web:
+                    attempt_sources.append({
+                        "title": chunk.web.title,
+                        "url": chunk.web.uri,
+                    })
+
+        logger.info("Step A attempt %d grounding sources: %d",
+                    attempt, len(attempt_sources))
+        if attempt_sources and search_resp.text:
+            findings = search_resp.text
+            grounding_sources = attempt_sources
+            break
+        logger.warning(
+            "Step A attempt %d produced no grounding; retrying", attempt
+        )
+
+    # 検索グラウンディングが一切得られなかった＝実検索が空振り/失敗し、モデルが
+    # 学習データから「それっぽいニュース」を作文する状態。古い/捏造ニュースを
+    # 流すよりは休載が正しいので、収集失敗として失敗通知に倒す。
+    if not grounding_sources:
+        raise RuntimeError(
+            f"Google Search grounding returned no sources after "
+            f"{SEARCH_MAX_ATTEMPTS} attempts; aborting to avoid publishing "
+            f"hallucinated/old news."
+        )
+
+    # === Step B: 構造化（検索ツール無し。検索メモを捏造せず JSON へ変換するだけ） ===
+    logger.info("Step B: structuring %d chars of findings into JSON...",
+                len(findings))
+    struct_resp = with_retry(
         client.models.generate_content,
         model=model,
-        contents=prompt,
-        config=types.GenerateContentConfig(
-            tools=[types.Tool(google_search=types.GoogleSearch())],
-            temperature=0.3,
-        ),
-        overall_deadline=600,  # 全リトライ合計で最大 10 分。超過したら即失敗通知へ
+        contents=_build_structuring_prompt(findings),
+        config=types.GenerateContentConfig(temperature=0.2),
+        overall_deadline=600,
     )
+    if not struct_resp.text:
+        raise RuntimeError("Empty response from Gemini (structuring step)")
 
-    if not response.text:
-        raise RuntimeError("Empty response from Gemini")
-
-    articles = _extract_json(response.text)
+    articles = _extract_json(struct_resp.text)
     logger.info("Collected %d articles (raw)", len(articles))
 
     articles = _filter_by_date(articles)
     logger.info("After date filter: %d articles", len(articles))
 
-    grounding_sources = []
-    if response.candidates and response.candidates[0].grounding_metadata:
-        meta = response.candidates[0].grounding_metadata
-        if meta.grounding_chunks:
-            for chunk in meta.grounding_chunks:
-                if hasattr(chunk, "web") and chunk.web:
-                    grounding_sources.append({
-                        "title": chunk.web.title,
-                        "url": chunk.web.uri,
-                    })
+    # 実際に検索でヒットしたドメインに無い記事（自己申告URL）は捏造とみなし除外。
+    before = len(articles)
+    articles = _cross_check_grounding(articles, grounding_sources)
+    if before > 0 and not articles:
+        raise RuntimeError(
+            "All collected articles failed the grounding cross-check "
+            "(likely hallucinated); aborting to avoid publishing old/fake news."
+        )
 
     return articles, grounding_sources
 
