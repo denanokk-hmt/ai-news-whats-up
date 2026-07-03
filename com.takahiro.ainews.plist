@@ -5,8 +5,20 @@
     <key>Label</key>
     <string>com.takahiro.ainews</string>
 
+    <!--
+      caffeinate でラップして実行中のスリープを阻止する。
+      cron はスリープ中だと「ダークウェイク」中に発火し、プロセスが数秒で
+      再サスペンドされるため Gemini 通信が完了せず ReadTimeout で失敗していた。
+      -i アイドルスリープ阻止 / -s システムスリープ阻止(AC時) / -u ユーザー活動を宣言。
+      caffeinate は後続コマンドを実行し、終了するまでアサーションを保持する。
+      別途 `sudo pmset repeat wake ... 06:58:00` で 07:00 発火前に物理ウェイクさせること。
+    -->
     <key>ProgramArguments</key>
     <array>
+        <string>/usr/bin/caffeinate</string>
+        <string>-i</string>
+        <string>-s</string>
+        <string>-u</string>
         <string>/Users/takahiro/DevDev/ai-news-whats-up/.venv/bin/python</string>
         <string>-m</string>
         <string>src.main</string>
