@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Fri, 03 Jul 2026 20:40:43 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 04 Jul 2026 20:40:57 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -763,6 +763,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-04.mp3" length="7824309" type="audio/mpeg"/>
       <pubDate>Sat, 04 Jul 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-07-04.jpg"/>
+    </item>
+    <item>
+      <title>2026-07-05 AIニュース</title>
+      <description>本日のトピック:
+1. 企業の3分の2がAIモデルのヘッジ戦略を構築、Claude停止騒動で明らかに
+2. アルトマンのAI安全性に関する提案：我々を勝たせるか、さもなくば全員が負けるか
+3. LLMでEDRを“丸裸”に AIで防御ロジックを解析する時代が始まる
+4. AIに「Rust」でコードを書かせる新手法「コードモード」とは
+5. 「AI生成コードのレビュー負担」エンジニアを悩ませる現場のリアル</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-05.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-05.mp3" length="8143485" type="audio/mpeg"/>
+      <pubDate>Sun, 05 Jul 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-07-05.jpg"/>
     </item>
   </channel>
 </rss>
