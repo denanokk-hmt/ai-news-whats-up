@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Sat, 04 Jul 2026 20:40:57 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 05 Jul 2026 20:40:27 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -776,6 +776,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-05.mp3" length="8143485" type="audio/mpeg"/>
       <pubDate>Sun, 05 Jul 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-07-05.jpg"/>
+    </item>
+    <item>
+      <title>2026-07-06 AIニュース</title>
+      <description>本日のトピック:
+1. トランプ大統領、AI政策で「介入は最小限に」と明言
+2. トランプ政権の科学技術ハイライト：1年目
+3. 政府管理メディア、生成AIの回答に影響か
+4. 最新ヒト型AIロボットが人間のジェスチャーを理解する技術を生披露
+5. 診断におけるAI：拡張知能と安全性、デスキリングについて</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-06.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-06.mp3" length="7411797" type="audio/mpeg"/>
+      <pubDate>Mon, 06 Jul 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-07-06.jpg"/>
     </item>
   </channel>
 </rss>
