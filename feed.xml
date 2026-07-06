@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Sun, 05 Jul 2026 20:40:27 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jul 2026 20:40:31 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -789,6 +789,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-06.mp3" length="7411797" type="audio/mpeg"/>
       <pubDate>Mon, 06 Jul 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-07-06.jpg"/>
+    </item>
+    <item>
+      <title>2026-07-07 AIニュース</title>
+      <description>本日のトピック:
+1. Googleが高度な推論能力と100万トークン枠を持つ「Gemini 3」を発表
+2. 孫正義氏がSoftBankをAI中心の企業へ再構築
+3. 生成AI特許の出願傾向分析レポート公開
+4. LLMから自律型エージェントへの進化の軌跡
+5. ローコードプラットフォームでのLLMエージェント実態調査</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-07.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-07.mp3" length="7227981" type="audio/mpeg"/>
+      <pubDate>Tue, 07 Jul 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-07-07.jpg"/>
     </item>
   </channel>
 </rss>
