@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Mon, 06 Jul 2026 20:40:31 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jul 2026 20:43:34 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -802,6 +802,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-07.mp3" length="7227981" type="audio/mpeg"/>
       <pubDate>Tue, 07 Jul 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-07-07.jpg"/>
+    </item>
+    <item>
+      <title>2026-07-08 AIニュース</title>
+      <description>本日のトピック:
+1. Anthropic、AIの“内なる思考”が宿る「J-space」を発見 新手法「J-lens」で可視化、安全性監視に応用
+2. Anthropicの新しい「J-lens」が、意識の主要理論を反映するClaude内部の静かなワークスペースを明らかに
+3. 日本、AI利用を管理する法的枠組みを抜本的に見直す会議を立ち上げへ
+4. サイバーセキュリティのための高度なAIのリスクと機会に対処するEUの新計画
+5. AIエージェントは通常の生成AIよりも最大136倍エネルギーを消費する</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-08.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-08.mp3" length="7951341" type="audio/mpeg"/>
+      <pubDate>Wed, 08 Jul 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-07-08.jpg"/>
     </item>
   </channel>
 </rss>
