@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 07 Jul 2026 20:43:34 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jul 2026 20:46:45 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -815,6 +815,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-08.mp3" length="7951341" type="audio/mpeg"/>
       <pubDate>Wed, 08 Jul 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-07-08.jpg"/>
+    </item>
+    <item>
+      <title>2026-07-09 AIニュース</title>
+      <description>本日のトピック:
+1. 参考資料を自ら探す画像生成AI、Metaが開発 “長考”でクオリティー向上も
+2. 日本政府、AI関連の改革推進会議を新設へ
+3. FTCがAIの正確性に関する新方針を提案：AIシステムの誘導を隠すことは連邦法違反の可能性
+4. 2026年コーディング向けベストLLM：あなたのコードベースで実際に勝つモデルはどれか
+5. ESRBがフロンティアAIモデルに警告、ECBが重要機関に書簡を送付</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-09.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-09.mp3" length="6786909" type="audio/mpeg"/>
+      <pubDate>Thu, 09 Jul 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-07-09.jpg"/>
     </item>
   </channel>
 </rss>
