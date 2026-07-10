@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Wed, 08 Jul 2026 20:46:45 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jul 2026 20:41:01 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -828,6 +828,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-09.mp3" length="6786909" type="audio/mpeg"/>
       <pubDate>Thu, 09 Jul 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-07-09.jpg"/>
+    </item>
+    <item>
+      <title>2026-07-11 AIニュース</title>
+      <description>本日のトピック:
+1. OpenAIが「SWE-Bench Proの約30％が壊れている」と報告、AIのコーディング能力を測るベンチマークに大量の不備
+2. ガバメントAI 源内における国産クラウド上での国産基盤モデルの試用開始について
+3. 共有APIキーが企業の69%でAIエージェントを危険にさらしている
+4. 新しい連合学習アルゴリズムが、プライベートで堅牢かつ高速なAI開発を可能に
+5. 製造業AI活用の鍵は「基盤整備」にあり、自律化工場に向けた4つのステップ</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-11.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-11.mp3" length="8299869" type="audio/mpeg"/>
+      <pubDate>Sat, 11 Jul 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-07-11.jpg"/>
     </item>
   </channel>
 </rss>
