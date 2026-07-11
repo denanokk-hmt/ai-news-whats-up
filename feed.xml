@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Fri, 10 Jul 2026 20:41:01 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 Jul 2026 20:41:48 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -841,6 +841,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-11.mp3" length="8299869" type="audio/mpeg"/>
       <pubDate>Sat, 11 Jul 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-07-11.jpg"/>
+    </item>
+    <item>
+      <title>2026-07-12 AIニュース</title>
+      <description>本日のトピック:
+1. デジタル庁、tsuzumiなど国産AIを「さくらのクラウド」で稼働 「日本の自律性確保」目指す
+2. OpenAIが「GPT-5.6」を正式リリース、第三者テストでClaude Fableを超えるコーディング性能を示す
+3. 日本、AI開発促進のためにプライバシー規制を緩和
+4. ELYZAが、三井住友カードと入会審査における自動判定AIの利用を開始
+5. 7440億パラメーターの巨大AI「GLM-5.2」をメモリ25GBの普通のPCで動かす推論エンジン「Colibrì」が登場</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-12.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-12.mp3" length="7855701" type="audio/mpeg"/>
+      <pubDate>Sun, 12 Jul 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-07-12.jpg"/>
     </item>
   </channel>
 </rss>
