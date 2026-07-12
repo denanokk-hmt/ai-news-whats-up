@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Sat, 11 Jul 2026 20:41:48 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 12 Jul 2026 20:46:58 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -854,6 +854,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-12.mp3" length="7855701" type="audio/mpeg"/>
       <pubDate>Sun, 12 Jul 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-07-12.jpg"/>
+    </item>
+    <item>
+      <title>2026-07-13 AIニュース</title>
+      <description>本日のトピック:
+1. アップルがオープンAIを提訴 機密情報を不正に取得と主張
+2. 【2026年7月最新】初の自律型AIランサムウェア確認
+3. OpenAIがメールやSlackを管理するクラウドベースのAIエージェント「ChatGPT Work」を発表
+4. Metaがユーザーからの反発を受けInstagramのAI機能を削除
+5. 日本政府、人手不足の地方自治体向けにAIエージェントを検討</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-13.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-13.mp3" length="9596757" type="audio/mpeg"/>
+      <pubDate>Mon, 13 Jul 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-07-13.jpg"/>
     </item>
   </channel>
 </rss>
