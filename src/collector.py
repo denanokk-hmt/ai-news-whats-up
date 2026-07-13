@@ -176,6 +176,32 @@ def _extract_json(text: str) -> list[dict]:
         return json.loads(cleaned, strict=False)
 
 
+# 大手一次ソース・主要メディアの登録ドメイン。ここに無いドメインの記事は
+# 除外はしないが importance を UNTRUSTED_IMPORTANCE_CAP に頭打ちする。
+# （2026-07-07: zoombangla.com のフェイク「Gemini 3発表」記事が importance 5 で
+# digest 先頭に載った事故への対策。検索グラウンディングは「実在する検索結果」
+# しか保証せず、コンテンツファームの捏造記事は素通しになるため。）
+TRUSTED_DOMAINS = {
+    # AI ベンダー一次ソース
+    "google.com", "blog.google", "deepmind.google", "openai.com",
+    "anthropic.com", "microsoft.com", "apple.com", "meta.com",
+    "nvidia.com", "amazon.com", "huggingface.co", "github.blog",
+    "mistral.ai", "stability.ai", "x.ai",
+    # 海外メディア
+    "reuters.com", "bloomberg.com", "ft.com", "wsj.com", "nytimes.com",
+    "theguardian.com", "bbc.com", "cnbc.com", "axios.com", "time.com",
+    "techcrunch.com", "theverge.com", "venturebeat.com", "wired.com",
+    "arstechnica.com", "cnet.com", "forbes.com", "technologyreview.com",
+    "theinformation.com", "semafor.com",
+    # 国内メディア・一次ソース
+    "itmedia.co.jp", "gigazine.net", "nikkei.com", "publickey1.jp",
+    "impress.co.jp", "ascii.jp", "japantimes.co.jp", "nhk.or.jp",
+    "asahi.com", "yomiuri.co.jp", "mainichi.jp", "prtimes.jp",
+    "softbank.jp", "meti.go.jp", "nict.go.jp",
+}
+
+UNTRUSTED_IMPORTANCE_CAP = 3
+
 # 末尾2ラベルでは登録ドメインを取り違える複合TLD（co.jp 等）は3ラベルで扱う
 _MULTI_LABEL_TLDS = {
     "co.jp", "or.jp", "ne.jp", "go.jp", "ac.jp",
@@ -240,15 +266,61 @@ def _grounding_uris(grounding_sources: list[dict]) -> set[str]:
     }
 
 
-def _resolve_redirect(client: httpx.Client, url: str) -> str | None:
-    """1 本のリダイレクトURLを最終的な実記事URLへ解決。失敗時 None。"""
-    try:
-        r = client.head(url, follow_redirects=True)
-        final = str(r.url)
-    except Exception:
-        # HEAD 非対応サーバ等は GET で再試行（本文は読まない）
+# ページ本文から公開日時を拾うためのパターン。信頼度の高い順に試す。
+# 属性順は媒体により逆転する（content が先に来る）ため両方向を用意する。
+_PUBLISHED_AT_PATTERNS = [
+    re.compile(
+        r'<meta[^>]+property=["\']article:published_time["\'][^>]+'
+        r'content=["\']([^"\']+)["\']', re.IGNORECASE),
+    re.compile(
+        r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+'
+        r'property=["\']article:published_time["\']', re.IGNORECASE),
+    re.compile(r'"datePublished"\s*:\s*"([^"]+)"'),
+]
+
+# 公開日抽出のために読む本文の上限。メタタグは先頭付近にあるため十分。
+_PAGE_READ_LIMIT = 300_000
+
+
+def _extract_published_at(html_text: str) -> str | None:
+    """HTML から公開日時（ISO 8601 文字列）を抽出。見つからなければ None。
+
+    パース可能な日時のみ返す（_filter_by_date と同じ規則で解釈できることを保証）。
+    """
+    for pat in _PUBLISHED_AT_PATTERNS:
+        m = pat.search(html_text)
+        if not m:
+            continue
+        raw = m.group(1).strip()
         try:
-            r = client.get(url, follow_redirects=True)
+            datetime.fromisoformat(raw.replace("Z", "+00:00"))
+        except (ValueError, TypeError):
+            continue
+        return raw
+    return None
+
+
+def _resolve_redirect(
+    client: httpx.Client, url: str
+) -> tuple[str, str | None] | None:
+    """1 本のリダイレクトURLを (実記事URL, ページ公開日時|None) へ解決。失敗時 None。
+
+    公開日時はページの article:published_time / datePublished メタから拾う。
+    モデルが「公開日不明」と申告した記事の日付をページ実測で補完し、収集
+    ウィンドウ外の古い記事（コンテンツファームの焼き直し等）を機械的に落とす。
+    """
+    published_at = None
+    try:
+        r = client.get(url, follow_redirects=True)
+        final = str(r.url)
+        try:
+            published_at = _extract_published_at(r.text[:_PAGE_READ_LIMIT])
+        except Exception:
+            pass  # 文字コード不明等。URL解決自体は成立している
+    except Exception:
+        # GET 拒否サーバ等は HEAD で URL 解決のみ再試行（公開日は諦める）
+        try:
+            r = client.head(url, follow_redirects=True)
             final = str(r.url)
         except Exception:
             return None
@@ -258,19 +330,21 @@ def _resolve_redirect(client: httpx.Client, url: str) -> str | None:
     # 解決しきれず Google 側に留まっているものは実ソースではないので捨てる
     if "vertexaisearch" in host or host.endswith("google.com"):
         return None
-    return final
+    return final, published_at
 
 
 def _resolve_grounding_urls(
     grounding_sources: list[dict], deadline_s: float = 90.0
-) -> dict[str, str]:
-    """grounding のリダイレクトURI → 実記事URL の対応表を作る。
+) -> tuple[dict[str, str], dict[str, str]]:
+    """grounding のリダイレクトURI → 実記事URL の対応表と、
+    実記事URL → ページ実測の公開日時 の対応表を作る。
 
     ネットワークを叩くため、1 本ごとに短いタイムアウトを課し、全体も
     deadline_s で打ち切る（過去の無限ハング事故対策）。解決できなかったものは
     表に載せず、呼び出し側で元のURLのまま残す。
     """
     mapping: dict[str, str] = {}
+    date_map: dict[str, str] = {}
     start = time.monotonic()
     timeout = httpx.Timeout(6.0, connect=5.0)
     headers = {"User-Agent": "Mozilla/5.0 (compatible; ainews/1.0)"}
@@ -285,12 +359,61 @@ def _resolve_grounding_urls(
             uri = (s.get("url") or "").strip()
             if not uri or uri in mapping:
                 continue
-            real = _resolve_redirect(client, uri)
-            if real:
+            resolved = _resolve_redirect(client, uri)
+            if resolved:
+                real, published_at = resolved
                 mapping[uri] = real
-    logger.info("Resolved %d/%d grounding redirect URLs",
-                len(mapping), len(grounding_sources))
-    return mapping
+                if published_at:
+                    date_map[real] = published_at
+    logger.info("Resolved %d/%d grounding redirect URLs (%d with page dates)",
+                len(mapping), len(grounding_sources), len(date_map))
+    return mapping, date_map
+
+
+def _fill_missing_dates(articles: list[dict], date_map: dict[str, str]) -> None:
+    """published_at が空の記事に、ページ実測の公開日時を補完する（in-place）。
+
+    モデルの「公開日不明」申告は date filter を素通りする（保留扱い）ため、
+    ページから日付が取れた記事はここで埋めてウィンドウ判定の対象に載せる。
+    """
+    filled = 0
+    for a in articles:
+        if a.get("published_at"):
+            continue
+        page_date = date_map.get((a.get("url") or "").strip())
+        if page_date:
+            a["published_at"] = page_date
+            filled += 1
+            logger.info("Filled published_at from page meta: %s | %s",
+                        page_date, a.get("japanese_title", "")[:50])
+    if filled:
+        logger.info("Filled %d missing published_at from page metadata", filled)
+
+
+def _cap_importance_by_trust(articles: list[dict]) -> None:
+    """信頼ドメイン外の記事の importance を頭打ちにする（in-place）。
+
+    除外はしない（ニッチな良記事もあるため）。digest・台本は importance 降順で
+    並ぶので、キャップにより無名ソースの記事がトップ扱いされるのを防ぐ。
+    """
+    capped = 0
+    for a in articles:
+        host = _host_from((a.get("url") or "").strip())
+        dom = _registrable_domain(host) if host else None
+        importance = a.get("importance")
+        if dom in TRUSTED_DOMAINS:
+            continue
+        if isinstance(importance, int) and importance > UNTRUSTED_IMPORTANCE_CAP:
+            a["importance"] = UNTRUSTED_IMPORTANCE_CAP
+            capped += 1
+            logger.info(
+                "Capped importance %d -> %d (untrusted domain %s): %s",
+                importance, UNTRUSTED_IMPORTANCE_CAP, dom,
+                a.get("japanese_title", "")[:50],
+            )
+    if capped:
+        logger.info("Importance capped for %d articles from untrusted domains",
+                    capped)
 
 
 def _cross_check_grounding(
@@ -408,7 +531,7 @@ def collect_news(model: str) -> tuple[list[dict], list[dict]]:
     # grounding のURLは Google のリダイレクトURL。先に実記事URL（深リンク）へ解決し、
     # その一覧を Step B に渡して「urlは必ずこの一覧から選べ」と強制する。これにより
     # モデルの自己申告URL（ドメイン止まり・創作）を排除する。
-    redirect_map = _resolve_grounding_urls(grounding_sources)
+    redirect_map, date_map = _resolve_grounding_urls(grounding_sources)
     url_lines: list[str] = []
     resolved_sources: list[dict] = []
     for s in grounding_sources:
@@ -435,6 +558,11 @@ def collect_news(model: str) -> tuple[list[dict], list[dict]]:
     articles = _extract_json(struct_resp.text)
     logger.info("Collected %d articles (raw)", len(articles))
 
+    # モデルが「公開日不明」とした記事はページ実測の日付で補完してから
+    # ウィンドウ判定にかける（2026-07-07 の zoombangla フェイク記事は
+    # published_at 空欄で date filter を素通りした）。
+    _fill_missing_dates(articles, date_map)
+
     articles = _filter_by_date(articles)
     logger.info("After date filter: %d articles", len(articles))
 
@@ -447,6 +575,10 @@ def collect_news(model: str) -> tuple[list[dict], list[dict]]:
             "All collected articles failed the grounding cross-check "
             "(likely hallucinated); aborting to avoid publishing old/fake news."
         )
+
+    # 信頼ドメイン外のソースは importance を頭打ちにし、digest/台本の
+    # トップ扱いを防ぐ（除外はしない）。
+    _cap_importance_by_trust(articles)
 
     return articles, grounding_sources
 
