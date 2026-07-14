@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Sun, 12 Jul 2026 20:46:58 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 14 Jul 2026 20:41:27 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -867,6 +867,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-13.mp3" length="9596757" type="audio/mpeg"/>
       <pubDate>Mon, 13 Jul 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-07-13.jpg"/>
+    </item>
+    <item>
+      <title>2026-07-15 AIニュース</title>
+      <description>本日のトピック:
+1. Grok Buildが機密情報を伏せずに送信、未読ファイルやGit履歴もアップロードしていたとの調査結果
+2. イスラム過激派組織ボコ・ハラムがAIを使って爆発物の設計や武器の修理を行っていたことが判明
+3. 初のiOS 27パブリックベータが公開、iPhoneにもたらされる新機能
+4. Claude Codeは指示前の初期データだけで約3万3000トークンを使用
+5. 「メモリーにとって2027年は最悪の年になる」とSKハイニックスのCEOが警告</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-15.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-15.mp3" length="7646805" type="audio/mpeg"/>
+      <pubDate>Wed, 15 Jul 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-07-15.jpg"/>
     </item>
   </channel>
 </rss>
