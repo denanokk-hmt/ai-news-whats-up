@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 14 Jul 2026 20:41:27 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2026 20:44:28 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -880,6 +880,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-15.mp3" length="7646805" type="audio/mpeg"/>
       <pubDate>Wed, 15 Jul 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-07-15.jpg"/>
+    </item>
+    <item>
+      <title>2026-07-17 AIニュース</title>
+      <description>本日のトピック:
+1. 元OpenAI CTOのThinking Machinesが中国の競合を意識した初のAIモデルを発表
+2. OpenAI初のAIハードウェアは「自律走行可能な画面なしスマートスピーカー」か
+3. AI時代の「無知の知」 「青信号で止まるAI」を作らないために
+4. Google、Pixel 10で動作可能な軽量モデル「Gemma 4 E2B for TPU」を発表
+5. 清水理史の「AI道場」Cowork vs. Work、クロスデバイス統合のClaudeか？ ネイティブ統合のChatGPTか？</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-17.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-17.mp3" length="7721829" type="audio/mpeg"/>
+      <pubDate>Fri, 17 Jul 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-07-17.jpg"/>
     </item>
   </channel>
 </rss>
