@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Thu, 16 Jul 2026 20:44:28 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2026 20:41:33 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -893,6 +893,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-17.mp3" length="7721829" type="audio/mpeg"/>
       <pubDate>Fri, 17 Jul 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-07-17.jpg"/>
+    </item>
+    <item>
+      <title>2026-07-18 AIニュース</title>
+      <description>本日のトピック:
+1. 中国のMoonshot AIが米国トップシステムに匹敵する過去最大のオープンソースモデル「Kimi K3」をリリース
+2. 既存のAIに攻撃を仕掛けて弱点を自動的に探し出すAIモデル「GPT-Red」をOpenAIが発表
+3. 約1兆パラメーターで画像・音声の理解やコーディングに対応、用途別に調整できるオープンウェイトAIモデル「Inkling」登場
+4. 中国当局が「Apple Intelligence」導入を承認、アリババ製AI「Qwen」を活用か
+5. AIエージェント「Grok Build」がオープンソース化される</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-18.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-18.mp3" length="7107453" type="audio/mpeg"/>
+      <pubDate>Sat, 18 Jul 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-07-18.jpg"/>
     </item>
   </channel>
 </rss>
