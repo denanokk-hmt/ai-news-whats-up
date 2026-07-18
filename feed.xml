@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Fri, 17 Jul 2026 20:41:33 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Jul 2026 20:41:34 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -906,6 +906,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-18.mp3" length="7107453" type="audio/mpeg"/>
       <pubDate>Sat, 18 Jul 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-07-18.jpg"/>
+    </item>
+    <item>
+      <title>2026-07-19 AIニュース</title>
+      <description>本日のトピック:
+1. AI音楽生成サービス「Suno」がYouTubeやDeezerから数百万曲をスクレイピングしていたことが流出したソースコードから判明
+2. EU・欧州委員会がGoogleに「AndroidにおけるAIアシスタントの相互運用性」と「検索データの共有」を強制することを決定
+3. AIがサイバーセキュリティの計算式を破壊した。次はどうなる？
+4. 独占記事：Oracleのデータセンターが数十億ドルの予期せぬコスト増に直面
+5. Google検索のAIは子どもたちに「容認できないリスク」をもたらすと報告書が指摘</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-19.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-19.mp3" length="7965981" type="audio/mpeg"/>
+      <pubDate>Sun, 19 Jul 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-07-19.jpg"/>
     </item>
   </channel>
 </rss>
