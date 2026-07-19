@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Sat, 18 Jul 2026 20:41:34 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jul 2026 20:50:45 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -919,6 +919,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-19.mp3" length="7965981" type="audio/mpeg"/>
       <pubDate>Sun, 19 Jul 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-07-19.jpg"/>
+    </item>
+    <item>
+      <title>2026-07-20 AIニュース</title>
+      <description>本日のトピック:
+1. 「Claude Fable 5」サブスクに統合 Max・Team Premiumプラン対象
+2. 生成AIとエッジコンピューティングの融合は産業構造をどう変えるか
+3. Linux Foundationが警告する「AI丸投げ開発」の末路
+4. AppleとGoogleがアプリストアから「ヌード化アプリ」の削除を命じられる
+5. RAGに不良データの修正を求めるのはやめよう</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-20.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-20.mp3" length="7988901" type="audio/mpeg"/>
+      <pubDate>Mon, 20 Jul 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-07-20.jpg"/>
     </item>
   </channel>
 </rss>
