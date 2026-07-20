@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Sun, 19 Jul 2026 20:50:45 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2026 20:42:32 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -932,6 +932,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-20.mp3" length="7988901" type="audio/mpeg"/>
       <pubDate>Mon, 20 Jul 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-07-20.jpg"/>
+    </item>
+    <item>
+      <title>2026-07-21 AIニュース</title>
+      <description>本日のトピック:
+1. Claude Fable 5が一部のサブスクプランで使用可能に
+2. 圧迫された腫瘍の成長がなぜ遅くなるのかをAIが解明
+3. 「クロスの定義とは？」 AIに“サッカー言語”を教えることから始まった、FIFAとLenovoの協業
+4. OpenAI、AIの弱点を自動探索する内部専用モデル「GPT-Red」発表
+5. Google、24時間365日働く個人向けAIエージェント「Gemini Spark」を日本語展開</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-21.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-21.mp3" length="9818421" type="audio/mpeg"/>
+      <pubDate>Tue, 21 Jul 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-07-21.jpg"/>
     </item>
   </channel>
 </rss>
