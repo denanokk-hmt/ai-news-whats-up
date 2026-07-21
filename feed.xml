@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Mon, 20 Jul 2026 20:42:32 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2026 20:42:29 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -945,6 +945,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-21.mp3" length="9818421" type="audio/mpeg"/>
       <pubDate>Tue, 21 Jul 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-07-21.jpg"/>
+    </item>
+    <item>
+      <title>2026-07-22 AIニュース</title>
+      <description>本日のトピック:
+1. AIがサイバーセキュリティの計算式を破壊した。次はどうなる？
+2. Hugging FaceにAI主導のサイバー攻撃 防御もAIで対抗するも、商用モデルは解析拒否で「GLM」採用
+3. GoogleのGemini 3.6 Flashモデル、長時間のエンジニアリングタスクでAIエージェントのトークンコストを最大65%削減
+4. 企業向けでAIツールで成長率トップはAnthropic、アカウント数が最も多いのはMicrosoft 365。Oktaが調査結果を発表
+5. Netflixが950億円でベン・アフレックのAI映画制作スタートアップ「InterPositive」を買収したことが明らかに</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-22.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-22.mp3" length="7929117" type="audio/mpeg"/>
+      <pubDate>Wed, 22 Jul 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-07-22.jpg"/>
     </item>
   </channel>
 </rss>
