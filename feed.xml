@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 21 Jul 2026 20:42:29 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2026 20:49:33 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -958,6 +958,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-22.mp3" length="7929117" type="audio/mpeg"/>
       <pubDate>Wed, 22 Jul 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-07-22.jpg"/>
+    </item>
+    <item>
+      <title>2026-07-23 AIニュース</title>
+      <description>本日のトピック:
+1. 賢いAIほど偏見を持つ、採用シミュレーションが示した逆説
+2. Anthropicのロボットへの野心；NvidiaがVera Rubinを強化
+3. 「国産AIスタック」を持たないカナダ、ソブリンAIをどう構築するのか
+4. 性能最大2倍のAIサーバ向けPCIe 6.0 SSD、Samsung：40GBのLLMを約1.4秒で転送
+5. 開発工数を95％削減 散在データを「AI Ready」に変える、ソフトバンク×BoxによるAIエージェントの変革</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-23.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-23.mp3" length="7966509" type="audio/mpeg"/>
+      <pubDate>Thu, 23 Jul 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-07-23.jpg"/>
     </item>
   </channel>
 </rss>
