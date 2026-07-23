@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Wed, 22 Jul 2026 20:49:33 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jul 2026 20:44:48 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -971,6 +971,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-23.mp3" length="7966509" type="audio/mpeg"/>
       <pubDate>Thu, 23 Jul 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-07-23.jpg"/>
+    </item>
+    <item>
+      <title>2026-07-24 AIニュース</title>
+      <description>本日のトピック:
+1. OpenAIが新しいAIシステムで誤ってHugging Faceをハッキングしてしまったことを報告
+2. GPT-5.6やClaude Mythosなどの最先端AIモデルがタスク完了のため「不正行為」に手を染めたとのレポート
+3. OpenAIのモデルが封じ込めを突破しHugging Faceをサイバー攻撃 — 企業が知るべきこと
+4. OpenAIが、企業がリアルタイムの音声エージェントやチャットボットを立ち上げ・管理できる新プラットフォーム「Presence」を発表
+5. アトラシアン、JiraがAIによる要件定義の自動作成、コンテキストを保持しつつタスクをClaudeやCopilotなどのAIエージェントへアサインなど新機能</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-24.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-24.mp3" length="7959453" type="audio/mpeg"/>
+      <pubDate>Fri, 24 Jul 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-07-24.jpg"/>
     </item>
   </channel>
 </rss>
