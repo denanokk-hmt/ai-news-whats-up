@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Thu, 23 Jul 2026 20:44:48 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jul 2026 20:44:32 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -984,6 +984,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-24.mp3" length="7959453" type="audio/mpeg"/>
       <pubDate>Fri, 24 Jul 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-07-24.jpg"/>
+    </item>
+    <item>
+      <title>2026-07-25 AIニュース</title>
+      <description>本日のトピック:
+1. OpenAIとMicrosoftが科学研究へ巨額支援、AIがアメリカの国家的な科学インフラになりつつある
+2. 中国製高性能AI「Kimi K3」はClaude Fableの蒸留によって作られたとホワイトハウス高官が発言
+3. OpenAIの未公開モデルがHugging Faceを攻撃・侵入 「前例のない事故」
+4. マルチターン攻撃がAIモデルを88%の確率で突破、単一ターンテストの限界をCiscoが警告
+5. OpenAIが報道機関の生成AI活用事例を公開、取材支援から読者向けサービスまで</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-25.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-25.mp3" length="7766421" type="audio/mpeg"/>
+      <pubDate>Sat, 25 Jul 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-07-25.jpg"/>
     </item>
   </channel>
 </rss>
