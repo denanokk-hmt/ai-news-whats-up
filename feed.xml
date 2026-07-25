@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Fri, 24 Jul 2026 20:44:32 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 25 Jul 2026 20:42:40 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -997,6 +997,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-25.mp3" length="7766421" type="audio/mpeg"/>
       <pubDate>Sat, 25 Jul 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-07-25.jpg"/>
+    </item>
+    <item>
+      <title>2026-07-26 AIニュース</title>
+      <description>本日のトピック:
+1. 画像・動画・音声を生成可能なマルチモーダルAI「FLUX 3」が発表される
+2. Anthropicがコーディングやエージェント向けの安価なAIモデル「Claude Opus 5」をリリース
+3. 生成AI投資はなぜ「モデル選び」から「使い方の管理」へ移るのか
+4. 米スタートアップ企業が「中国製のオープンウェイトAIを禁止しないで」とトランプ政権に訴えかける
+5. 企業におけるAIエージェントのガバナンスが追いついていない現状</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-26.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-26.mp3" length="9527469" type="audio/mpeg"/>
+      <pubDate>Sun, 26 Jul 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-07-26.jpg"/>
     </item>
   </channel>
 </rss>
