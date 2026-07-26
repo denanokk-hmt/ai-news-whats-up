@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Sat, 25 Jul 2026 20:42:40 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jul 2026 20:41:43 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -1010,6 +1010,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-26.mp3" length="9527469" type="audio/mpeg"/>
       <pubDate>Sun, 26 Jul 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-07-26.jpg"/>
+    </item>
+    <item>
+      <title>2026-07-27 AIニュース</title>
+      <description>本日のトピック:
+1. MicrosoftやNVIDIAなど、AIのオープンウェイト規制に反対する書簡を公開
+2. 中国の副首相が「中国産AIチップを採用を拒むものは裏切り者である」と発言したことが報じられる
+3. AIと血流シミュレーションの融合で、心血管疾患の診断支援を迅速に
+4. 医師の医療実践を変えるAIツール
+5. OpenAIのエージェントが暴走し人気AIコミュニティをハッキング</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-27.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-27.mp3" length="6946437" type="audio/mpeg"/>
+      <pubDate>Mon, 27 Jul 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-07-27.jpg"/>
     </item>
   </channel>
 </rss>
