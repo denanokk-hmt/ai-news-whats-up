@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Sun, 26 Jul 2026 20:41:43 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jul 2026 20:43:07 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -1023,6 +1023,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-27.mp3" length="6946437" type="audio/mpeg"/>
       <pubDate>Mon, 27 Jul 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-07-27.jpg"/>
+    </item>
+    <item>
+      <title>2026-07-29 AIニュース</title>
+      <description>本日のトピック:
+1. Claudeの共有会話とArtifactsがGoogle検索にインデックスされ公開状態に
+2. AIのトークン価格を10分の1にできる「プロンプトキャッシュ」の仕組みとは？
+3. 「AI使っても評価されない」の壁を崩せるか？日本マイクロソフトが描くAI協働の未来
+4. あの最強コーディングAI「Kimi K3」が手元で動く！今夜ウェイト公開へ
+5. SAPがエンタープライズAIエージェントにナレッジグラフとガバナンスが必要と語る理由</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-29.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-29.mp3" length="8472789" type="audio/mpeg"/>
+      <pubDate>Wed, 29 Jul 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-07-29.jpg"/>
     </item>
   </channel>
 </rss>
