@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 28 Jul 2026 20:43:07 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2026 20:41:22 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -1036,6 +1036,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-29.mp3" length="8472789" type="audio/mpeg"/>
       <pubDate>Wed, 29 Jul 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-07-29.jpg"/>
+    </item>
+    <item>
+      <title>2026-07-30 AIニュース</title>
+      <description>本日のトピック:
+1. AMDが独自のAI開発用GPUでトレーニングした独自AIモデル「Instella-MoE」を発表
+2. AIエージェント向け共通規格「MCP」が過去最大のアップデート
+3. OpenAIのハッキング事件がオープンソースAIを巡る新たな論争に火をつける
+4. 英内務省、亡命申請の却下に「AIのハルシネーション」情報を利用したと裁判官が指摘
+5. エバンジェリスト・みのるん氏が解説 「自前のAIエージェント」爆速開発術</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-30.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-30.mp3" length="6287109" type="audio/mpeg"/>
+      <pubDate>Thu, 30 Jul 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-07-30.jpg"/>
     </item>
   </channel>
 </rss>
