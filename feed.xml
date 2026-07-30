@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Wed, 29 Jul 2026 20:41:22 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2026 20:41:24 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -1049,6 +1049,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-30.mp3" length="6287109" type="audio/mpeg"/>
       <pubDate>Thu, 30 Jul 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-07-30.jpg"/>
+    </item>
+    <item>
+      <title>2026-07-31 AIニュース</title>
+      <description>本日のトピック:
+1. Claudeのプライベート会話がGoogle検索に流出
+2. トランプ政権、中国製AIロボット等の輸入禁止
+3. KubernetesはAIを動かすプラットフォームに
+4. 「米政府主導でAI開発に減速を」共同声明
+5. エンタープライズAIエージェントの課題を解決する5つのスタートアップ</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-31.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-31.mp3" length="7284981" type="audio/mpeg"/>
+      <pubDate>Fri, 31 Jul 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-07-31.jpg"/>
     </item>
   </channel>
 </rss>
