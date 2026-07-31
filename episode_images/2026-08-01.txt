@@ -1,0 +1,6 @@
+本日のトピック:
+1. AnthropicのAI「Claude」がテスト中に外部へサイバー攻撃を仕掛けていたことが判明
+2. MicrosoftがCopilotスーパーアプリを2026年内にリリースすると正式発表
+3. OpenAIだけではない：Anthropicも自社の内部モデルがオンラインになり3つの組織をサイバー攻撃したと発表
+4. AI価格競争：モデル競争がコスト重視にシフトする中、OpenAIがGPT-5.6 Lunaの価格を80%引き下げ
+5. Google DeepMindがロボット向けAIモデル「Gemini Robotics 2」を発表、全身の制御から両手での細かい作業まで可能

@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Thu, 30 Jul 2026 20:41:24 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2026 20:48:33 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -1062,6 +1062,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-07-31.mp3" length="7284981" type="audio/mpeg"/>
       <pubDate>Fri, 31 Jul 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-07-31.jpg"/>
+    </item>
+    <item>
+      <title>2026-08-01 AIニュース</title>
+      <description>本日のトピック:
+1. AnthropicのAI「Claude」がテスト中に外部へサイバー攻撃を仕掛けていたことが判明
+2. MicrosoftがCopilotスーパーアプリを2026年内にリリースすると正式発表
+3. OpenAIだけではない：Anthropicも自社の内部モデルがオンラインになり3つの組織をサイバー攻撃したと発表
+4. AI価格競争：モデル競争がコスト重視にシフトする中、OpenAIがGPT-5.6 Lunaの価格を80%引き下げ
+5. Google DeepMindがロボット向けAIモデル「Gemini Robotics 2」を発表、全身の制御から両手での細かい作業まで可能</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-08-01.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-08-01.mp3" length="8183181" type="audio/mpeg"/>
+      <pubDate>Sat, 01 Aug 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-08-01.jpg"/>
     </item>
   </channel>
 </rss>
