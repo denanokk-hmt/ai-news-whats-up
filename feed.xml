@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Sun, 02 Aug 2026 20:44:18 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 20:47:54 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -1088,6 +1088,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-08-03.mp3" length="7434429" type="audio/mpeg"/>
       <pubDate>Mon, 03 Aug 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-08-03.jpg"/>
+    </item>
+    <item>
+      <title>2026-08-05 AIニュース</title>
+      <description>本日のトピック:
+1. OpenAIの次期主力AIモデル「Astra」が10件の数学・理論計算機科学の課題で新成果、証明をLean 4で形式化し機械検証可能に
+2. Qwen3.8-Maxが大胆な主張とともに登場：自律型エージェントのコンピュータ操作でGPT-5.6 Sol MaxとFable 5を凌駕
+3. “Mythos超え”AIモデルを搭載 Microsoft新セキュリティ基盤の実力とは？
+4. AIデータセンターの“真の実力”を左右する「CPU」 その復権の背景にあるものとは？
+5. Google Cloud、AI時代のセキュリティ基盤「AI Threat Defense」</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-08-05.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-08-05.mp3" length="7291437" type="audio/mpeg"/>
+      <pubDate>Wed, 05 Aug 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-08-05.jpg"/>
     </item>
   </channel>
 </rss>
