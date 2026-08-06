@@ -1,0 +1,6 @@
+本日のトピック:
+1. Google DeepMindのCEO Demis Hassabis氏がAIラボの再編で退任
+2. SunoがGEMAとの著作権訴訟で敗訴—AI音楽企業は警戒すべき
+3. Sakana AI、日本語に特化したLLM API「Sakana Namazu」を提供開始
+4. アフリカのサイバー犯罪の50％以上にAIが悪用されており欧米諸国にも被害が及んでいるとインターポールが発表
+5. Bloomberg VaultがAIを活用した新たなコミュニケーション監視モデルを導入

@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 04 Aug 2026 20:47:54 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2026 20:42:35 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -1101,6 +1101,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-08-05.mp3" length="7291437" type="audio/mpeg"/>
       <pubDate>Wed, 05 Aug 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-08-05.jpg"/>
+    </item>
+    <item>
+      <title>2026-08-07 AIニュース</title>
+      <description>本日のトピック:
+1. Google DeepMindのCEO Demis Hassabis氏がAIラボの再編で退任
+2. SunoがGEMAとの著作権訴訟で敗訴—AI音楽企業は警戒すべき
+3. Sakana AI、日本語に特化したLLM API「Sakana Namazu」を提供開始
+4. アフリカのサイバー犯罪の50％以上にAIが悪用されており欧米諸国にも被害が及んでいるとインターポールが発表
+5. Bloomberg VaultがAIを活用した新たなコミュニケーション監視モデルを導入</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-08-07.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-08-07.mp3" length="7891437" type="audio/mpeg"/>
+      <pubDate>Fri, 07 Aug 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-08-07.jpg"/>
     </item>
   </channel>
 </rss>
