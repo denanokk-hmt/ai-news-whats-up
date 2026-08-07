@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Thu, 06 Aug 2026 20:42:35 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 07 Aug 2026 20:41:01 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -1114,6 +1114,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-08-07.mp3" length="7891437" type="audio/mpeg"/>
       <pubDate>Fri, 07 Aug 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-08-07.jpg"/>
+    </item>
+    <item>
+      <title>2026-08-08 AIニュース</title>
+      <description>本日のトピック:
+1. OpenAIのテスト用AIが密かに「AI同士の掲示板」を構築し情報共有やHugging Faceへの攻撃を行っていたことが判明、掲示板を閉鎖してもこっそり再構築
+2. 書店に「3000冊の発注」、AI企業が古書を買いあさる？ Anthropicも数百万冊をスキャン・破棄 実態明らかに
+3. Cloudflareが社内AIプラットフォーム「Cloudflare OS」をオープンソース化、機密情報を保護しつつ業務アプリ作成が可能に
+4. GoogleがAIエージェントのスキルやMCPサーバーを持ち運べる「Agent Plugins」に参画、OpenAIやMicrosoft、Amazonらと協調
+5. TIME誌が人間とAIクローラーで異なるページを配信、AI向け広告の存在も確認される</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-08-08.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-08-08.mp3" length="6607941" type="audio/mpeg"/>
+      <pubDate>Sat, 08 Aug 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-08-08.jpg"/>
     </item>
   </channel>
 </rss>
