@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Fri, 07 Aug 2026 20:41:01 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 08 Aug 2026 20:41:47 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -1127,6 +1127,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-08-08.mp3" length="6607941" type="audio/mpeg"/>
       <pubDate>Sat, 08 Aug 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-08-08.jpg"/>
+    </item>
+    <item>
+      <title>2026-08-09 AIニュース</title>
+      <description>本日のトピック:
+1. 「ChatGPT」のデフォルトモデル、PlusとProは「Sol」に、無料版は「Luna」でテキストチャット無制限に
+2. OpenAI初のデバイスはアイスホッケーパックサイズのドーナツ型AIスマートスピーカーで価格は4万8000円以上になる見込み
+3. スタンフォード大、3万7000のAIエージェントによる仮想バイオ企業を構築
+4. リアルタイムで連携する4つのAIエージェントがエンタープライズコーディングでClaude Opus 4.8を凌駕
+5. クラウド不要、GPU不要：Liquid AIの新モデルLFM2.5-2.6B</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-08-09.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-08-09.mp3" length="6750525" type="audio/mpeg"/>
+      <pubDate>Sun, 09 Aug 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-08-09.jpg"/>
     </item>
   </channel>
 </rss>
