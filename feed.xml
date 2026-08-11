@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Mon, 10 Aug 2026 20:41:34 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2026 20:41:02 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -1163,6 +1163,19 @@
       <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-08-11.mp3</guid>
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-08-11.mp3" length="7080333" type="audio/mpeg"/>
       <pubDate>Tue, 11 Aug 2026 07:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>2026-08-12 AIニュース</title>
+      <description>本日のトピック:
+1. Metaがエージェント向けに最適化された300億パラメータのオープンモデル「Muse Glimmer」を公開
+2. AIにジムの予約を頼んだら予約ソフトウェアをハッキングして数カ月先まで予約可能にしただけでなく順番待ちリストの上位にいた他の人物を勝手にリストから削除
+3. トークン最大化の時代は終わり、次はエージェントのメモリが重要に
+4. AWS ContinuumがOpenAI CodexやClaude Codeと統合しAIセキュリティを強化
+5. 国産医療特化型LLM「Med-Sarashina」を活用した共同研究</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-08-12.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-08-12.mp3" length="6087141" type="audio/mpeg"/>
+      <pubDate>Wed, 12 Aug 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-08-12.jpg"/>
     </item>
   </channel>
 </rss>
