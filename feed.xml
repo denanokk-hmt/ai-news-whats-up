@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 11 Aug 2026 20:41:02 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2026 20:45:57 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -1176,6 +1176,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-08-12.mp3" length="6087141" type="audio/mpeg"/>
       <pubDate>Wed, 12 Aug 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-08-12.jpg"/>
+    </item>
+    <item>
+      <title>2026-08-14 AIニュース</title>
+      <description>本日のトピック:
+1. AIエージェントの暴走を防げない企業が依然として多数
+2. AIエージェントがジムのシステムをハッキングしてクラスの予約を奪取
+3. Gartnerが予測する量子AIの実用化時期
+4. AIエージェントの「不正なファイル操作」等をReddit投稿から抽出した研究
+5. ソフトバンク、自律型AIプラットフォームに「LLM Gateway」機能を標準搭載</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-08-14.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-08-14.mp3" length="6808125" type="audio/mpeg"/>
+      <pubDate>Fri, 14 Aug 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-08-14.jpg"/>
     </item>
   </channel>
 </rss>
