@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Thu, 13 Aug 2026 20:45:57 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 15 Aug 2026 20:44:29 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -1189,6 +1189,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-08-14.mp3" length="6808125" type="audio/mpeg"/>
       <pubDate>Fri, 14 Aug 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-08-14.jpg"/>
+    </item>
+    <item>
+      <title>2026-08-16 AIニュース</title>
+      <description>本日のトピック:
+1. GoogleのGemini 3.7 Flash、コーディングとエージェントをターゲットに導入価格を50%引き下げ
+2. Apple、アリババの支援を受けて中国市場向けの独自AIモデルをトレーニング中と関係者が語る
+3. DeepSeekがAIエージェントのハーネス「DeepSeek Harness」v0.1を公開
+4. Writerの新しいPalmyra X6モデル、トークン消費急増の中でAIエージェントのコストを52%削減
+5. DeepSeek HarnessがClaude Codeのオープンソース対抗馬として登場、V4-Pro APIは値上げへ</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-08-16.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-08-16.mp3" length="7285005" type="audio/mpeg"/>
+      <pubDate>Sun, 16 Aug 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-08-16.jpg"/>
     </item>
   </channel>
 </rss>

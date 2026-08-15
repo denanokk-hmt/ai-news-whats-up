@@ -1,0 +1,6 @@
+本日のトピック:
+1. GoogleのGemini 3.7 Flash、コーディングとエージェントをターゲットに導入価格を50%引き下げ
+2. Apple、アリババの支援を受けて中国市場向けの独自AIモデルをトレーニング中と関係者が語る
+3. DeepSeekがAIエージェントのハーネス「DeepSeek Harness」v0.1を公開
+4. Writerの新しいPalmyra X6モデル、トークン消費急増の中でAIエージェントのコストを52%削減
+5. DeepSeek HarnessがClaude Codeのオープンソース対抗馬として登場、V4-Pro APIは値上げへ
