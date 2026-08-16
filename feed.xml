@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Sat, 15 Aug 2026 20:44:29 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 16 Aug 2026 20:43:46 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -1202,6 +1202,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-08-16.mp3" length="7285005" type="audio/mpeg"/>
       <pubDate>Sun, 16 Aug 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-08-16.jpg"/>
+    </item>
+    <item>
+      <title>2026-08-17 AIニュース</title>
+      <description>本日のトピック:
+1. 2026年に90％増へ向かう大手クラウド投資はなぜGPU単体からインフラ全体へ広がるのか
+2. 定性的なレビューでは見逃される事実：AIモデルは間違っている時ほど自信満々である
+3. もうコードは書かない、でも仕事は何を…「バイブコーディング」で犠牲になること
+4. AI時代は「Go言語」が理想の言語に？ Googleが解説する「Goの価値」
+5. 「SaaSは死ぬ」と言われたWorkdayに8.2兆円----AIが賢くなるほど、人事データの価値が上がるという逆説</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-08-17.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-08-17.mp3" length="7040973" type="audio/mpeg"/>
+      <pubDate>Mon, 17 Aug 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-08-17.jpg"/>
     </item>
   </channel>
 </rss>
