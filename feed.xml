@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Sun, 16 Aug 2026 20:43:46 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2026 21:45:00 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -1215,6 +1215,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-08-17.mp3" length="7040973" type="audio/mpeg"/>
       <pubDate>Mon, 17 Aug 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-08-17.jpg"/>
+    </item>
+    <item>
+      <title>2026-08-18 AIニュース</title>
+      <description>本日のトピック:
+1. DeepSeekのトップランクモデルV4 Flash、価格高騰の中で実際のエージェントタスクに苦戦
+2. OpenAIがAIのもたらす深刻なリスクを評価・軽減することを目的とした危機管理チームが解散
+3. 1.1兆円超でStripeがAIゲートウェイサービスのOpenRouterを買収か
+4. RAG推論コストを6倍削減するには、LLMに到達させない判断から始まる
+5. あるAIモジュールが別のモジュールに答えを教えることで、パイプラインの精度向上を86%偽装していた</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-08-18.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-08-18.mp3" length="7288341" type="audio/mpeg"/>
+      <pubDate>Tue, 18 Aug 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-08-18.jpg"/>
     </item>
   </channel>
 </rss>
