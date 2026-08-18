@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Mon, 17 Aug 2026 21:45:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2026 20:48:07 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -1228,6 +1228,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-08-18.mp3" length="7288341" type="audio/mpeg"/>
       <pubDate>Tue, 18 Aug 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-08-18.jpg"/>
+    </item>
+    <item>
+      <title>2026-08-19 AIニュース</title>
+      <description>本日のトピック:
+1. 米国政府がチップではなくモデルを直接統制した初めての事例
+2. ローカルで動かせる「Qwen3.8-27B」が無償公開、一部ベンチマークでClaude Opus 4.6 Max超え
+3. インテリジェンス時代に向けた新たな政策アイデア
+4. 防御側のウィンドウ
+5. GoogleがGeminiとFlowにAIが生成した画像・動画・音楽から目に見える「透かし」を削除する切り替え機能を追加、ただしSynthID透かしとC2PAメタデータは残る</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-08-19.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-08-19.mp3" length="7855317" type="audio/mpeg"/>
+      <pubDate>Wed, 19 Aug 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-08-19.jpg"/>
     </item>
   </channel>
 </rss>
