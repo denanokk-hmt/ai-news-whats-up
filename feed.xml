@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 18 Aug 2026 20:48:07 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 20:49:34 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -1241,6 +1241,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-08-19.mp3" length="7855317" type="audio/mpeg"/>
       <pubDate>Wed, 19 Aug 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-08-19.jpg"/>
+    </item>
+    <item>
+      <title>2026-08-20 AIニュース</title>
+      <description>本日のトピック:
+1. Google、AIモデルをコンパイルして暗号データを復号せずに扱えるように変換する「HEIR」発表
+2. Hugging Faceを攻撃してしまったOpenAIが「AIからの攻撃を防止する方法10選」を公開
+3. Appleがアリババの支援を受けて中国専用のAIモデルを作成中
+4. Qwen3.8-27BがクラウドAPI不要で最先端のコーディングエージェントと推論をローカルで実行
+5. AIエージェント時代のGitホスティングサービス「Origin」、Cursorが発表</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-08-20.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-08-20.mp3" length="12150885" type="audio/mpeg"/>
+      <pubDate>Thu, 20 Aug 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-08-20.jpg"/>
     </item>
   </channel>
 </rss>
