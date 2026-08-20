@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Wed, 19 Aug 2026 20:49:34 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 20:53:32 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -1254,6 +1254,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-08-20.mp3" length="12150885" type="audio/mpeg"/>
       <pubDate>Thu, 20 Aug 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-08-20.jpg"/>
+    </item>
+    <item>
+      <title>2026-08-21 AIニュース</title>
+      <description>本日のトピック:
+1. OpenAI、サイバーセキュリティの懸念を理由に新しいAIモデルのトレーニングを一時停止
+2. 「オープンな国産モデル」に33Bパラメータの新バージョン 国立情報学研究所
+3. なぜNTTは「小型LLM」にこだわるのか 国産AI「tsuzumi 2」に込めた狙い
+4. AIエージェントは「記憶」が多いほど賢くなるわけではない、IBM Researchが8モデルで検証
+5. Pythonライクな新言語「Mojo」がオープンソースで公開、コンパイラやツールチェーンなど。Windows版の開発も表明</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-08-21.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-08-21.mp3" length="7159221" type="audio/mpeg"/>
+      <pubDate>Fri, 21 Aug 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-08-21.jpg"/>
     </item>
   </channel>
 </rss>
