@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Sun, 23 Aug 2026 20:46:02 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 20:55:49 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -1293,6 +1293,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-08-24.mp3" length="10331925" type="audio/mpeg"/>
       <pubDate>Mon, 24 Aug 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-08-24.jpg"/>
+    </item>
+    <item>
+      <title>2026-08-26 AIニュース</title>
+      <description>本日のトピック:
+1. NVIDIAがAI関連製品を15％以上値上げすると主要顧客に通知
+2. AIエージェントが本番環境の障害の初動調査を24時間365日自動化
+3. NVIDIAのAIエージェント「AVO」がARC-AGI-3で100％を達成
+4. 2026年8月グローバル規制動向：電子交付、サイバー集中、フロンティアAIリスク
+5. Anthropicの新しいClaude Tagアップデートにより、Slackエージェントがスレッド全体を読み取り自発的に発言可能に</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-08-26.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-08-26.mp3" length="9706821" type="audio/mpeg"/>
+      <pubDate>Wed, 26 Aug 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-08-26.jpg"/>
     </item>
   </channel>
 </rss>
