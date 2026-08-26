@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 25 Aug 2026 20:55:49 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 20:44:44 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -1306,6 +1306,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-08-26.mp3" length="9706821" type="audio/mpeg"/>
       <pubDate>Wed, 26 Aug 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-08-26.jpg"/>
+    </item>
+    <item>
+      <title>2026-08-27 AIニュース</title>
+      <description>本日のトピック:
+1. Anthropicの最上位モデル「Claude Fable 5」が需要過多で苦戦
+2. OpenAIが推論特化の独自チップ「Jalapeño」の性能を公開
+3. AIエージェントが本番環境の障害調査を自動化
+4. 韓国ロボット企業が語る日本市場のフィジカルAI需要
+5. OpenAIのハードウェア・ソフトウェア統合戦略</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-08-27.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-08-27.mp3" length="10168749" type="audio/mpeg"/>
+      <pubDate>Thu, 27 Aug 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-08-27.jpg"/>
     </item>
   </channel>
 </rss>
