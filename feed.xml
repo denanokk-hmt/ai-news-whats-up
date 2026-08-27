@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Wed, 26 Aug 2026 20:44:44 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 27 Aug 2026 20:42:19 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -1319,6 +1319,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-08-27.mp3" length="10168749" type="audio/mpeg"/>
       <pubDate>Thu, 27 Aug 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-08-27.jpg"/>
+    </item>
+    <item>
+      <title>2026-08-28 AIニュース</title>
+      <description>本日のトピック:
+1. 4台のM5 Ultra Mac Studioで「データセンター級」メモリ帯域幅4.8TB/s 巨大LLMも高速でローカル実行可能に
+2. AppleがM6とM5 Ultraを発表、M5 Ultraは最大512GBのメモリを搭載し大型AIモデルをローカル実行可能
+3. OpenAIがカスタム推論チップ「Jalapeño」のベンチマーク結果を公開
+4. AIエージェントの誤作動は誰の責任か 仕様を作る側と使う側の「責任分界点」
+5. 非公開の「AI学習データ工場」に潜入 人型ロボ30台超が稼働、意外と知らない「データ収集」の裏側とは</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-08-28.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-08-28.mp3" length="6929949" type="audio/mpeg"/>
+      <pubDate>Fri, 28 Aug 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-08-28.jpg"/>
     </item>
   </channel>
 </rss>
