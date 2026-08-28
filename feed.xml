@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Thu, 27 Aug 2026 20:42:19 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2026 20:46:10 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -1332,6 +1332,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-08-28.mp3" length="6929949" type="audio/mpeg"/>
       <pubDate>Fri, 28 Aug 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-08-28.jpg"/>
+    </item>
+    <item>
+      <title>2026-08-29 AIニュース</title>
+      <description>本日のトピック:
+1. Metaの研究者が80億パラメータのAIモデルを訓練し、高額なコストなしでClaude Opus 4.5に匹敵する性能を実現
+2. 報道によると、NvidiaがHugging Faceを130億ドルで買収へ
+3. 東京大学松尾・岩澤研究室、フィジカルAIの無料オンライン講座受講生を募集開始
+4. 企業AIの真のリスクは自律型エージェントではなく、それらの間の複雑さにある
+5. Visaが人間のレビューなしで本番コードにパッチを当てるセキュリティAIを導入</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-08-29.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-08-29.mp3" length="10483125" type="audio/mpeg"/>
+      <pubDate>Sat, 29 Aug 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-08-29.jpg"/>
     </item>
   </channel>
 </rss>
