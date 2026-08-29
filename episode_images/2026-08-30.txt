@@ -1,0 +1,6 @@
+本日のトピック:
+1. OpenAI、SpaceXによる買収を受けCursorとの契約終了を決定
+2. AIや企業によるカンニングを防ぎつつ最先端モデルをテストする方法をGoogleが考案
+3. AnthropicがAIに顕微鏡やロボットアームを操作させる共通規格「Model Hardware Standard」を発表
+4. AMD製GPUのAI処理能力を向上させる「ROCm 10」がリリースされる＆AI開発用のスキルなどを整備した「ROCm.AI」も登場
+5. OpenAI・Anthropic・GoogleなどがAIによるサイバー攻撃の防御に関する共同声明を発表

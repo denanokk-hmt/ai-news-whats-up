@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Fri, 28 Aug 2026 20:46:10 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 29 Aug 2026 20:44:58 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -1345,6 +1345,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-08-29.mp3" length="10483125" type="audio/mpeg"/>
       <pubDate>Sat, 29 Aug 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-08-29.jpg"/>
+    </item>
+    <item>
+      <title>2026-08-30 AIニュース</title>
+      <description>本日のトピック:
+1. OpenAI、SpaceXによる買収を受けCursorとの契約終了を決定
+2. AIや企業によるカンニングを防ぎつつ最先端モデルをテストする方法をGoogleが考案
+3. AnthropicがAIに顕微鏡やロボットアームを操作させる共通規格「Model Hardware Standard」を発表
+4. AMD製GPUのAI処理能力を向上させる「ROCm 10」がリリースされる＆AI開発用のスキルなどを整備した「ROCm.AI」も登場
+5. OpenAI・Anthropic・GoogleなどがAIによるサイバー攻撃の防御に関する共同声明を発表</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-08-30.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-08-30.mp3" length="9184701" type="audio/mpeg"/>
+      <pubDate>Sun, 30 Aug 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-08-30.jpg"/>
     </item>
   </channel>
 </rss>
