@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Sat, 29 Aug 2026 20:44:58 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 30 Aug 2026 20:41:16 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -1358,6 +1358,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-08-30.mp3" length="9184701" type="audio/mpeg"/>
       <pubDate>Sun, 30 Aug 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-08-30.jpg"/>
+    </item>
+    <item>
+      <title>2026-08-31 AIニュース</title>
+      <description>本日のトピック:
+1. OpenAI、Cursorへのモデル提供を終了 理由は「SpaceXによる買収」
+2. AIシステムがユーザーの制御を逃れる事例が急増
+3. AIを"守る"セキュリティ市場が68.7％増加
+4. CohereのParse 5はベンチマークで劣るがコストで勝る
+5. OpenAIがSpaceXの買収を受けCursorからモデルを撤退</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-08-31.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-08-31.mp3" length="6235581" type="audio/mpeg"/>
+      <pubDate>Mon, 31 Aug 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-08-31.jpg"/>
     </item>
   </channel>
 </rss>
