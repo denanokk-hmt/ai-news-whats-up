@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Sun, 30 Aug 2026 20:41:16 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 20:52:52 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -1371,6 +1371,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-08-31.mp3" length="6235581" type="audio/mpeg"/>
       <pubDate>Mon, 31 Aug 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-08-31.jpg"/>
+    </item>
+    <item>
+      <title>2026-09-01 AIニュース</title>
+      <description>本日のトピック:
+1. JetBrains、Mac上で動作するコーディングエージェント「Junie Local」提供開始。Claude Sonnet 4.5と同等の能力、RTX5090対応も開発中
+2. AIチャットを編集可能なノードのネットワークに変換する無料ツール「ThoughtDAG」
+3. AIエージェントがグラフを生成できる中間言語「Flint」
+4. AIエージェントにはゲートウェイの前に独自のアイデンティティが必要
+5. 認証を通過したAIエージェントでも、ドリフトやデータ漏洩、メモリ汚染の危険性がある</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-09-01.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-09-01.mp3" length="8805285" type="audio/mpeg"/>
+      <pubDate>Tue, 01 Sep 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-09-01.jpg"/>
     </item>
   </channel>
 </rss>
