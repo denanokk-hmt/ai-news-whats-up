@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Mon, 31 Aug 2026 20:52:52 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2026 20:42:14 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -1384,6 +1384,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-09-01.mp3" length="8805285" type="audio/mpeg"/>
       <pubDate>Tue, 01 Sep 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-09-01.jpg"/>
+    </item>
+    <item>
+      <title>2026-09-02 AIニュース</title>
+      <description>本日のトピック:
+1. ソニーとワーナーが共同でAnthropicを提訴、楽曲をClaudeのトレーニングに利用された「史上最大かつ最も甚だしい知的財産窃盗事件」
+2. TencentがAIモデル「Hy4 preview」を公開、一部テストでGPT-5.6 Solを上回る＆213GBまで軽量化した1bit量子化版も公開される
+3. 小中学校で「情報」を教科に、英語ではAI活用初明記 次期学習指導要領、中教審まとめ案
+4. “新しいITパスポート試験”のサンプル問題が公開に シラバス案も 新たな出題範囲は？
+5. 無料で国産AIサービスを一般市民に提供するプロジェクト「AI for All」を韓国政府が推進中</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-09-02.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-09-02.mp3" length="6589053" type="audio/mpeg"/>
+      <pubDate>Wed, 02 Sep 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-09-02.jpg"/>
     </item>
   </channel>
 </rss>
