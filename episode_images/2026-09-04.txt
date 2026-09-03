@@ -1,0 +1,6 @@
+本日のトピック:
+1. OpenAI、次世代AIモデル「Astra」はまもなく 今後は「ペースを落とす」
+2. Google、AI画像生成・編集ツール「Google Pics」提供開始 特定オブジェクトの編集や文字翻訳も可能
+3. ClaudeにSalesforceを統合した「Claudeforce」、AnthropicとSalesforceが発表。Claudeから営業データ分析や顧客対応を実現
+4. AWSとAzureが最大100Gbpsでの相互接続を開始。これでAWSはAzure、Google Cloud、Oracle Cloudとのマルチクラウドをサポート
+5. Anthropicはトランプ政権との関係を修復したとルトニック商務長官が発言
