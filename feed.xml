@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Thu, 03 Sep 2026 20:47:12 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2026 20:47:41 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -1410,6 +1410,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-09-04.mp3" length="5742645" type="audio/mpeg"/>
       <pubDate>Fri, 04 Sep 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-09-04.jpg"/>
+    </item>
+    <item>
+      <title>2026-09-05 AIニュース</title>
+      <description>本日のトピック:
+1. 米司法省、OpenAIとNYTの著作権訴訟で「AI学習はフェアユース」との意見書を提出
+2. OpenAI、自律型AIエージェント「GPT-6 Astra」を発表しMicrosoft Foundryで提供開始
+3. ニューヨーク市、公立校での生成AI利用を1年間禁止へ
+4. Google、Workspace向けAI画像生成・編集ツール「Google Pics」の提供を開始
+5. AI検索を強化する「RAG」を段階的に高度化する6つのアプローチ</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-09-05.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-09-05.mp3" length="8638941" type="audio/mpeg"/>
+      <pubDate>Sat, 05 Sep 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-09-05.jpg"/>
     </item>
   </channel>
 </rss>

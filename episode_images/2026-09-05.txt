@@ -1,0 +1,6 @@
+本日のトピック:
+1. 米司法省、OpenAIとNYTの著作権訴訟で「AI学習はフェアユース」との意見書を提出
+2. OpenAI、自律型AIエージェント「GPT-6 Astra」を発表しMicrosoft Foundryで提供開始
+3. ニューヨーク市、公立校での生成AI利用を1年間禁止へ
+4. Google、Workspace向けAI画像生成・編集ツール「Google Pics」の提供を開始
+5. AI検索を強化する「RAG」を段階的に高度化する6つのアプローチ
