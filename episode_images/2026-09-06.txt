@@ -1,0 +1,6 @@
+本日のトピック:
+1. OpenAIが次世代モデル「GPT-6 Astra」を公開
+2. GPT-6 AstraがAGIテストで99.9%を記録
+3. NVIDIAのHugging Face買収後、オープンソースAI開発者がすべきこと
+4. GitHubのHydraFusionはAIコーディングコストを削減するが品質は一部のみ一致
+5. AIリサーチ支援サービス「Scite」が日本上陸

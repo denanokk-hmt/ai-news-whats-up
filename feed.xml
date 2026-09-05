@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Fri, 04 Sep 2026 20:47:41 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 05 Sep 2026 20:50:03 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -1423,6 +1423,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-09-05.mp3" length="8638941" type="audio/mpeg"/>
       <pubDate>Sat, 05 Sep 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-09-05.jpg"/>
+    </item>
+    <item>
+      <title>2026-09-06 AIニュース</title>
+      <description>本日のトピック:
+1. OpenAIが次世代モデル「GPT-6 Astra」を公開
+2. GPT-6 AstraがAGIテストで99.9%を記録
+3. NVIDIAのHugging Face買収後、オープンソースAI開発者がすべきこと
+4. GitHubのHydraFusionはAIコーディングコストを削減するが品質は一部のみ一致
+5. AIリサーチ支援サービス「Scite」が日本上陸</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-09-06.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-09-06.mp3" length="8236461" type="audio/mpeg"/>
+      <pubDate>Sun, 06 Sep 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-09-06.jpg"/>
     </item>
   </channel>
 </rss>
