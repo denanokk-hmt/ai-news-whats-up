@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Mon, 07 Sep 2026 20:49:33 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2026 20:44:10 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -1462,6 +1462,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-09-08.mp3" length="8587893" type="audio/mpeg"/>
       <pubDate>Tue, 08 Sep 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-09-08.jpg"/>
+    </item>
+    <item>
+      <title>2026-09-09 AIニュース</title>
+      <description>本日のトピック:
+1. Claudeがフェルマーの最終定理を11日で形式化、1300万行のLeanコードで初の完全な機械検証済み証明を完成
+2. 新世代のインテリジェンス「GPT-6 Astra」
+3. OpenAIの主任科学者が「今後AIは自身の開発をますます推進するようになる」と見通しを表明
+4. GitHub Copilotが複数AIモデルを自動で使い分ける「HydraFusion」を公開、TerminalBench 2.1でClaude Opus 5比コスト67％減・スコア4.9ポイント向上
+5. GPT-6 AstraがAIコーディング性能でトップ級の67点、圧倒的なトークン効率を示すもFable 5.1には届かず</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-09-09.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-09-09.mp3" length="8794941" type="audio/mpeg"/>
+      <pubDate>Wed, 09 Sep 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-09-09.jpg"/>
     </item>
   </channel>
 </rss>
