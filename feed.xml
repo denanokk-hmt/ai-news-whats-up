@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Wed, 09 Sep 2026 20:49:15 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Sep 2026 20:42:18 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -1488,6 +1488,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-09-10.mp3" length="7991685" type="audio/mpeg"/>
       <pubDate>Thu, 10 Sep 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-09-10.jpg"/>
+    </item>
+    <item>
+      <title>2026-09-11 AIニュース</title>
+      <description>本日のトピック:
+1. 中国AI企業が超大規模な蒸留でアメリカのAIをコピーしていると警告
+2. OpenAIが数学の難問「ナビエ・ストークス方程式」の解決を主張
+3. ヒトゲノムの変異影響を予測する「AlphaGenome Atlas」をGoogle DeepMindが発表
+4. 信頼崩壊 “政府公認”さくらインターネット 最大136万件情報漏れの穴を分析
+5. 文章を「拡散」で高速生成するAIモデル「Mercury 2.5」登場</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-09-11.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-09-11.mp3" length="7284573" type="audio/mpeg"/>
+      <pubDate>Fri, 11 Sep 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-09-11.jpg"/>
     </item>
   </channel>
 </rss>
