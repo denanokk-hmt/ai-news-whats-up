@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Thu, 10 Sep 2026 20:42:18 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 20:42:39 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -1501,6 +1501,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-09-11.mp3" length="7284573" type="audio/mpeg"/>
       <pubDate>Fri, 11 Sep 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-09-11.jpg"/>
+    </item>
+    <item>
+      <title>2026-09-12 AIニュース</title>
+      <description>本日のトピック:
+1. Anthropicが「テスト中のAIで他社を攻撃してしまったインシデント」の発生原因を報告
+2. セキュリティベンダーはAIを使って脆弱性をランク付けしているが、顧客にはめったに伝えない
+3. OpenAIがデータソースを統合した金融サービス向けChatGPTをローンチ
+4. DeepSeek-V4.1-Flashがオフピーク時100万トークンあたり0.003ドルで登場、GPT-5.6 SolやClaude Opus 5を凌駕
+5. 大金かけて作ったAIを無料公開できるワケ ローカルLLMブームを支えるベンダーと国家の思惑</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-09-12.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-09-12.mp3" length="7089069" type="audio/mpeg"/>
+      <pubDate>Sat, 12 Sep 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-09-12.jpg"/>
     </item>
   </channel>
 </rss>
