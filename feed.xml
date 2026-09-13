@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Fri, 11 Sep 2026 20:42:39 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 13 Sep 2026 20:45:39 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -1514,6 +1514,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-09-12.mp3" length="7089069" type="audio/mpeg"/>
       <pubDate>Sat, 12 Sep 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-09-12.jpg"/>
+    </item>
+    <item>
+      <title>2026-09-14 AIニュース</title>
+      <description>本日のトピック:
+1. AnthropicのCEO、AIスウォームが6〜12ヶ月で「インターネット全体を乗っ取る」可能性があると警告し、AI減速計画にコミット
+2. 「AIが人間をダメにする説」に新たな裏付け？ “AI依存”で失われる可能性のある「3つの能力」
+3. 無料のオープンソースAIエージェント「goose」、デスクトップアプリ・CLI・APIなどコード・ワークフロー・その他あらゆる用途に対応
+4. SpotifyのエンジニアがClaude Codeのトークン消費を約90％削減した方法とは?
+5. 「見えないAI誤用」の作業定義と4つの構造仮説を公開 ― AIは使えている。では、その使い方で人は育っているか</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-09-14.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-09-14.mp3" length="8729349" type="audio/mpeg"/>
+      <pubDate>Mon, 14 Sep 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-09-14.jpg"/>
     </item>
   </channel>
 </rss>
