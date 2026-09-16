@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 15 Sep 2026 20:43:42 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 20:41:48 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -1553,6 +1553,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-09-16.mp3" length="7877181" type="audio/mpeg"/>
       <pubDate>Wed, 16 Sep 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-09-16.jpg"/>
+    </item>
+    <item>
+      <title>2026-09-17 AIニュース</title>
+      <description>本日のトピック:
+1. オラクル、AIによる脆弱性発見加速を受けJavaパッチを毎月提供へ
+2. OpenAI現役研究者がAIの評価困難さを警告
+3. Microsoftが「人間はAIより重要」とする行動規範を発表
+4. 開発者の42%がコードの半分以上をAIで記述
+5. AIがソフトウェアサプライチェーン攻撃の経済性を変える</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-09-17.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-09-17.mp3" length="6952269" type="audio/mpeg"/>
+      <pubDate>Thu, 17 Sep 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-09-17.jpg"/>
     </item>
   </channel>
 </rss>
