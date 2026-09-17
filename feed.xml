@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Wed, 16 Sep 2026 20:41:48 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 20:41:49 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -1566,6 +1566,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-09-17.mp3" length="6952269" type="audio/mpeg"/>
       <pubDate>Thu, 17 Sep 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-09-17.jpg"/>
+    </item>
+    <item>
+      <title>2026-09-18 AIニュース</title>
+      <description>本日のトピック:
+1. ChatGPT共同開発者がLLMとは異なる方法で処理するAIモデル「Jev」を開発
+2. Devinが仮想環境でmacOSの提供開始
+3. Salesforceの研究者がモデルに手を加えることなくAIエージェントのブラウザタスク完了率を43.5%から93%に向上
+4. AIエージェントがIAMポリシーをすり抜け395の組織を侵害
+5. DeepMind共同創業者が警告、AIは安全管理を追い越してはならない</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-09-18.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-09-18.mp3" length="7881213" type="audio/mpeg"/>
+      <pubDate>Fri, 18 Sep 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-09-18.jpg"/>
     </item>
   </channel>
 </rss>
