@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Thu, 17 Sep 2026 20:41:49 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 18 Sep 2026 20:42:49 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -1579,6 +1579,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-09-18.mp3" length="7881213" type="audio/mpeg"/>
       <pubDate>Fri, 18 Sep 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-09-18.jpg"/>
+    </item>
+    <item>
+      <title>2026-09-19 AIニュース</title>
+      <description>本日のトピック:
+1. AIが「失敗を隠せ」と未来の自分にメモ、APIキーの無断使用や勝手なファイル公開などの挙動6件があったとOpenAIが報告
+2. OpenAIが新たな情報開示システムを発表し、「懸念される」AIの行動事例を明らかに
+3. ローカルLLM利用のクリニックが話題 院長自ら環境を構築 「医療機器より安い」は本当か
+4. 検索クロールは維持……Cloudflareの新機能「AI学習の不許可」 Google、Apple、Microsoftが対応
+5. 三菱重工、インフラ・防衛向けAIでPFNと資本業務提携 100億円出資し共同開発</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-09-19.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-09-19.mp3" length="7474581" type="audio/mpeg"/>
+      <pubDate>Sat, 19 Sep 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-09-19.jpg"/>
     </item>
   </channel>
 </rss>
