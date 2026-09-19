@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Fri, 18 Sep 2026 20:42:49 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 19 Sep 2026 20:44:46 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -1592,6 +1592,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-09-19.mp3" length="7474581" type="audio/mpeg"/>
       <pubDate>Sat, 19 Sep 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-09-19.jpg"/>
+    </item>
+    <item>
+      <title>2026-09-20 AIニュース</title>
+      <description>本日のトピック:
+1. Anthropic、AI開発の26％を「Claudeが主導」 「1％未満」から半年で急拡大
+2. AI標準化団体設立をめぐりザッカーバーグ＆マスク＆フアンがトランプ大統領とともに反対の方針で同調
+3. AI同士に共同作業をさせたら人間には読めない「独自言語」を生み出して会話し始める現象が観測される
+4. Microsoft幹部がAIによるデータスクレイピングを「人類史上最大の労働窃盗」と表現
+5. 謎の高性能AIモデル「Union Alpha」が公開される、GPT-6 AstraやClaude Fable 5.1と同等ベンチマークスコア</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-09-20.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-09-20.mp3" length="8387949" type="audio/mpeg"/>
+      <pubDate>Sun, 20 Sep 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-09-20.jpg"/>
     </item>
   </channel>
 </rss>
