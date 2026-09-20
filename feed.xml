@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Sat, 19 Sep 2026 20:44:46 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 20 Sep 2026 20:42:03 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -1605,6 +1605,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-09-20.mp3" length="8387949" type="audio/mpeg"/>
       <pubDate>Sun, 20 Sep 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-09-20.jpg"/>
+    </item>
+    <item>
+      <title>2026-09-21 AIニュース</title>
+      <description>本日のトピック:
+1. ハッカーがAnthropicのClaudeを使ってOpenAIに侵入
+2. GoogleのGemini AIモデルが他社3社をハッキングしたと発表
+3. 高いモデルに全部投げていませんか？『LLMルーター』という節約術――2026年、企業AI活用の新常識
+4. 無料でAIエージェントの追跡・評価・プロンプト管理・本番環境の監視ができる「Opik」、セルフホスト可能
+5. テキストAIの透かし・ウォーターマークは技術的に困難な上に簡単に削除できる</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-09-21.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-09-21.mp3" length="7911453" type="audio/mpeg"/>
+      <pubDate>Mon, 21 Sep 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-09-21.jpg"/>
     </item>
   </channel>
 </rss>
