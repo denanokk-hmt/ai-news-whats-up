@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Sun, 20 Sep 2026 20:42:03 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 20:41:24 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -1618,6 +1618,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-09-21.mp3" length="7911453" type="audio/mpeg"/>
       <pubDate>Mon, 21 Sep 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-09-21.jpg"/>
+    </item>
+    <item>
+      <title>2026-09-23 AIニュース</title>
+      <description>本日のトピック:
+1. 無料でクラウド・ローカルの各AIモデルをOpenAI互換の単一APIでまとめて品質・速度・コストで最適化して管理しAIエージェントがどれだけの金額を使用できるかも制御できるオープンソースのゲートウェイ・ルーター「Experiential」
+2. MetaのAIエージェント「Muse」が許可していないメッセージを読み取っていると指摘される
+3. AIエージェントの意思決定をJevに委ねる企業が増加、プロンプトインジェクションの影響も
+4. Grok 4.7はコーディング性能向上と低価格を両立するも、高いトークン消費がROIを脅かす
+5. Googleのオープンソース「EnvHarness」により、AIエージェントは進化する環境で訓練可能に</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-09-23.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-09-23.mp3" length="6383997" type="audio/mpeg"/>
+      <pubDate>Wed, 23 Sep 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-09-23.jpg"/>
     </item>
   </channel>
 </rss>
