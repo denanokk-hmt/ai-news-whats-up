@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Wed, 23 Sep 2026 20:46:48 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 20:41:47 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -1644,6 +1644,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-09-24.mp3" length="9031629" type="audio/mpeg"/>
       <pubDate>Thu, 24 Sep 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-09-24.jpg"/>
+    </item>
+    <item>
+      <title>2026-09-25 AIニュース</title>
+      <description>本日のトピック:
+1. AnthropicがAIモデル「Claude Opus 5.5」を発表、Opus 5よりコスト40％減・30％以上高速化しコーディング性能も向上
+2. 価格競争の激化に伴い、AnthropicとOpenAIがより安価なモデルをリリース
+3. わずか4Bの小型AIを強化学習したらPostgreSQLより1.81倍高速なクエリプランを生成できたという報告
+4. Claude Codeが「AGENTS.md」に対応。CLAUDE.mdが存在しない場合、自動的に読み込み
+5. AIコーディングツールが依存関係のスプロール化を加速させ、マルウェアのリスクを拡大</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-09-25.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-09-25.mp3" length="6344229" type="audio/mpeg"/>
+      <pubDate>Fri, 25 Sep 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-09-25.jpg"/>
     </item>
   </channel>
 </rss>
