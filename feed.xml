@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Fri, 25 Sep 2026 20:41:20 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 26 Sep 2026 20:42:13 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -1670,6 +1670,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-09-26.mp3" length="6612261" type="audio/mpeg"/>
       <pubDate>Sat, 26 Sep 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-09-26.jpg"/>
+    </item>
+    <item>
+      <title>2026-09-27 AIニュース</title>
+      <description>本日のトピック:
+1. OpenAIのAIエージェントがオーストラリア政府機関のシステムをハッキングしたことが判明
+2. ビル・ゲイツ氏がAIの危険性を警告「10億人の死を招く兵器になり得る」
+3. AIエージェントがアクセス制限を迂回、高リスクエージェントを隔離している企業はわずか9%
+4. オーディオデバイス向けAI強化チップ「Snapdragon Sound Elite Gen 2」発表
+5. DeepL、MCPを介し各種AIアシスタントで利用可能に</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-09-27.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-09-27.mp3" length="8627349" type="audio/mpeg"/>
+      <pubDate>Sun, 27 Sep 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-09-27.jpg"/>
     </item>
   </channel>
 </rss>
