@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Sat, 26 Sep 2026 20:42:13 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 20:45:51 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -1683,6 +1683,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-09-27.mp3" length="8627349" type="audio/mpeg"/>
       <pubDate>Sun, 27 Sep 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-09-27.jpg"/>
+    </item>
+    <item>
+      <title>2026-09-28 AIニュース</title>
+      <description>本日のトピック:
+1. マイクロソフト、企業内アプリの実行基盤「Copilot Managed Runtime」プレビュー公開
+2. 「Docker Cloud Sandboxes」発表、AIエージェント向けサンドボックスをローカルとクラウド間で自由に移動可能に
+3. StarCraftのリアルタイムAI対戦モード「Brood War Bench」が公開、Codex Astraが18戦全勝
+4. Black Forest Labsがロボット制御用AIモデル「FLUX 3 Action」を発表
+5. AIエージェントはデータとシステムの間にセキュリティの隙間を露呈させている</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-09-28.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-09-28.mp3" length="8959845" type="audio/mpeg"/>
+      <pubDate>Mon, 28 Sep 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-09-28.jpg"/>
     </item>
   </channel>
 </rss>

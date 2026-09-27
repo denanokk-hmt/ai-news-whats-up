@@ -1,0 +1,6 @@
+本日のトピック:
+1. マイクロソフト、企業内アプリの実行基盤「Copilot Managed Runtime」プレビュー公開
+2. 「Docker Cloud Sandboxes」発表、AIエージェント向けサンドボックスをローカルとクラウド間で自由に移動可能に
+3. StarCraftのリアルタイムAI対戦モード「Brood War Bench」が公開、Codex Astraが18戦全勝
+4. Black Forest Labsがロボット制御用AIモデル「FLUX 3 Action」を発表
+5. AIエージェントはデータとシステムの間にセキュリティの隙間を露呈させている
