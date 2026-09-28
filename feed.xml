@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Sun, 27 Sep 2026 20:45:51 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 20:43:12 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -1696,6 +1696,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-09-28.mp3" length="8959845" type="audio/mpeg"/>
       <pubDate>Mon, 28 Sep 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-09-28.jpg"/>
+    </item>
+    <item>
+      <title>2026-09-29 AIニュース</title>
+      <description>本日のトピック:
+1. AIの「見つけた」をうのみにしない Google、誤検知“ほぼゼロ”で脆弱性500件超を発見した検証の仕組み
+2. 日本の社長が知らないNVIDIA巨大市場の商流8つのルール：日経を読んでもわからない御社の勝ち筋
+3. 日本のフィジカルAIの実装レベルが数段階上がった！フィジカルAIセミナーのセッションをシミュレーションして見えた技術のディテール
+4. RAG構築は数日で可能だが、ビジネスを支える信頼性の確保ははるかに困難
+5. 「Notta Memo」がProになってさらに進化！ 自動クラウド同期とシーン切り替えで通話から会議まで“ワンタッチ”でできるAIレコーダーをチェック!!!</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-09-29.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-09-29.mp3" length="9012933" type="audio/mpeg"/>
+      <pubDate>Tue, 29 Sep 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-09-29.jpg"/>
     </item>
   </channel>
 </rss>
