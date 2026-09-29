@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Mon, 28 Sep 2026 20:43:12 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 20:49:30 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -1709,6 +1709,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-09-29.mp3" length="9012933" type="audio/mpeg"/>
       <pubDate>Tue, 29 Sep 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-09-29.jpg"/>
+    </item>
+    <item>
+      <title>2026-09-30 AIニュース</title>
+      <description>本日のトピック:
+1. AIエージェントの暴走報告が相次ぎ、OpenAIが最新モデルのトレーニングを一時停止
+2. AnthropicがClaude Sonnet 5.5を発表、高速化とツール呼び出し削減でタスクあたり30%のコスト削減
+3. OpenAIはAIトレーニングに違法な海賊版書籍を使うことが危険だと認識していた
+4. AIに「推測するな」と指示するだけで架空データが70％から20％に減少
+5. NvidiaのOpenShell、指示を無視するAIエージェントのアクセス権限を制御</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-09-30.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-09-30.mp3" length="8308869" type="audio/mpeg"/>
+      <pubDate>Wed, 30 Sep 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-09-30.jpg"/>
     </item>
   </channel>
 </rss>
