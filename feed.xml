@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 29 Sep 2026 20:49:30 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 20:45:17 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -1722,6 +1722,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-09-30.mp3" length="8308869" type="audio/mpeg"/>
       <pubDate>Wed, 30 Sep 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-09-30.jpg"/>
+    </item>
+    <item>
+      <title>2026-10-01 AIニュース</title>
+      <description>本日のトピック:
+1. OpenAIの新たな「Private Intelligence」が企業の懸念に対応：AIデータは誰が見ているのか？
+2. Anthropicがセキュリティチームの新たな課題を報告：実行中に適応する攻撃
+3. “何でもLLM”では生産性を上げられない フィジカルAIの「分業」に学ぶ、AI導入のヒント
+4. Google Cloud、AIエージェントからの大量アクセスをPostgreSQLのプライマリDBから切り離せる「PostgreSQL for agents in AlloyDB」発表
+5. 【デジタル庁漏えい事件】残念過ぎるポイント3つを解説：【動画あり】</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-01.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-01.mp3" length="7424973" type="audio/mpeg"/>
+      <pubDate>Thu, 01 Oct 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-10-01.jpg"/>
     </item>
   </channel>
 </rss>

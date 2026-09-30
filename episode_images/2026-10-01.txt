@@ -1,0 +1,6 @@
+本日のトピック:
+1. OpenAIの新たな「Private Intelligence」が企業の懸念に対応：AIデータは誰が見ているのか？
+2. Anthropicがセキュリティチームの新たな課題を報告：実行中に適応する攻撃
+3. “何でもLLM”では生産性を上げられない フィジカルAIの「分業」に学ぶ、AI導入のヒント
+4. Google Cloud、AIエージェントからの大量アクセスをPostgreSQLのプライマリDBから切り離せる「PostgreSQL for agents in AlloyDB」発表
+5. 【デジタル庁漏えい事件】残念過ぎるポイント3つを解説：【動画あり】
