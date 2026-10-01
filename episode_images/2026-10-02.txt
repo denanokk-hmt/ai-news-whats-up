@@ -1,0 +1,6 @@
+本日のトピック:
+1. OpenAIが「Jev」に追従、「Decisions API」 Lunaで“リアルタイムに意思決定”
+2. GoogleがGemini 4 Argonを発表、OpenAIとAnthropicからベンチマークの首位を奪還（限定公開）
+3. 米通商規制当局、AnthropicやOpenAIなどのAI大手に対する調査を開始
+4. 「案件創出→商談の進行まで」をAIエージェントが実行！ セールスフォースが描く、営業活動自動化の未来
+5. OpenClawが永続的AIエージェント向けの企業用コントロールプレーンを無償公開、OpenAIやRed Hatなどが支援

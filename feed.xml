@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Wed, 30 Sep 2026 20:45:17 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 20:41:55 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -1735,6 +1735,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-01.mp3" length="7424973" type="audio/mpeg"/>
       <pubDate>Thu, 01 Oct 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-10-01.jpg"/>
+    </item>
+    <item>
+      <title>2026-10-02 AIニュース</title>
+      <description>本日のトピック:
+1. OpenAIが「Jev」に追従、「Decisions API」 Lunaで“リアルタイムに意思決定”
+2. GoogleがGemini 4 Argonを発表、OpenAIとAnthropicからベンチマークの首位を奪還（限定公開）
+3. 米通商規制当局、AnthropicやOpenAIなどのAI大手に対する調査を開始
+4. 「案件創出→商談の進行まで」をAIエージェントが実行！ セールスフォースが描く、営業活動自動化の未来
+5. OpenClawが永続的AIエージェント向けの企業用コントロールプレーンを無償公開、OpenAIやRed Hatなどが支援</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-02.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-02.mp3" length="7681797" type="audio/mpeg"/>
+      <pubDate>Fri, 02 Oct 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-10-02.jpg"/>
     </item>
   </channel>
 </rss>
