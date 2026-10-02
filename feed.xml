@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Thu, 01 Oct 2026 20:41:55 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 20:42:19 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -1748,6 +1748,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-02.mp3" length="7681797" type="audio/mpeg"/>
       <pubDate>Fri, 02 Oct 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-10-02.jpg"/>
+    </item>
+    <item>
+      <title>2026-10-03 AIニュース</title>
+      <description>本日のトピック:
+1. 村田製作所、AIエージェント活用研究開発基盤を開発：データに基づく研究開発を効率化
+2. ハードウェアに合わせて自動最適化してオープンモデルを最大2倍高速化するAIエージェント向け推論エンジン「Magnitude」
+3. フィジカルAIが生み出す新たな「設計思想」：「モデルの規模追求」からの脱却
+4. Google Cloud、ローカルマシンにインストールできる大規模分散型マルチモデルDB「Spanner Omni」正式版リリースを発表
+5. グーグル、AI合成たんぱく質にも「透かし」 アミノ酸配列に“目印”埋め込む</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-03.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-03.mp3" length="7597197" type="audio/mpeg"/>
+      <pubDate>Sat, 03 Oct 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-10-03.jpg"/>
     </item>
   </channel>
 </rss>
