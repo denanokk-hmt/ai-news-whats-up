@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Fri, 02 Oct 2026 20:42:19 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 20:41:03 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -1761,6 +1761,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-03.mp3" length="7597197" type="audio/mpeg"/>
       <pubDate>Sat, 03 Oct 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-10-03.jpg"/>
+    </item>
+    <item>
+      <title>2026-10-05 AIニュース</title>
+      <description>本日のトピック:
+1. 次世代モデル「GPT-5.6 Sol」のプレビュー
+2. 「AIの同僚」をどう管理する？ OpenAIが企業ITに与えるインパクト
+3. ディープフェイク選挙を巡るAI訴訟が本格化
+4. MITとSakana AI、自己改善型コーディングエージェントの評価コストを削減する新フレームワークを発表
+5. 半導体生産拠点に動き 前工程から先端パッケージまで</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-05.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-05.mp3" length="6384261" type="audio/mpeg"/>
+      <pubDate>Mon, 05 Oct 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-10-05.jpg"/>
     </item>
   </channel>
 </rss>
