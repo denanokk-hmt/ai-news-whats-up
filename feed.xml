@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Mon, 05 Oct 2026 20:42:53 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 20:44:43 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -1787,6 +1787,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-06.mp3" length="7985781" type="audio/mpeg"/>
       <pubDate>Tue, 06 Oct 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-10-06.jpg"/>
+    </item>
+    <item>
+      <title>2026-10-07 AIニュース</title>
+      <description>本日のトピック:
+1. OpenAI、人々がAIを利用する方法に合わせた広告事業の構築へ
+2. EUのテキスト出所規則に対するOpenAIのアプローチ
+3. 日立とファナック、工場でフィジカルAI実証 27年度確立へ
+4. サム・アルトマン氏「AIの恩恵と引き換えに『悪いこと』を受け入れる必要がある」
+5. TechCrunch Disrupt 2026でスタートアップ創業者がオープンAIとクローズドAIの選択について議論へ</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-07.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-07.mp3" length="7396845" type="audio/mpeg"/>
+      <pubDate>Wed, 07 Oct 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-10-07.jpg"/>
     </item>
   </channel>
 </rss>
