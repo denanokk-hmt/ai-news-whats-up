@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 06 Oct 2026 20:44:43 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 20:44:17 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -1800,6 +1800,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-07.mp3" length="7396845" type="audio/mpeg"/>
       <pubDate>Wed, 07 Oct 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-10-07.jpg"/>
+    </item>
+    <item>
+      <title>2026-10-08 AIニュース</title>
+      <description>本日のトピック:
+1. OpenAIがChatGPTのテキストに透かしを入れる取り組みを開始
+2. AnthropicがAPI価格を90%引き下げた「Claude Haiku 5.5」を発表、GPT-6 Lunaに対抗
+3. なぜ答えが揺れ、堂々と間違えるのか ―― 確率で動く生成AIの正体
+4. AI利用のうち32％で安いモデルを使ったときの方が総コストが高くなったことが判明
+5. FDE（フォワードデプロイドエンジニアリング）によって開発されたAIエージェントの7割は使われず、FDEの名前で単なるコンサルティングが販売されるようになる危険が高まるとガートナーが予測</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-08.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-08.mp3" length="7039293" type="audio/mpeg"/>
+      <pubDate>Thu, 08 Oct 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-10-08.jpg"/>
     </item>
   </channel>
 </rss>
