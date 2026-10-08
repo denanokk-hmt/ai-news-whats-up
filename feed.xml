@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Wed, 07 Oct 2026 20:44:17 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 20:42:43 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -1813,6 +1813,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-08.mp3" length="7039293" type="audio/mpeg"/>
       <pubDate>Thu, 08 Oct 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-10-08.jpg"/>
+    </item>
+    <item>
+      <title>2026-10-09 AIニュース</title>
+      <description>本日のトピック:
+1. OpenAIのAIエージェントによる「Hugging Faceハッキング事件」とは一体何だったのか？AIが越えた「恐ろしい一線」とは？
+2. Google Cloud、長期タスク向けの常駐型Geminiエージェントを発表
+3. GoogleのAIがGemini 2.5 Computer Useでウェブサーフィンやフォーム入力を代行可能に
+4. AIによって開発されたオープンソースのAIアクセラレータ「openTPU」が登場
+5. 「PLaMo翻訳」を大型アップデート。フロンティア級精度を10分の1以下のコストで実現</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-09.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-09.mp3" length="6913701" type="audio/mpeg"/>
+      <pubDate>Fri, 09 Oct 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-10-09.jpg"/>
     </item>
   </channel>
 </rss>
