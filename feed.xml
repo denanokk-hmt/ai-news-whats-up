@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Thu, 08 Oct 2026 20:42:43 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 20:42:11 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -1826,6 +1826,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-09.mp3" length="6913701" type="audio/mpeg"/>
       <pubDate>Fri, 09 Oct 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-10-09.jpg"/>
+    </item>
+    <item>
+      <title>2026-10-10 AIニュース</title>
+      <description>本日のトピック:
+1. さくらインターネットがGPU専有型の定額制AIサービスを提供開始
+2. Helm.aiが7000万ドルの商業契約を締結し、基盤モデルを産業用自動化・ロボティクスへ拡大
+3. AIがAI用ツールを評価する口コミサイト「agent.reviews」が登場
+4. ZoomInfoが2026年GartnerのABMプラットフォーム部門でリーダーに選出
+5. インドの長期展望：モディ首相のFTAがトランプ関税を相殺し、AIが生産性を向上させる</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-10.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-10.mp3" length="7476501" type="audio/mpeg"/>
+      <pubDate>Sat, 10 Oct 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-10-10.jpg"/>
     </item>
   </channel>
 </rss>
