@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Fri, 09 Oct 2026 20:42:11 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 Oct 2026 20:42:38 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -1839,6 +1839,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-10.mp3" length="7476501" type="audio/mpeg"/>
       <pubDate>Sat, 10 Oct 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-10-10.jpg"/>
+    </item>
+    <item>
+      <title>2026-10-11 AIニュース</title>
+      <description>本日のトピック:
+1. 情報リサーチや資料作成からプログラミングまでこなすタスク自動化AI「Gemini Agent」をGoogleが発表
+2. Metaが提案する、AIエージェントに単に計算資源を与えるだけでは不十分な理由
+3. H-JEPAは世界モデルに複数レベルの抽象化による計画立案を学習させる
+4. Anthropicがオープンソースプロジェクト向けの無料AIセキュリティスキャンサービス「OSS Scanner」を提供開始
+5. 〔アングル〕日韓で不正アクセスの「じゅうたん爆撃」、ＡＩ使いサイバー攻撃が手軽に</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-11.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-11.mp3" length="8309661" type="audio/mpeg"/>
+      <pubDate>Sun, 11 Oct 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-10-11.jpg"/>
     </item>
   </channel>
 </rss>
