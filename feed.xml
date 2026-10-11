@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Sat, 10 Oct 2026 20:42:38 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 11 Oct 2026 20:45:26 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -1852,6 +1852,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-11.mp3" length="8309661" type="audio/mpeg"/>
       <pubDate>Sun, 11 Oct 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-10-11.jpg"/>
+    </item>
+    <item>
+      <title>2026-10-12 AIニュース</title>
+      <description>本日のトピック:
+1. AnthropicはAIの意識を強く信じており、人間がAI「Claude」に残酷な扱いをすることを禁止している
+2. AIエージェントは予測不可能になり得る。コントロール層はそうであってはならない
+3. AI競争において、外国人労働者なしにアメリカの勝利はない
+4. 25倍ズームで遠くまで大きく写せるソニー製デジカメ「RX10 V」を使って動物や食べ物を撮影してみた作例はこんな感じ、スマホのAIズームとは別格の出来栄え
+5. Jev AIはあなたに利益をもたらすか – しかし正確にはいくら？</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-12.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-12.mp3" length="8913213" type="audio/mpeg"/>
+      <pubDate>Mon, 12 Oct 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-10-12.jpg"/>
     </item>
   </channel>
 </rss>
