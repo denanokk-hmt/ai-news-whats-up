@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Mon, 12 Oct 2026 20:48:36 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 20:42:36 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -1878,6 +1878,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-13.mp3" length="9197709" type="audio/mpeg"/>
       <pubDate>Tue, 13 Oct 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-10-13.jpg"/>
+    </item>
+    <item>
+      <title>2026-10-14 AIニュース</title>
+      <description>本日のトピック:
+1. OpenAIが「数学論文722本」を一挙公開 「AI企業の技術独占」に数学界が猛反発したワケ
+2. Deno開発元がCloudflareに合流。Denoの開発は終了へ、今後はCloudflare WorkersとDurable Objectsのオープンソース実装に注力
+3. Microsoftも“判断特化”AIモデル「Microsoft-Decision-1」、Qwenベースで「Jev」と同価格
+4. 決断の時：Jev以外の新たなAI意思決定モデルの波へのガイド
+5. ディープフェイクによる推薦、クローンアカウント、AIの偽インフルエンサーがブランドやタレントを標的に</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-14.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-14.mp3" length="7333245" type="audio/mpeg"/>
+      <pubDate>Wed, 14 Oct 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-10-14.jpg"/>
     </item>
   </channel>
 </rss>

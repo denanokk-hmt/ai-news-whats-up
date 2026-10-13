@@ -1,0 +1,6 @@
+本日のトピック:
+1. OpenAIが「数学論文722本」を一挙公開 「AI企業の技術独占」に数学界が猛反発したワケ
+2. Deno開発元がCloudflareに合流。Denoの開発は終了へ、今後はCloudflare WorkersとDurable Objectsのオープンソース実装に注力
+3. Microsoftも“判断特化”AIモデル「Microsoft-Decision-1」、Qwenベースで「Jev」と同価格
+4. 決断の時：Jev以外の新たなAI意思決定モデルの波へのガイド
+5. ディープフェイクによる推薦、クローンアカウント、AIの偽インフルエンサーがブランドやタレントを標的に
