@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 13 Oct 2026 20:42:36 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 20:47:07 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -1891,6 +1891,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-14.mp3" length="7333245" type="audio/mpeg"/>
       <pubDate>Wed, 14 Oct 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-10-14.jpg"/>
+    </item>
+    <item>
+      <title>2026-10-15 AIニュース</title>
+      <description>本日のトピック:
+1. Gemini 4 Argonが利用可能に：Googleの新しいAIはコーディング、数学、ロボティクス向けに構築されている
+2. AIが数学の未解決問題を解決しまくる現代に数学者テレンス・タオ氏が提言する「Math 2.0」とは？
+3. Epic Gamesがディズニーとの新作ゲームをAI中心で開発する方針に転換、「手書きのコードはもう不要」という社内指示も
+4. 質問するだけでAIコーディングエージェントが実行ファイル・ライブラリ・アプリなどをリバースエンジニアリングできる「REA」、ソースコードなしで同等機能を実装可能
+5. Windows上でAIエージェントの実行を安全に隔離する「Microsoft Execution Containers」（MXC）正式リリース。ファイルやネットワークなどの境界を柔軟にカスタマイズ</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-15.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-15.mp3" length="7593933" type="audio/mpeg"/>
+      <pubDate>Thu, 15 Oct 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-10-15.jpg"/>
     </item>
   </channel>
 </rss>
