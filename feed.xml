@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Wed, 14 Oct 2026 20:47:07 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 20:42:45 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -1904,6 +1904,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-15.mp3" length="7593933" type="audio/mpeg"/>
       <pubDate>Thu, 15 Oct 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-10-15.jpg"/>
+    </item>
+    <item>
+      <title>2026-10-16 AIニュース</title>
+      <description>本日のトピック:
+1. AIによるコード爆発でGitが限界に達したためAnthropicがGit代替バージョン管理システム「Scion」を開発し社内移行
+2. AIの精度が妥協できなくなるとき
+3. AIが372の難解な数学問題で進展を主張。その競争的影響
+4. 中国の技術進展とCEOの「カジノ」発言警告を受け、AI半導体株が下落
+5. AIは労働力開発の対応スピードよりも速く仕事を変化させている</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-16.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-16.mp3" length="8779149" type="audio/mpeg"/>
+      <pubDate>Fri, 16 Oct 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-10-16.jpg"/>
     </item>
   </channel>
 </rss>
