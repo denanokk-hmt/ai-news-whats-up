@@ -1,0 +1,6 @@
+本日のトピック:
+1. NVIDIAの新しいオープンモデル「Nemotron 3.5 Super VL」が特定タスクでClaude Opus 5などを凌駕
+2. Metaが米国トップのオープンウェイトモデル「Muse Spark Open」を発表
+3. Black Forest Labsが「FLUX 3 Image Klein」のウェイトを公開
+4. エージェンティックAIの未来が到来
+5. SolarWindsがAIエージェントを使用してソフトウェアエンジニアリングの生産性を5倍にした方法

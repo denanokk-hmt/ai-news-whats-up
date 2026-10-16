@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Thu, 15 Oct 2026 20:42:45 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 20:42:08 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -1917,6 +1917,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-16.mp3" length="8779149" type="audio/mpeg"/>
       <pubDate>Fri, 16 Oct 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-10-16.jpg"/>
+    </item>
+    <item>
+      <title>2026-10-17 AIニュース</title>
+      <description>本日のトピック:
+1. NVIDIAの新しいオープンモデル「Nemotron 3.5 Super VL」が特定タスクでClaude Opus 5などを凌駕
+2. Metaが米国トップのオープンウェイトモデル「Muse Spark Open」を発表
+3. Black Forest Labsが「FLUX 3 Image Klein」のウェイトを公開
+4. エージェンティックAIの未来が到来
+5. SolarWindsがAIエージェントを使用してソフトウェアエンジニアリングの生産性を5倍にした方法</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-17.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-17.mp3" length="9209061" type="audio/mpeg"/>
+      <pubDate>Sat, 17 Oct 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-10-17.jpg"/>
     </item>
   </channel>
 </rss>
