@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Fri, 16 Oct 2026 20:42:08 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 20:46:15 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -1930,6 +1930,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-17.mp3" length="9209061" type="audio/mpeg"/>
       <pubDate>Sat, 17 Oct 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-10-17.jpg"/>
+    </item>
+    <item>
+      <title>2026-10-18 AIニュース</title>
+      <description>本日のトピック:
+1. 新しいフレームワークがAIモデルに互いの推論を監査・修復させ、精度を向上させる
+2. 日本は「世界最高のAIデータ作成環境」？ 現場動画に価値：フィジカルAI開発の新たな競争軸
+3. iPhoneで最大120tok/s！3値化LLM「Ternary Bonsai 2」に2B/4B/9B登場
+4. AIエージェントの権限を強制すると主張する40チームのうち17チームが、依然として背後の認証情報を共有している
+5. ガートナー、トークンが安価になってもエージェントのコストは2028年までに5倍に上昇すると予測</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-18.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-18.mp3" length="6628725" type="audio/mpeg"/>
+      <pubDate>Sun, 18 Oct 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-10-18.jpg"/>
     </item>
   </channel>
 </rss>
