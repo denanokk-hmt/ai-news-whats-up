@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Sat, 17 Oct 2026 20:46:15 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 20:45:25 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -1943,6 +1943,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-18.mp3" length="6628725" type="audio/mpeg"/>
       <pubDate>Sun, 18 Oct 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-10-18.jpg"/>
+    </item>
+    <item>
+      <title>2026-10-19 AIニュース</title>
+      <description>本日のトピック:
+1. エコノミスト調査：AI主導の急成長に向かう世界経済
+2. ほころび始めた米国の10兆ドル規模のAIインフラブーム
+3. 「11回止めたのに本番DBが消えた」 AIエージェント“6つの暴走”と、人間の承認を増やしても防げない理由
+4. 企業向けAIエージェントの支配権：OpenAI、Google、Workdayの賭け
+5. 対話型AIがビジネスと社会をどう変えるか</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-19.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-19.mp3" length="9145677" type="audio/mpeg"/>
+      <pubDate>Mon, 19 Oct 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-10-19.jpg"/>
     </item>
   </channel>
 </rss>
