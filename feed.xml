@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Sun, 18 Oct 2026 20:45:25 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 20:46:01 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -1956,6 +1956,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-19.mp3" length="9145677" type="audio/mpeg"/>
       <pubDate>Mon, 19 Oct 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-10-19.jpg"/>
+    </item>
+    <item>
+      <title>2026-10-20 AIニュース</title>
+      <description>本日のトピック:
+1. コーディングベンチマークでGPT-6 Astraを上回る激安の中国製AIモデルが登場
+2. Anthropicが秘密裏に提案した「AIキルスイッチ法案」が激しい論争に
+3. AIが奪うのは専門職ではなく管理職？人員15%減の裏で増える新業務
+4. AIの思考を潜在空間で実行し高性能・高速・低コストを実現する「Hybrid Reasoning Agents」
+5. Anthropicが「AIは人間の6倍働いている」ことを発見</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-20.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-20.mp3" length="8787549" type="audio/mpeg"/>
+      <pubDate>Tue, 20 Oct 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-10-20.jpg"/>
     </item>
   </channel>
 </rss>
