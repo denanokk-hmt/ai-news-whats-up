@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Mon, 19 Oct 2026 20:46:01 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 20:42:50 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -1969,6 +1969,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-20.mp3" length="8787549" type="audio/mpeg"/>
       <pubDate>Tue, 20 Oct 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-10-20.jpg"/>
+    </item>
+    <item>
+      <title>2026-10-21 AIニュース</title>
+      <description>本日のトピック:
+1. GPT-4o級モデルが自宅のPCで動いた！ ローカルAIの常識を変える「Strata」
+2. 「GPUが余っている。だが遅い」はなぜ起こる？ Googleが検証、AI推論の負荷分散：3地域
+3. AIが数学の難問を解く現状について数学者が「建設的に関わっていく方法が見いだせない」と語る
+4. フィジカルAIのカギを握る学習データをどう集めるのか？ 日本の競争力を高めるために必要なデータ戦略とは
+5. AIの台頭でWebサイトのアクセス向上策はSEOからGEOにシフト 対応急務に</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-21.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-21.mp3" length="9200493" type="audio/mpeg"/>
+      <pubDate>Wed, 21 Oct 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-10-21.jpg"/>
     </item>
   </channel>
 </rss>
