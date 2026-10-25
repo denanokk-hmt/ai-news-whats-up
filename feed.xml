@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Sat, 24 Oct 2026 20:40:29 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 20:44:40 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -2021,6 +2021,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-25.mp3" length="7329549" type="audio/mpeg"/>
       <pubDate>Sun, 25 Oct 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-10-25.jpg"/>
+    </item>
+    <item>
+      <title>2026-10-26 AIニュース</title>
+      <description>本日のトピック:
+1. GPT-6 Astraと同等性能の中国製モデル「Kimi K3.1 Pro」が登場、2026年11月4日にモデルを無償公開予定
+2. ハッカーに破壊される前にインターネットを守るOpenAIの計画
+3. ソブリンAIの定義とリスクとは？世界35社の契約監査で判明したデータ主権と通信網の課題
+4. 新たな常識：AIが世界のウェブサイトの70%に影響する壊滅的なセキュリティホールを発見
+5. AIのサイバー防衛はマシンスピードで動く必要がある</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-26.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-26.mp3" length="8665893" type="audio/mpeg"/>
+      <pubDate>Mon, 26 Oct 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-10-26.jpg"/>
     </item>
   </channel>
 </rss>
