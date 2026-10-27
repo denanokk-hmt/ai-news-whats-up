@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Mon, 26 Oct 2026 20:43:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 20:42:15 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -2047,6 +2047,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-27.mp3" length="8899869" type="audio/mpeg"/>
       <pubDate>Tue, 27 Oct 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-10-27.jpg"/>
+    </item>
+    <item>
+      <title>2026-10-28 AIニュース</title>
+      <description>本日のトピック:
+1. AWSとGoogle Cloudが「PyTorch」のAWS Trainium、Google Cloud TPU対応版をオープンソースで公開。NVIDIAからの移行に挑む
+2. イーロン・マスクが語る「AIの限界」 フィジカルAIで「経済規模100万倍」と期待
+3. 皮膚がん特定コンテストで最新の汎用AIが10年前のAIに敗北
+4. 設計開発の知見をAIとの対話で蓄積、横断検索による回答生成にも対応
+5. オランダ政府、AIによる効率化推進の一環として労働力の16%を削減へ</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-28.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-28.mp3" length="8899845" type="audio/mpeg"/>
+      <pubDate>Wed, 28 Oct 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-10-28.jpg"/>
     </item>
   </channel>
 </rss>
