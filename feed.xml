@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 27 Oct 2026 20:42:15 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 20:47:11 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -2060,6 +2060,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-28.mp3" length="8899845" type="audio/mpeg"/>
       <pubDate>Wed, 28 Oct 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-10-28.jpg"/>
+    </item>
+    <item>
+      <title>2026-10-29 AIニュース</title>
+      <description>本日のトピック:
+1. Siri AIついに日本でスタート 画面や文脈を見てユーザー支援
+2. AppleのSiri AIが日本語でも利用可能に。画面認識、文章作成などをアシスト
+3. メアドを検索→AIで“その人専用フィッシングメール”を生成する手法、クリック率が約2.7倍に 7000人以上で実験
+4. 中国製AI「Qwen3.8」にセキュリティ対策を行わせたところ勝手に北京のサーバーにデータを送信しようとしたことが発覚
+5. AIとロボットが人と安全・快適に共存する世界へ、Physical AI連携基盤を開発</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-29.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-29.mp3" length="8324973" type="audio/mpeg"/>
+      <pubDate>Thu, 29 Oct 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-10-29.jpg"/>
     </item>
   </channel>
 </rss>
