@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Wed, 28 Oct 2026 20:47:11 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 20:42:12 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -2073,6 +2073,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-29.mp3" length="8324973" type="audio/mpeg"/>
       <pubDate>Thu, 29 Oct 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-10-29.jpg"/>
+    </item>
+    <item>
+      <title>2026-10-30 AIニュース</title>
+      <description>本日のトピック:
+1. 「Oracle AI World 2026」2日目、OpenAI連携の「Oracle AI Workspace」発表やOCIへのGoogle TPU導入を明らかに
+2. Googleが「Gemini 4 Carbon」を発表、より困難なベンチマークで世界1位を奪還するもアクセスは限定的
+3. エヌビディアのハギングフェイス買収、米司法省が競争影響調査＝関係筋
+4. 「導入は進んだが、成果はまだ」 デル新社長が指摘する日本企業の“AIギャップ”
+5. AIが賢くなるだけでは企業は変わらない AIエージェントが仕事をする時代、企業のデータはどう守り、どう使うのか？</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-30.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-30.mp3" length="8426709" type="audio/mpeg"/>
+      <pubDate>Fri, 30 Oct 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-10-30.jpg"/>
     </item>
   </channel>
 </rss>
