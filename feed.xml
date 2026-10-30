@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Thu, 29 Oct 2026 20:42:12 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 20:42:51 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -2086,6 +2086,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-30.mp3" length="8426709" type="audio/mpeg"/>
       <pubDate>Fri, 30 Oct 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-10-30.jpg"/>
+    </item>
+    <item>
+      <title>2026-10-31 AIニュース</title>
+      <description>本日のトピック:
+1. プライム会員なら実質無料！新世代AIアシスタント「Alexa+」と新型Echoをチェックしてきた
+2. OpenAIがより安全で有益なAIに向けた「Model Spec」を更新
+3. Mistral AIがコーディングに特化したオープンウェイトモデルを公開
+4. AnthropicがAI訓練に海賊版書籍を使用とスタンフォード大教授らが提訴
+5. AIエージェントは「増やせば賢くなる」のか Metaとハーバード大の研究が示す“分業の条件”</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-31.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-31.mp3" length="8791293" type="audio/mpeg"/>
+      <pubDate>Sat, 31 Oct 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-10-31.jpg"/>
     </item>
   </channel>
 </rss>
