@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Fri, 30 Oct 2026 20:42:51 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 20:41:36 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -2099,6 +2099,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-10-31.mp3" length="8791293" type="audio/mpeg"/>
       <pubDate>Sat, 31 Oct 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-10-31.jpg"/>
+    </item>
+    <item>
+      <title>2026-11-01 AIニュース</title>
+      <description>本日のトピック:
+1. GPT-6.1 Terraと同等のコーディング性能を発揮するAIモデル「Mistral Large 4」が無償公開される
+2. Mistral Large 4 'Le Chonk' が中国外で最高のオープンモデルとして登場、コーディング性能向上とタスクコスト63%削減
+3. OpenAIが「AI五原則」を提案、「人間の意図に忠実であれ」「害を最小限に抑えろ」などの指針を自社モデルに適用
+4. 国産LLM「Sarashina」に初の「思考モデル」 ツール呼び出しやWeb検索性能が向上 APIで提供
+5. AIモデル内部でプログラムを実行できる「Qwenputer」が登場、「AIの中にCPUを作る」という異色の試み</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-11-01.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-11-01.mp3" length="7390389" type="audio/mpeg"/>
+      <pubDate>Sun, 01 Nov 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-11-01.jpg"/>
     </item>
   </channel>
 </rss>
