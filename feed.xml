@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Sat, 31 Oct 2026 20:41:36 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 20:41:27 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -2112,6 +2112,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-11-01.mp3" length="7390389" type="audio/mpeg"/>
       <pubDate>Sun, 01 Nov 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-11-01.jpg"/>
+    </item>
+    <item>
+      <title>2026-11-02 AIニュース</title>
+      <description>本日のトピック:
+1. NVIDIA「一強体制」の終わりか データセンターを襲う“電力の壁”
+2. オープンＡＩ、資金調達目標を100億ドル引き下げ＝ＦＴ
+3. AIに性格診断をやらせてみたところ言語を切り替えると結果が変わることが判明
+4. AIエージェントは「実運用」が主流に 「明確な成果」を得る企業の共通点は？
+5. AIの「費用対効果が分からない」問題、解決へ？ Claude Enterprise搭載の「3つの新機能」</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-11-02.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-11-02.mp3" length="7841805" type="audio/mpeg"/>
+      <pubDate>Mon, 02 Nov 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-11-02.jpg"/>
     </item>
   </channel>
 </rss>
