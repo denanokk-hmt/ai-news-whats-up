@@ -1,0 +1,6 @@
+本日のトピック:
+1. AI学習への利用拒否をrobots.txtで一括指定へ OpenAIやGoogleなどが対応表明
+2. GitHub、「Copilot Fusion」を正式リリース
+3. AI学習の可否をrobots.txtで指定 Google、MS、OpenAIらが共通仕様を27年導入
+4. 多言語対応の音声AIツール「VoiceStudio」が無償公開
+5. デジタル庁のAIアプリで国会答弁案の作成支援、来年1月に本格提供へ

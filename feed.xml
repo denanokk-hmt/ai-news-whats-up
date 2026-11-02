@@ -13,7 +13,7 @@
       <link>https://denanokk-hmt.github.io/ai-news-whats-up/feed.xml</link>
     </image>
     <language>ja-jp</language>
-    <lastBuildDate>Sun, 01 Nov 2026 20:41:27 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 20:42:12 +0000</lastBuildDate>
     <itunes:author>hmt</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/cover.jpg"/>
@@ -2125,6 +2125,19 @@
       <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-11-02.mp3" length="7841805" type="audio/mpeg"/>
       <pubDate>Mon, 02 Nov 2026 07:00:00 +0900</pubDate>
       <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-11-02.jpg"/>
+    </item>
+    <item>
+      <title>2026-11-03 AIニュース</title>
+      <description>本日のトピック:
+1. AI学習への利用拒否をrobots.txtで一括指定へ OpenAIやGoogleなどが対応表明
+2. GitHub、「Copilot Fusion」を正式リリース
+3. AI学習の可否をrobots.txtで指定 Google、MS、OpenAIらが共通仕様を27年導入
+4. 多言語対応の音声AIツール「VoiceStudio」が無償公開
+5. デジタル庁のAIアプリで国会答弁案の作成支援、来年1月に本格提供へ</description>
+      <guid isPermaLink="false">https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-11-03.mp3</guid>
+      <enclosure url="https://denanokk-hmt.github.io/ai-news-whats-up/episodes/2026-11-03.mp3" length="7824909" type="audio/mpeg"/>
+      <pubDate>Tue, 03 Nov 2026 07:00:00 +0900</pubDate>
+      <itunes:image href="https://denanokk-hmt.github.io/ai-news-whats-up/episode_images/2026-11-03.jpg"/>
     </item>
   </channel>
 </rss>
